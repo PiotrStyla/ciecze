@@ -1,0 +1,13 @@
+case,condition,question,prompt,margin_red_minus_blue,correct_preference
+key_first_f0,A,key,Kluczyk jest czerwony. Kubek jest niebieski. Jaki jest kluczyk? Odpowiedź:,0.37843799591064453,True
+key_first_f0,A,cup,Kluczyk jest czerwony. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:,-0.6181862354278564,True
+key_first_f0,B,key,Kluczyk jest niebieski. Kubek jest czerwony. Jaki jest kluczyk? Odpowiedź:,-0.02217721939086914,True
+key_first_f0,B,cup,Kluczyk jest niebieski. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:,-0.14472389221191406,False
+key_first_f0,N,key,Kluczyk jest opisany. Kubek jest opisany. Jaki jest kluczyk? Odpowiedź:,-0.26655149459838867,
+key_first_f0,N,cup,Kluczyk jest opisany. Kubek jest opisany. Jaki jest kubek? Odpowiedź:,-0.5480284690856934,
+cup_first_f0,A,key,Kubek jest niebieski. Kluczyk jest czerwony. Jaki jest kluczyk? Odpowiedź:,0.4330940246582031,True
+cup_first_f0,A,cup,Kubek jest niebieski. Kluczyk jest czerwony. Jaki jest kubek? Odpowiedź:,0.0010995864868164062,False
+cup_first_f0,B,key,Kubek jest czerwony. Kluczyk jest niebieski. Jaki jest kluczyk? Odpowiedź:,0.2651050090789795,False
+cup_first_f0,B,cup,Kubek jest czerwony. Kluczyk jest niebieski. Jaki jest kubek? Odpowiedź:,0.20194363594055176,True
+cup_first_f0,N,key,Kubek jest opisany. Kluczyk jest opisany. Jaki jest kluczyk? Odpowiedź:,-0.11155080795288086,
+cup_first_f0,N,cup,Kubek jest opisany. Kluczyk jest opisany. Jaki jest kubek? Odpowiedź:,0.16850614547729492,

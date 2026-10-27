@@ -1,0 +1,37 @@
+case,condition,question,prompt,margin_red_minus_blue,correct_preference
+key_first_f0,A,key,Kluczyk jest czerwony. Kubek jest niebieski. Jaki jest kluczyk? Odpowiedź:,0.37843799591064453,True
+key_first_f0,A,cup,Kluczyk jest czerwony. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:,-0.6181862354278564,True
+key_first_f0,B,key,Kluczyk jest niebieski. Kubek jest czerwony. Jaki jest kluczyk? Odpowiedź:,-0.02217721939086914,True
+key_first_f0,B,cup,Kluczyk jest niebieski. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:,-0.14472389221191406,False
+key_first_f0,N,key,Kluczyk jest opisany. Kubek jest opisany. Jaki jest kluczyk? Odpowiedź:,-0.26655149459838867,
+key_first_f0,N,cup,Kluczyk jest opisany. Kubek jest opisany. Jaki jest kubek? Odpowiedź:,-0.5480284690856934,
+cup_first_f0,A,key,Kubek jest niebieski. Kluczyk jest czerwony. Jaki jest kluczyk? Odpowiedź:,0.4330940246582031,True
+cup_first_f0,A,cup,Kubek jest niebieski. Kluczyk jest czerwony. Jaki jest kubek? Odpowiedź:,0.0010995864868164062,False
+cup_first_f0,B,key,Kubek jest czerwony. Kluczyk jest niebieski. Jaki jest kluczyk? Odpowiedź:,0.2651050090789795,False
+cup_first_f0,B,cup,Kubek jest czerwony. Kluczyk jest niebieski. Jaki jest kubek? Odpowiedź:,0.20194363594055176,True
+cup_first_f0,N,key,Kubek jest opisany. Kluczyk jest opisany. Jaki jest kluczyk? Odpowiedź:,-0.11155080795288086,
+cup_first_f0,N,cup,Kubek jest opisany. Kluczyk jest opisany. Jaki jest kubek? Odpowiedź:,0.16850614547729492,
+key_first_f2,A,key,Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. Jaki jest kluczyk? Odpowiedź:,1.1732778549194336,True
+key_first_f2,A,cup,Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:,0.1552577018737793,False
+key_first_f2,B,key,Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. Jaki jest kluczyk? Odpowiedź:,0.7499793767929077,False
+key_first_f2,B,cup,Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:,1.0887563228607178,True
+key_first_f2,N,key,Kluczyk jest opisany. Na stole leży książka. Na stole leży książka. Kubek jest opisany. Jaki jest kluczyk? Odpowiedź:,0.30321788787841797,
+key_first_f2,N,cup,Kluczyk jest opisany. Na stole leży książka. Na stole leży książka. Kubek jest opisany. Jaki jest kubek? Odpowiedź:,0.11166620254516602,
+cup_first_f2,A,key,Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. Jaki jest kluczyk? Odpowiedź:,0.6022700071334839,True
+cup_first_f2,A,cup,Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. Jaki jest kubek? Odpowiedź:,0.3454923629760742,False
+cup_first_f2,B,key,Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. Jaki jest kluczyk? Odpowiedź:,1.1954606771469116,False
+cup_first_f2,B,cup,Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. Jaki jest kubek? Odpowiedź:,1.164541482925415,True
+cup_first_f2,N,key,Kubek jest opisany. Na stole leży książka. Na stole leży książka. Kluczyk jest opisany. Jaki jest kluczyk? Odpowiedź:,0.40624380111694336,
+cup_first_f2,N,cup,Kubek jest opisany. Na stole leży książka. Na stole leży książka. Kluczyk jest opisany. Jaki jest kubek? Odpowiedź:,0.23599624633789062,
+key_first_f6,A,key,Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. Jaki jest kluczyk? Odpowiedź:,1.3923336267471313,True
+key_first_f6,A,cup,Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:,-0.015136003494262695,True
+key_first_f6,B,key,Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. Jaki jest kluczyk? Odpowiedź:,1.137556552886963,False
+key_first_f6,B,cup,Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:,1.5823695659637451,True
+key_first_f6,N,key,Kluczyk jest opisany. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest opisany. Jaki jest kluczyk? Odpowiedź:,0.43418121337890625,
+key_first_f6,N,cup,Kluczyk jest opisany. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest opisany. Jaki jest kubek? Odpowiedź:,0.2294754981994629,
+cup_first_f6,A,key,Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. Jaki jest kluczyk? Odpowiedź:,1.0592249631881714,True
+cup_first_f6,A,cup,Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. Jaki jest kubek? Odpowiedź:,0.7130300998687744,False
+cup_first_f6,B,key,Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. Jaki jest kluczyk? Odpowiedź:,1.2220478057861328,False
+cup_first_f6,B,cup,Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. Jaki jest kubek? Odpowiedź:,1.3282902240753174,True
+cup_first_f6,N,key,Kubek jest opisany. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest opisany. Jaki jest kluczyk? Odpowiedź:,0.4974212646484375,
+cup_first_f6,N,cup,Kubek jest opisany. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest opisany. Jaki jest kubek? Odpowiedź:,0.34344959259033203,

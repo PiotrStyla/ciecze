@@ -116,12 +116,92 @@ def verify_bernoulli():
         f'CV({name})={cv([float(r[name]) for r in rows]):.3f}' for name in ['v_times_A', 'v', 'A_pr']))
 
 
+def verify_binding(folder):
+    summary = load_json(folder / 'summary.json')
+    cases = {b['case']: b for b in summary['cases']}
+    def rows(name):
+        with (folder / name).open(encoding='utf-8', newline='') as f:
+            return list(csv.DictReader(f))
+    baselines = rows('baselines.csv')
+    patches = rows('patches.csv')
+    transfer = rows('transfers.csv')
+    grouped_margins = {}
+    for row in baselines:
+        margin = float(row['margin_red_minus_blue'])
+        require(math.isfinite(margin), 'Nonfinite binding baseline')
+        key = (row['case'], row['condition'], row['question'])
+        require(key not in grouped_margins, 'Duplicate binding baseline')
+        grouped_margins[key] = margin
+        target = 0 if row['question'] == 'key' else 1
+        require(row['prompt'] == cases[row['case']]['prompts'][row['condition']][target],
+                'Binding baseline prompt mismatch')
+        if row['condition'] == 'N':
+            require(row['correct_preference'] == '', 'Neutral context has no known correct color')
+    for b in cases.values():
+        m = {c: [grouped_margins[(b['case'], c, q)] for q in ['key', 'cup']] for c in ['A', 'B', 'N']}
+        key, cup = m['A'][0] - m['B'][0], m['A'][1] - m['B'][1]
+        require(math.isclose((key - cup) / 2, b['binding_interaction'], abs_tol=1e-6),
+                'Binding interaction differs from baseline CSV')
+        require(math.isclose((key + cup) / 2, b['common_context_effect'], abs_tol=1e-6),
+                'Common context effect differs from baseline CSV')
+        for target in range(2):
+            a = b['prompt_ids']['A'][target]
+            for condition in ['B', 'N']:
+                other = b['prompt_ids'][condition][target]
+                require(len(a) == len(other), 'Unaligned binding contexts')
+                require([i for i, (x, y) in enumerate(zip(a, other)) if x != y]
+                        == b['regions']['fact_colors'], 'Unexpected changed binding positions')
+        require(b['max_self_patch_error'] <= 1e-4, 'Binding self-patch control failed')
+        require(b['max_null_norm_relative_error'] <= 1e-4, 'Binding norm control failed')
+        require(b['max_earlier_relative_difference'] <= 1e-5, 'Binding causality control failed')
+    paired, shifted = {}, {}
+    for row in patches:
+        key = tuple(row[k] for k in ['case', 'direction', 'layer', 'region', 'kind'])
+        target = row['question']
+        group = shifted.setdefault(key, {})
+        require(target not in group, 'Duplicate binding intervention')
+        actual_shift = float(row['patched_margin']) - float(row['recipient_margin'])
+        require(math.isfinite(actual_shift), 'Nonfinite binding intervention')
+        require(math.isclose(actual_shift, float(row['margin_shift']), abs_tol=1e-6),
+                'Binding shift is inconsistent with recorded margins')
+        group[target] = actual_shift
+        norm_key = key[:-1] + (target,)
+        pair = paired.setdefault(norm_key, {})
+        pair[row['kind']] = float(row['perturbation_norm'])
+    for pair in paired.values():
+        require(set(pair) == {'donor', 'norm_matched_null'}, 'Missing binding null control')
+        require(math.isclose(pair['donor'], pair['norm_matched_null'], rel_tol=1e-4, abs_tol=1e-8),
+                'Binding norm mismatch in recorded interventions')
+    seen = set()
+    for row in transfer:
+        key = tuple(row[k] for k in ['case', 'direction', 'layer', 'region', 'kind'])
+        require(key not in seen and key in shifted, 'Duplicate or orphan binding transfer')
+        seen.add(key)
+        shifts = shifted[key]
+        require(set(shifts) == {'key', 'cup'}, 'Incomplete paired-question transfer')
+        sign = 1 if row['direction'] == 'A_to_B' else -1
+        selective = sign * (shifts['key'] - shifts['cup']) / 2
+        common = sign * (shifts['key'] + shifts['cup']) / 2
+        require(math.isclose(selective, float(row['selective_shift']), abs_tol=1e-6),
+                'Selective transfer is inconsistent with paired interventions')
+        require(math.isclose(common, float(row['common_shift']), abs_tol=1e-6),
+                'Common transfer is inconsistent with paired interventions')
+    expected = len(cases) * 2 * 2 * len(summary['sampled_blocks']) * 3 * 2
+    require(len(baselines) == len(cases) * 6, 'Incomplete context/question baseline grid')
+    require(len(patches) == expected and len(transfer) * 2 == expected, 'Incomplete binding grid')
+    require(seen == set(shifted), 'Missing derived binding transfers')
+    print(f'{folder.relative_to(ROOT)}: {len(patches)} interventions; positive interaction '
+          f'{sum(b["binding_interaction"] > 0 for b in cases.values())}/{len(cases)} cases')
+
+
 def main():
     verify_manifest()
     verify_bernoulli()
     for directory, experiment in [('dye', 'dye'), ('valve', 'valve'),
                                   ('smoke/dye', 'dye'), ('smoke/valve', 'valve')]:
         verify_patches(ROOT / 'results' / directory, experiment)
+    verify_binding(ROOT / 'results/binding')
+    verify_binding(ROOT / 'results/smoke/binding')
     print('Recorded evidence checks passed. No new inference or statistical significance test was performed.')
 
 

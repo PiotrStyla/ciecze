@@ -99,3 +99,31 @@ W tym przypadku wybór koloru można przełączyć samą interwencją w pytanie.
 3. Dostępność informacji w kontekście i poprawny jej odczyt to różne problemy.
 4. Późniejsze pytanie nie może zmienić wcześniejszych stanów opisu w modelu przyczynowym. Analogią jest raczej selekcja na wyjściu niż ponowne mieszanie całej cieczy.
 5. Do dalszego badania selektywnego transportu potrzebny jest model i zadanie o stabilnej jakości bazowej, dodatkowe szablony oraz powtarzane kontrole. Te dalsze badania nie zostały wykonane w tej sesji.
+
+## 8. Odczyt faktu czy skojarzenie: kontrola treści
+
+Do tej samej rodziny pytań dodano trzy warunki opisu: A = czerwony kluczyk i niebieski kubek, B = przypisanie odwrotne, N = oba przedmioty „opisany”, bez wskazania barwy. Słowo neutralne wybrano ze względu na brak podanej barwy i zgodną długość tokenizacji, nie na trafność odpowiedzi. Nie dobierano nowego szablonu.
+
+Sześć ustawień kolejności/długości × trzy opisy × dwa pytania = 36 promptów. W pełnym przebiegu wykonano 720 interwencji, z których utworzono 360 sparowanych miar transferu. Osobno zachowano baseline bez interwencji i krótki smoke. Model i rewizja jak poprzednio.
+
+Interakcja `I = ((m(A,key)-m(B,key))-(m(A,cup)-m(B,cup)))/2` usuwa addytywną stałą preferencję koloru i addytywny efekt samej nazwy pytania. Nie usuwa wszystkich heurystyk leksykalnych i pozycyjnych. Protokół: `BINDING_PROTOCOL.md`.
+
+| Kolejność faktów | Zdań pomiędzy | R_key | R_cup | Interakcja I |
+|---|---:|---:|---:|---:|
+| kluczyk → kubek | 0 | 0,4006 | -0,4735 | 0,4370 |
+| kubek → kluczyk | 0 | 0,1680 | -0,2008 | 0,1844 |
+| kluczyk → kubek | 2 | 0,4233 | -0,9335 | 0,6784 |
+| kubek → kluczyk | 2 | -0,5932 | -0,8190 | 0,1129 |
+| kluczyk → kubek | 6 | 0,2548 | -1,5975 | 0,9261 |
+| kubek → kluczyk | 6 | -0,1628 | -0,6153 | 0,2262 |
+
+Interakcja jest dodatnia w 6/6 układów, średnio 0,4275. Silniejszy warunek przeciwnych kierunków (`R_key>0`, `R_cup<0`) zachodzi w 4/6. W dwóch pozostałych oba pytania reagują w tę samą stronę, ale różną siłą. W neutralnym opisie czerwony preferowany w 9/12 pytań; nie jest to test z prawidłową odpowiedzią ani bezwarunkowy prior.
+
+Patching przenosi stany między opisami A/B przy niezmienionym pytaniu. Średnie selektywne przesunięcie po podmianie tokenów kolorów faktów wyniosło około 0,0577 po bloku 0, 0,0746 po bloku 5 i 0,0743 po bloku 10. Odpowiednie pojedyncze kontrole null miały średnie -0,1962, -0,0458 i -0,2309. To opisowe średnie, nie test istotności.
+
+Podmiana nazwy w pytaniu między kontekstami przy niezmienionym jej brzmieniu dawała dużo mniejsze średnie selektywne efekty. Podmiana odczytu po bloku 15 dawała 0,2259 (null 0,0305), po bloku 19: 0,4266 (null 0,0294). Silny późny efekt odczytu jest konstrukcyjną kontrolą, nie odkryciem unikalnej ścieżki. Po ostatnim bloku podmiana innych pozycji nie ma już kolejnego attention do propagacji.
+
+Kontrole: błąd self-patchingu 0, wcześniejsze stany przed pierwszym zmienionym kolorem bez różnicy, względny błąd norm null do 3,91e-7. Weryfikator przeliczył interakcje z surowych marginesów i selektywne transfery z par interwencji.
+
+**Aktualizacja interpretacji:** niska trafność odpowiedzi nie oznacza całkowitego ignorowania przypisania przedmiot–kolor. Widać selektywny wpływ kontekstu, nakładający się na wspólną zmianę preferencji. Hipotezą roboczą jest rozróżnienie „sterowania wyborem strumienia” i „treści przenoszonego składnika”. Nie udowodniono semantycznego rozumienia, ogólnego mechanizmu zaworu ani praw mechaniki płynów w LLM.
+

@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-27",
+  "scope": "Context assignment by question target, one GoLLeM checkpoint; descriptive, not independent statistical confirmation.",
+  "runtime_commands": [
+    "python binding_flow.py --baseline-only --out runs/binding_baseline",
+    "python binding_flow.py --fillers 0 --layers 0 19 --out runs/binding_smoke",
+    "python binding_flow.py --out runs/binding"
+  ],
+  "raw_evidence_check": "verify_binding on full run and smoke completed successfully before publication.",
+  "full_cases": 6,
+  "full_interventions": 720,
+  "positive_interactions": 6,
+  "opposite_context_responses": 4,
+  "max_self_patch_error": 0.0,
+  "max_null_norm_relative_error": 3.910111558980134e-07,
+  "max_earlier_relative_difference": 0.0,
+  "visual_artifacts_inspected": [
+    "runs/binding_smoke/transfer.png",
+    "runs/binding/transfer.png"
+  ],
+  "not_claimed": [
+    "No p-values from a single null per intervention.",
+    "No free-generation accuracy.",
+    "No proof of a unique causal path or general fluid law."
+  ]
+}

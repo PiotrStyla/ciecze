@@ -1,0 +1,224 @@
+{
+  "cases": 6,
+  "positive_binding_interactions": 6,
+  "opposite_context_responses": 4,
+  "mean_binding_interaction": 0.42752384146054584,
+  "mean_common_context_effect": -0.34574612975120544,
+  "neutral_red_preferences": 9,
+  "neutral_questions": 12,
+  "max_self_patch_error": 0.0,
+  "max_null_norm_relative_error": 3.910111558980134e-07,
+  "max_earlier_relative_difference": 0.0,
+  "transfer_means": [
+    {
+      "region": "fact_colors",
+      "layer": 0,
+      "kind": "donor",
+      "mean_selective_shift": 0.05766075352827708,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 0,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.19620463252067566,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 5,
+      "kind": "donor",
+      "mean_selective_shift": 0.07457113265991211,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 5,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.04575986166795095,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 10,
+      "kind": "donor",
+      "mean_selective_shift": 0.07434012492497762,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 10,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.23091999193032584,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 15,
+      "kind": "donor",
+      "mean_selective_shift": 0.022172441085179646,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 15,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.048429553707440696,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 19,
+      "kind": "donor",
+      "mean_selective_shift": 0.0,
+      "n": 12
+    },
+    {
+      "region": "fact_colors",
+      "layer": 19,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.0,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 0,
+      "kind": "donor",
+      "mean_selective_shift": -0.0004667242368062337,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 0,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.003728394707043966,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 5,
+      "kind": "donor",
+      "mean_selective_shift": -0.0013260841369628906,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 5,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.0002238750457763672,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 10,
+      "kind": "donor",
+      "mean_selective_shift": -0.009118234117825827,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 10,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.0047787825266520185,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 15,
+      "kind": "donor",
+      "mean_selective_shift": 0.006508097052574158,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 15,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.0019712944825490317,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 19,
+      "kind": "donor",
+      "mean_selective_shift": 0.0,
+      "n": 12
+    },
+    {
+      "region": "question_subject",
+      "layer": 19,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.0,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 0,
+      "kind": "donor",
+      "mean_selective_shift": -0.00010747710863749187,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 0,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -6.284316380818684e-05,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 5,
+      "kind": "donor",
+      "mean_selective_shift": -0.0007579227288564047,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 5,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.0019829521576563516,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 10,
+      "kind": "donor",
+      "mean_selective_shift": 0.002554461359977722,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 10,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.010989169279734293,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 15,
+      "kind": "donor",
+      "mean_selective_shift": 0.22587893903255463,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 15,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.030476550261179607,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 19,
+      "kind": "donor",
+      "mean_selective_shift": 0.42656292021274567,
+      "n": 12
+    },
+    {
+      "region": "readout",
+      "layer": 19,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.029380833109219868,
+      "n": 12
+    }
+  ]
+}

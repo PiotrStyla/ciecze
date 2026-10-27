@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-27",
+  "description": "New context-by-question experiment; original prior results remain unchanged.",
+  "model_revision": "3a60edc280d93fb73ead0f5a5ba220986525aa76",
+  "code_sha256_at_run": {
+    "binding_flow.py": "1a103ff3f4653187c318f0781a6166624baa8823c145f92b7614735da8e0f605",
+    "dye_flow.py": "6721f880f2b6a9b6825ad12c0e234ca484a449d8cd4ca5ad8c51d809d6d24c73",
+    "valve_flow.py": "d4475b265335c0e0e10cdec7e31e60037c18ea8ace47adfd96a95a5d1d550b8d",
+    "bernoulli_layers.py": "ecd852042d2203bb5447ad7f7145112b4823c5a06ec9dc9249af090c41fce30c"
+  },
+  "full_command": "python binding_flow.py --out runs/binding",
+  "smoke_command": "python binding_flow.py --fillers 0 --layers 0 19 --out runs/binding_smoke",
+  "baseline_command": "python binding_flow.py --baseline-only --out runs/binding_baseline",
+  "analysis_note": "analysis.json is a descriptive aggregation of summary.json and transfers.csv; it introduces no additional model measurements."
+}

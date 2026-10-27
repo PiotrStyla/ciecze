@@ -51,6 +51,22 @@ Krótka próba:
 python valve_flow.py --model models/gollem-v6 --fillers 0 --layers 0 19 --out runs/valve_smoke
 ```
 
+## Kontrola treści opisu i wiązania przedmiot–kolor
+
+```powershell
+python binding_flow.py --model models/gollem-v6 --baseline-only --out runs/binding_baseline
+python binding_flow.py --model models/gollem-v6 --device cpu --threads 4 --fillers 0 2 6 --layers 0 5 10 15 19 --seed 20261027 --out runs/binding
+```
+
+Jeśli nie podasz lokalnego katalogu modelu, ten skrypt pobiera domyślnie przypiętą rewizję `3a60edc280d93fb73ead0f5a5ba220986525aa76`, a nie ruchomy `main`.
+
+Krótka próba: `python binding_flow.py --fillers 0 --layers 0 19 --out runs/binding_smoke`.
+
+Zachowano pełny przebieg w `results/binding`, krótką próbę w `results/smoke/binding` i wcześniejszy baseline w `results/binding-baseline`. Szczegóły różnicy różnic, neutralnego warunku `opisany` i transferu przy stałym pytaniu: [BINDING_PROTOCOL.md](BINDING_PROTOCOL.md).
+
+`analysis.json` jest opisową agregacją zapisanych kontrastów i `transfers.csv`, wykonaną po pomiarze. Nie wprowadza nowych inferencji modelu. Weryfikator niezależnie przelicza równania interakcji i transferu z CSV.
+
+
 ## Pierwotny pomiar korpusowy
 
 ```powershell
@@ -71,4 +87,4 @@ Oryginalne metadane zawierają lokalne ścieżki do cache modelu. Są zachowane 
 
 ## Zakres archiwum
 
-Zachowano trzy skrypty badawcze, wszystkie dostępne pełne wyniki, oba dostępne przebiegi smoke, pilotaże, źródła i pierwotną notatkę. Nie zachowały się surowe artefakty pierwotnego Bernoulli smoke, testu GPT-2 ani usunięte tymczasowe harnessy. Ich znane obserwacje zapisano w dzienniku, bez fabrykowania brakujących plików. Archiwum nie zawiera wag, środowiska wirtualnego, surowego korpusu ani pełnego eksportu rozmowy.
+Zachowano cztery skrypty badawcze, wszystkie dostępne pełne wyniki, dostępne przebiegi smoke i baseline, pilotaże, źródła i pierwotną notatkę. Nie zachowały się surowe artefakty pierwotnego Bernoulli smoke, testu GPT-2 ani usunięte tymczasowe harnessy. Ich znane obserwacje zapisano w dzienniku, bez fabrykowania brakujących plików. Archiwum nie zawiera wag, środowiska wirtualnego, surowego korpusu ani pełnego eksportu rozmowy.

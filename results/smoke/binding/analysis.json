@@ -1,0 +1,98 @@
+{
+  "cases": 2,
+  "positive_binding_interactions": 2,
+  "opposite_context_responses": 2,
+  "mean_binding_interaction": 0.31072765588760376,
+  "mean_common_context_effect": -0.026425540447235107,
+  "neutral_red_preferences": 1,
+  "neutral_questions": 4,
+  "max_self_patch_error": 0.0,
+  "max_null_norm_relative_error": 3.910111558980134e-07,
+  "max_earlier_relative_difference": 0.0,
+  "transfer_means": [
+    {
+      "region": "fact_colors",
+      "layer": 0,
+      "kind": "donor",
+      "mean_selective_shift": 0.024205118417739868,
+      "n": 4
+    },
+    {
+      "region": "fact_colors",
+      "layer": 0,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.18783533573150635,
+      "n": 4
+    },
+    {
+      "region": "fact_colors",
+      "layer": 19,
+      "kind": "donor",
+      "mean_selective_shift": 0.0,
+      "n": 4
+    },
+    {
+      "region": "fact_colors",
+      "layer": 19,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.0,
+      "n": 4
+    },
+    {
+      "region": "question_subject",
+      "layer": 0,
+      "kind": "donor",
+      "mean_selective_shift": -0.0007702410221099854,
+      "n": 4
+    },
+    {
+      "region": "question_subject",
+      "layer": 0,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.0012707114219665527,
+      "n": 4
+    },
+    {
+      "region": "question_subject",
+      "layer": 19,
+      "kind": "donor",
+      "mean_selective_shift": 0.0,
+      "n": 4
+    },
+    {
+      "region": "question_subject",
+      "layer": 19,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": 0.0,
+      "n": 4
+    },
+    {
+      "region": "readout",
+      "layer": 0,
+      "kind": "donor",
+      "mean_selective_shift": 0.00015789270401000977,
+      "n": 4
+    },
+    {
+      "region": "readout",
+      "layer": 0,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.0003229677677154541,
+      "n": 4
+    },
+    {
+      "region": "readout",
+      "layer": 19,
+      "kind": "donor",
+      "mean_selective_shift": 0.3092939257621765,
+      "n": 4
+    },
+    {
+      "region": "readout",
+      "layer": 19,
+      "kind": "norm_matched_null",
+      "mean_selective_shift": -0.11178749799728394,
+      "n": 4
+    }
+  ]
+}

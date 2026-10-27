@@ -1,0 +1,423 @@
+{
+  "model": "PiotrSty/gollem-v6-250m-sft-answers",
+  "requested_revision": "3a60edc280d93fb73ead0f5a5ba220986525aa76",
+  "resolved_snapshot": "C:\\Users\\Hipek\\.cache\\huggingface\\hub\\models--PiotrSty--gollem-v6-250m-sft-answers\\snapshots\\3a60edc280d93fb73ead0f5a5ba220986525aa76",
+  "torch": "2.14.0+cpu",
+  "device": "cpu",
+  "threads": 4,
+  "seed": 20261027,
+  "sampled_blocks": [
+    0,
+    19
+  ],
+  "cases": [
+    {
+      "case": "key_first_f0",
+      "fillers": 0,
+      "key_first": true,
+      "prompts": {
+        "A": [
+          "Kluczyk jest czerwony. Kubek jest niebieski. Jaki jest kluczyk? Odpowiedź:",
+          "Kluczyk jest czerwony. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:"
+        ],
+        "B": [
+          "Kluczyk jest niebieski. Kubek jest czerwony. Jaki jest kluczyk? Odpowiedź:",
+          "Kluczyk jest niebieski. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:"
+        ],
+        "N": [
+          "Kluczyk jest opisany. Kubek jest opisany. Jaki jest kluczyk? Odpowiedź:",
+          "Kluczyk jest opisany. Kubek jest opisany. Jaki jest kubek? Odpowiedź:"
+        ]
+      },
+      "prompt_ids": {
+        "A": [
+          [
+            45,
+            708,
+            8058,
+            432,
+            3921,
+            1153,
+            16,
+            15131,
+            510,
+            432,
+            13335,
+            381,
+            16,
+            28387,
+            432,
+            18127,
+            8058,
+            33,
+            27363,
+            28
+          ],
+          [
+            45,
+            708,
+            8058,
+            432,
+            3921,
+            1153,
+            16,
+            15131,
+            510,
+            432,
+            13335,
+            381,
+            16,
+            28387,
+            432,
+            20404,
+            510,
+            33,
+            27363,
+            28
+          ]
+        ],
+        "B": [
+          [
+            45,
+            708,
+            8058,
+            432,
+            13335,
+            381,
+            16,
+            15131,
+            510,
+            432,
+            3921,
+            1153,
+            16,
+            28387,
+            432,
+            18127,
+            8058,
+            33,
+            27363,
+            28
+          ],
+          [
+            45,
+            708,
+            8058,
+            432,
+            13335,
+            381,
+            16,
+            15131,
+            510,
+            432,
+            3921,
+            1153,
+            16,
+            28387,
+            432,
+            20404,
+            510,
+            33,
+            27363,
+            28
+          ]
+        ],
+        "N": [
+          [
+            45,
+            708,
+            8058,
+            432,
+            3506,
+            697,
+            16,
+            15131,
+            510,
+            432,
+            3506,
+            697,
+            16,
+            28387,
+            432,
+            18127,
+            8058,
+            33,
+            27363,
+            28
+          ],
+          [
+            45,
+            708,
+            8058,
+            432,
+            3506,
+            697,
+            16,
+            15131,
+            510,
+            432,
+            3506,
+            697,
+            16,
+            28387,
+            432,
+            20404,
+            510,
+            33,
+            27363,
+            28
+          ]
+        ]
+      },
+      "regions": {
+        "fact_colors": [
+          4,
+          5,
+          10,
+          11
+        ],
+        "question_subject": [
+          15,
+          16
+        ],
+        "readout": [
+          19
+        ]
+      },
+      "margins": {
+        "A": [
+          0.37843799591064453,
+          -0.6181862354278564
+        ],
+        "B": [
+          -0.02217721939086914,
+          -0.14472389221191406
+        ],
+        "N": [
+          -0.26655149459838867,
+          -0.5480284690856934
+        ]
+      },
+      "key_context_response": 0.40061521530151367,
+      "cup_context_response": -0.4734623432159424,
+      "binding_interaction": 0.437038779258728,
+      "common_context_effect": -0.036423563957214355,
+      "neutral_question_gap": 0.2814769744873047,
+      "opposite_context_responses": true,
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 3.910111558980134e-07
+    },
+    {
+      "case": "cup_first_f0",
+      "fillers": 0,
+      "key_first": false,
+      "prompts": {
+        "A": [
+          "Kubek jest niebieski. Kluczyk jest czerwony. Jaki jest kluczyk? Odpowiedź:",
+          "Kubek jest niebieski. Kluczyk jest czerwony. Jaki jest kubek? Odpowiedź:"
+        ],
+        "B": [
+          "Kubek jest czerwony. Kluczyk jest niebieski. Jaki jest kluczyk? Odpowiedź:",
+          "Kubek jest czerwony. Kluczyk jest niebieski. Jaki jest kubek? Odpowiedź:"
+        ],
+        "N": [
+          "Kubek jest opisany. Kluczyk jest opisany. Jaki jest kluczyk? Odpowiedź:",
+          "Kubek jest opisany. Kluczyk jest opisany. Jaki jest kubek? Odpowiedź:"
+        ]
+      },
+      "prompt_ids": {
+        "A": [
+          [
+            45,
+            453,
+            510,
+            432,
+            13335,
+            381,
+            16,
+            478,
+            708,
+            8058,
+            432,
+            3921,
+            1153,
+            16,
+            28387,
+            432,
+            18127,
+            8058,
+            33,
+            27363,
+            28
+          ],
+          [
+            45,
+            453,
+            510,
+            432,
+            13335,
+            381,
+            16,
+            478,
+            708,
+            8058,
+            432,
+            3921,
+            1153,
+            16,
+            28387,
+            432,
+            20404,
+            510,
+            33,
+            27363,
+            28
+          ]
+        ],
+        "B": [
+          [
+            45,
+            453,
+            510,
+            432,
+            3921,
+            1153,
+            16,
+            478,
+            708,
+            8058,
+            432,
+            13335,
+            381,
+            16,
+            28387,
+            432,
+            18127,
+            8058,
+            33,
+            27363,
+            28
+          ],
+          [
+            45,
+            453,
+            510,
+            432,
+            3921,
+            1153,
+            16,
+            478,
+            708,
+            8058,
+            432,
+            13335,
+            381,
+            16,
+            28387,
+            432,
+            20404,
+            510,
+            33,
+            27363,
+            28
+          ]
+        ],
+        "N": [
+          [
+            45,
+            453,
+            510,
+            432,
+            3506,
+            697,
+            16,
+            478,
+            708,
+            8058,
+            432,
+            3506,
+            697,
+            16,
+            28387,
+            432,
+            18127,
+            8058,
+            33,
+            27363,
+            28
+          ],
+          [
+            45,
+            453,
+            510,
+            432,
+            3506,
+            697,
+            16,
+            478,
+            708,
+            8058,
+            432,
+            3506,
+            697,
+            16,
+            28387,
+            432,
+            20404,
+            510,
+            33,
+            27363,
+            28
+          ]
+        ]
+      },
+      "regions": {
+        "fact_colors": [
+          4,
+          5,
+          11,
+          12
+        ],
+        "question_subject": [
+          16,
+          17
+        ],
+        "readout": [
+          20
+        ]
+      },
+      "margins": {
+        "A": [
+          0.4330940246582031,
+          0.0010995864868164062
+        ],
+        "B": [
+          0.2651050090789795,
+          0.20194363594055176
+        ],
+        "N": [
+          -0.11155080795288086,
+          0.16850614547729492
+        ]
+      },
+      "key_context_response": 0.16798901557922363,
+      "cup_context_response": -0.20084404945373535,
+      "binding_interaction": 0.1844165325164795,
+      "common_context_effect": -0.01642751693725586,
+      "neutral_question_gap": -0.2800569534301758,
+      "opposite_context_responses": true,
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.7748750735790964e-07
+    }
+  ],
+  "limitations": [
+    "Exploratory: one checkpoint and an existing pilot-selected template.",
+    "Interaction cancels additive biases, not every lexical or positional heuristic.",
+    "Neutral opisany changes meaning; it is not an unconditional model prior.",
+    "Single norm-matched null; no p-values or unique causal-route claims.",
+    "Residual stream is patched; recipient value_residual v0 is unchanged.",
+    "Forced two-answer contrast is not free-generation accuracy."
+  ]
+}
