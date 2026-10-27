@@ -1,0 +1,50 @@
+{
+  "cases": 48,
+  "rejected": 16,
+  "registered_configs": 64,
+  "positive_interaction": {
+    "count": 46,
+    "total": 48
+  },
+  "strict_opposite_directions": {
+    "count": 19,
+    "total": 48,
+    "by_template": {
+      "T1": [
+        9,
+        16
+      ],
+      "T2": [
+        2,
+        16
+      ],
+      "T3": [
+        8,
+        16
+      ]
+    }
+  },
+  "mean_binding_interaction": 0.5067,
+  "mean_abs_binding_interaction": 0.5127,
+  "mean_abs_common_effect": 0.6435,
+  "by_pair": {
+    "kluczyk/kubek": [
+      10,
+      12
+    ],
+    "kot/pies": [
+      12,
+      12
+    ],
+    "ołówek/zeszyt": [
+      12,
+      12
+    ],
+    "rower/samochód": [
+      12,
+      12
+    ]
+  },
+  "rejection_reason": "T4 adjective-first changes tokenisation of capitalised Niebieski (3 vs 2 tokens), so A/B/N are not aligned.",
+  "cross_check": "T1|kluczyk/kubek reproduces the earlier binding stage exactly."
+}

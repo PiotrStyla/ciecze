@@ -194,6 +194,67 @@ def verify_binding(folder):
           f'{sum(b["binding_interaction"] > 0 for b in cases.values())}/{len(cases)} cases')
 
 
+def verify_replicate(folder):
+    summary = load_json(folder / 'summary.json')
+    cases_path = folder / 'cases.csv'
+    cases = []
+    if cases_path.exists():
+        with cases_path.open(encoding='utf-8', newline='') as f:
+            cases = list(csv.DictReader(f))
+        require(len(cases) == len(summary['cases']), 'Case CSV is incomplete')
+    by_case = {c['case']: c for c in summary['cases']}
+    if cases:
+        require(set(by_case) == {c['case'] for c in cases}, 'Case identifiers differ between CSV and JSON')
+    for case, c in by_case.items():
+        key = c['margins']['A'][0] - c['margins']['B'][0]
+        cup = c['margins']['A'][1] - c['margins']['B'][1]
+        require(math.isclose((key - cup) / 2, c['binding_interaction'], abs_tol=1e-6),
+                f'Interaction inconsistent with margins: {case}')
+        require(math.isclose((key + cup) / 2, c['common_context_effect'], abs_tol=1e-6),
+                f'Common effect inconsistent with margins: {case}')
+        lengths = {len(ids) for target in range(2) for ids in
+                   (c['prompt_ids'][condition][target] for condition in ['A', 'B', 'N'])}
+        require(len(lengths) == 1, f'Unaligned contexts survived validation: {case}')
+        for target in range(2):
+            base = c['prompt_ids']['A'][target]
+            for condition in ['B', 'N']:
+                other = c['prompt_ids'][condition][target]
+                require([i for i, (x, y) in enumerate(zip(base, other)) if x != y]
+                        == c['regions']['fact_colors'], f'Unexpected change in {condition}: {case}')
+    for rejection in summary['rejected']:
+        require(rejection['reason'] and rejection['case'] not in by_case, 'Invalid rejection record')
+    if (folder / 'traces.csv').exists():
+        with (folder / 'traces.csv').open(encoding='utf-8', newline='') as f:
+            traces = list(csv.DictReader(f))
+        max_state = 1 + max(int(t['state']) for t in traces)
+        expected = sum(len(c['prompt_ids']['A'][0]) * 2 * 2 * max_state for c in by_case.values())
+        require(len(traces) == expected, 'Replication trace grid is incomplete')
+        for trace in traces:
+            c = by_case[trace['case']]
+            if int(trace['token']) < min(c['regions']['fact_colors']):
+                require(abs(float(trace['sensitivity'])) <= 1e-5, 'Retroactive recorded sensitivity')
+    if (folder / 'nulls.csv').exists():
+        with (folder / 'nulls.csv').open(encoding='utf-8', newline='') as f:
+            nulls = list(csv.DictReader(f))
+        for row in nulls:
+            draws = int(row['draws'])
+            exceed = int(row['exceed'])
+            require(0 <= exceed <= draws, 'Null exceed count out of range')
+            require(math.isclose(float(row['p_empirical']), (1 + exceed) / (draws + 1), abs_tol=1e-9),
+                    'Empirical p-value is inconsistent with exceedance count')
+            require(float(row['null_min']) <= float(row['null_mean']) <= float(row['null_max']),
+                    'Null summary statistics are not ordered')
+        stay = sum(float(r['p_empirical']) <= 1 / (int(r['draws']) + 1) + 1e-12 for r in nulls)
+        print(f'{folder.relative_to(ROOT)}: {len(cases)} cases, {len(summary["rejected"])} rejected, '
+              f'{len(nulls)} null rows; donor beyond every null draw in {stay}/{len(nulls)}')
+    else:
+        positives = sum(c['binding_interaction'] > 0 for c in by_case.values())
+        if by_case:
+            print(f'{folder.relative_to(ROOT)}: {len(cases)} cases, {len(summary["rejected"])} rejected; '
+                  f'positive interaction {positives}/{len(cases)}')
+
+
+
 def main():
     verify_manifest()
     verify_bernoulli()
@@ -202,6 +263,8 @@ def main():
         verify_patches(ROOT / 'results' / directory, experiment)
     verify_binding(ROOT / 'results/binding')
     verify_binding(ROOT / 'results/smoke/binding')
+    verify_replicate(ROOT / 'results/replication')
+    verify_replicate(ROOT / 'results/null-calibration')
     print('Recorded evidence checks passed. No new inference or statistical significance test was performed.')
 
 

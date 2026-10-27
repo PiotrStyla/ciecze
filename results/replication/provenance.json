@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-27",
+  "stage": "Replication across templates/noun pairs and repeated-null calibration",
+  "model_revision": "3a60edc280d93fb73ead0f5a5ba220986525aa76",
+  "commands": [
+    "python replicate_flow.py --part replicate --out runs/replicate",
+    "python replicate_flow.py --part nulls --null-draws 10 --layers 0 5 10 15 --out runs/nulls"
+  ],
+  "code_sha256": {
+    "replicate_flow.py": "ae0fd64cb2d1fc9fbc41fb37e2a94495b4a98422c4400e86c79e5acb4bbab3ac",
+    "dye_flow.py": "6721f880f2b6a9b6825ad12c0e234ca484a449d8cd4ca5ad8c51d809d6d24c73",
+    "bernoulli_layers.py": "ecd852042d2203bb5447ad7f7145112b4823c5a06ec9dc9249af090c41fce30c"
+  },
+  "registered_grid": {
+    "templates": [
+      "T1",
+      "T2",
+      "T3",
+      "T4"
+    ],
+    "pairs": [
+      "kluczyk/kubek",
+      "kot/pies",
+      "rower/samochód",
+      "ołówek/zeszyt"
+    ],
+    "fillers": [
+      0,
+      4
+    ],
+    "orders": [
+      "key_first",
+      "cup_first"
+    ],
+    "configs": 64
+  },
+  "rejections": "T4 (adjective first) rejected mechanically in all 16 configurations: capitalised Niebieski tokenises to 3 tokens vs 2 for lowercase, so A/B/N lengths differ. Reported, not replaced.",
+  "cross_check": "T1|kluczyk/kubek|f0 reproduces the binding stage exactly (I = 0.4370 and 0.1844).",
+  "null_calibration": {
+    "draws": 10,
+    "layers": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "min_possible_p": 0.0909,
+    "note": "Single-prompt-level null draws; no multiple-comparison correction and no \"significant\" claim."
+  }
+}

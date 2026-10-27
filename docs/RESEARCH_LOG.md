@@ -127,3 +127,47 @@ Kontrole: błąd self-patchingu 0, wcześniejsze stany przed pierwszym zmieniony
 
 **Aktualizacja interpretacji:** niska trafność odpowiedzi nie oznacza całkowitego ignorowania przypisania przedmiot–kolor. Widać selektywny wpływ kontekstu, nakładający się na wspólną zmianę preferencji. Hipotezą roboczą jest rozróżnienie „sterowania wyborem strumienia” i „treści przenoszonego składnika”. Nie udowodniono semantycznego rozumienia, ogólnego mechanizmu zaworu ani praw mechaniki płynów w LLM.
 
+## 9. Replikacja i kalibracja kontroli — korekta etapu czwartego
+
+Etap czwarty opierał się na jednym szablonie, jednej parze przedmiotów i jednym losowaniu kontrolnym na interwencję. Etap piąty usuwa pierwsze dwie słabości replikacją, a trzecią powtarzanymi kontrolami.
+
+### Replikacja zachowania bazowego
+
+Zarejestrowano przed pomiarem 4 szablony × 4 pary rzeczowników męskich o równej tokenizacji × 2 kolejności × 2 długości wstawki = 64 konfiguracje. Walidacja mechaniczna odrzuciła wszystkie 16 konfiguracji szablonu T4 (`Kolorem jest X.`): wielka litera w `Niebieski` daje 3 tokeny zamiast 2, więc opisy A/B/N nie są wyrównane. Odrzucenia są zapisane z powodem, nie zastąpione innym szablonem.
+
+Pozostało 48 konfiguracji:
+
+| Miara | Wynik |
+|---|---:|
+| Dodatnia interakcja `I` | 46/48 |
+| Oba pytania w przeciwnych, oczekiwanych kierunkach | 19/48 |
+| T1 / T2 / T3: kierunki przeciwne | 9/16, 2/16, 8/16 |
+| Średnie `I` | 0,5067 |
+| Średnie \|`I`\| vs średnie \|`C`\| | 0,5127 vs 0,6435 |
+
+T1 z parą `kluczyk/kubek` odtwarza etap czwarty co do czwartego miejsca (`I` = 0,4370 i 0,1844). To kontrola spójności implementacji.
+
+**Wniosek:** sam znak interakcji replikuje się mocno, ale pełny wzorzec „oba pytania w przeciwnych kierunkach” tylko w 40% konfiguracji. Selektywna składowa jest też średnio mniejsza od wspólnej zmiany preferencji wywołanej zamianą kolorów.
+
+### Kalibracja: jeden null to za mało
+
+Dla pierwotnej konfiguracji powtórzono pomiar z 10 niezależnymi, dopasowanymi normą zaburzeniami na każdą parę (kierunek, blok, pytanie): 8 komórek na każdy z bloków 0, 5, 10 i 15, łącznie 32 komórki.
+
+| Miara | Wynik |
+|---|---:|
+| Średni efekt selektywny dawcy | 0,0540 |
+| Średnie odchylenie standardowe losowań null | 0,3017 |
+| Dawca większy niż **wszystkie** 10 losowań | 2/32 |
+| Losowania null o tym samym znaku co dawca | 209/320 |
+
+**To unieważnia przyczynowy wniosek z etapu czwartego.** Mały transfer dodatni (+0,05 do +0,07) mieści się w rozrzucie losowych perturbacji tej samej normy. Poprzednie porównanie z jednym losowaniem trafiło na ujemne realizacje i sztucznie zawyżyło efekt.
+
+Korekta: w etapie czwartym wolno twierdzić jedynie, że **zachowanie bazowe** zależy od przypisania kolorów do przedmiotu. Twierdzenie, że podmiana stanów kolorów przenosi tę zależność w sposób odróżnialny od losowego zaburzenia, **nie zostało potwierdzone**. Przy 10 losowaniach najmniejsze osiągalne `p` to 1/11 ≈ 0,09, więc nawet 2/32 nie jest mocnym dowodem; potrzeba więcej losowań i wielu niezależnych promptów.
+
+### Co zostaje
+
+1. Replikacja znaku interakcji na 3 szablonach i 4 parach jest solidna w granicach tego modelu.
+2. Pełny wzorzec poprawnych kierunków nie replikuje się.
+3. Selektywny transfer przyczynowy nie przeżył kalibracji null.
+4. Wniosek metodologiczny jest tu ważniejszy od pozytywnego wyniku: pojedyncza kontrola losowa nie wystarcza do twierdzeń o patchingu.
+

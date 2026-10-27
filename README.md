@@ -14,6 +14,7 @@ Badania wykonano 27 października 2026 na `PiotrSty/gollem-v6-250m-sft-answers`,
 | Dwa barwniki | Zmiana faktu o kluczu kontra zmiana koloru kubka | Oba kolory klucza rozróżniane w 6/6 układów; niebieski kubek osłabiał preferencję czerwonego klucza we wszystkich sześciu. |
 | Zawór pytania | Identyczny opis, pytanie o kluczyk albo kubek, zamiana kolorów i kolejności faktów | 14/24 poprawnych preferencji; oba pytania poprawne tylko w 2/12 układów. W 20/24 pytaniach preferowany czerwony. |
 | Odczyt czy skojarzenie | Stały zestaw kolorów, zamiana przypisania do przedmiotów, kontrola bez koloru | Dodatnia interakcja kontekstu i pytania w 6/6 układów; przeciwne kierunki odpowiedzi na zamianę w 4/6. To nie jest trafność ani dowód rozumienia. |
+| Replikacja | 3 szablony × 4 pary rzeczowników × 2 kolejności × 2 wstawki, plus 10 losowań kontrolnych na komórkę | Znak interakcji replikuje się w 46/48 układów (T4 odrzucony mechanicznie). Pełny wzorzec poprawnych kierunków tylko 19/48. **Selektywny transfer przyczynowy nie przeżył kalibracji: 2/32 komórki poza wszystkimi losowaniami.** |
 
 „Poprawna preferencja” oznacza większe prawdopodobieństwo właściwej spośród **dwóch wymuszonych pełnych odpowiedzi**. Nie jest to trafność swobodnego generowania. Próbki nie są niezależnym benchmarkiem.
 
@@ -26,6 +27,7 @@ bernoulli_layers.py       # pierwotny pomiar wskaźników, backendy GoLLeM i HF
  dye_flow.py              # zmiana faktu / dystraktora, ślady i podmiany stanów
  valve_flow.py            # stały opis, zmienne pytanie, kontrbalansowanie
  binding_flow.py          # kontrola treści opisu i selektywnego transferu faktów
+ replicate_flow.py        # replikacja szablonów/par i kalibracja null
  verify_results.py        # sprawdzenie zapisanych wyników i sum SHA-256
  requirements.txt         # wersje głównych pakietów z użytego środowiska
  docs/                    # metodologia, przebieg, źródła, odtwarzanie
@@ -36,6 +38,8 @@ bernoulli_layers.py       # pierwotny pomiar wskaźników, backendy GoLLeM i HF
  results/valve/           # pełny przebieg zaworu, pilot, analiza i wykresy
  results/binding/         # czwarty etap: 36 promptów, 720 interwencji
  results/binding-baseline/ # wcześniejsza kontrola bez interwencji
+ results/replication/     # 48 układów replikacji, 16 odrzuceń mechanicznych
+ results/null-calibration/# 10 losowań null na komórkę interwencji
  results/smoke/           # zachowane krótkie przebiegi kontrolne
 ```
 
@@ -53,6 +57,10 @@ Wagi modelu (~1,1 GB), cache Hugging Face, środowiska Python i surowy korpus ks
 - [Protokół kontroli kontekstu i definicja interakcji](docs/BINDING_PROTOCOL.md)
 - [Odczyt czy skojarzenie: wynik interwencji](results/binding/transfer.png)
 - [Analiza ilościowa wiązania przedmiot–kolor](results/binding/analysis.json)
+- [Protokół replikacji i kalibracji kontroli](docs/REPLICATION_PROTOCOL.md)
+- [Replikacja: znak interakcji według szablonów i par](results/replication/replication.png)
+- [Kalibracja: dawca kontra powtarzane losowania](results/null-calibration/nulls.png)
+- [Podsumowanie kalibracji](results/null-calibration/analysis.json)
 
 ## Uruchomienie
 
