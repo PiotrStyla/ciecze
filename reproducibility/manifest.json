@@ -1,0 +1,410 @@
+{
+  "date": "2026-10-27",
+  "description": "SHA-256 of published files; this manifest excludes itself and Git metadata. Original experiment files were checked byte-for-byte against retained session files.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 320,
+      "sha256": "29e674d55872d9cc39e48b30dc22d0b7eb3e76dad4b550f8685ee784f9086dd9"
+    },
+    {
+      "path": "bernoulli_layers.py",
+      "bytes": 18505,
+      "sha256": "ecd852042d2203bb5447ad7f7145112b4823c5a06ec9dc9249af090c41fce30c",
+      "copied_from": "session/Downloads/bernoulli_layers.py"
+    },
+    {
+      "path": "docs/METHODOLOGY.md",
+      "bytes": 5957,
+      "sha256": "b4866493eaf375bd5bb1685b6f6b3c408123079a56f93636792b5a78ccaff521"
+    },
+    {
+      "path": "docs/REPRODUCING.md",
+      "bytes": 4453,
+      "sha256": "ebd9a6033787a9c9b9aed959d87175739a8f4f98b6fbad5c7a93d7d694d8f842"
+    },
+    {
+      "path": "docs/RESEARCH_LOG.md",
+      "bytes": 7671,
+      "sha256": "7bbddf24349fc993e848a14c01c188ae59f6ccdb26bf6ca09346b32c2025b733"
+    },
+    {
+      "path": "docs/SOURCES.md",
+      "bytes": 3770,
+      "sha256": "4c2593b71bdf590e6710a18d3c14cded6d1de8c5176bdd65dc20453823cda844"
+    },
+    {
+      "path": "dye_flow.py",
+      "bytes": 16354,
+      "sha256": "6721f880f2b6a9b6825ad12c0e234ca484a449d8cd4ca5ad8c51d809d6d24c73",
+      "copied_from": "session/Downloads/dye_flow.py"
+    },
+    {
+      "path": "notes/fluid-theory.md",
+      "bytes": 3411,
+      "sha256": "fe50d53d1441db9b2ce3111a5f47ca47b9488b6456cccbda98eefbaf02b8b31e",
+      "copied_from": "session/local/llm-fluid-research.md"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4691,
+      "sha256": "83b77eaf2951d712a899b75694f182b0d163a48a204b35321ee317a5c395ef35"
+    },
+    {
+      "path": "reproducibility/environment.json",
+      "bytes": 1078,
+      "sha256": "bfd3819cc3e51a9dc92e997f15b5e73decbd832775bc30e2a48632d44e7d08c4"
+    },
+    {
+      "path": "reproducibility/publication-smoke/baseline.json",
+      "bytes": 8612,
+      "sha256": "9587eb9442948da83fcbbe944b65e3e2243381036839fd1e348b008704d14eb2",
+      "copied_from": "session/ciecze-publish-smoke/baseline.json"
+    },
+    {
+      "path": "reproducibility/publication-smoke/cup_first_f0_b.png",
+      "bytes": 107447,
+      "sha256": "af33c043e139ca3b0f18de48a4a5b792b0a3e838f69298cc1cba2c0ac77d8fee",
+      "copied_from": "session/ciecze-publish-smoke/cup_first_f0_b.png"
+    },
+    {
+      "path": "reproducibility/publication-smoke/cup_first_f0_r.png",
+      "bytes": 110162,
+      "sha256": "1744e99f03482e4d2b144f4f585b664eb71ba43545b4eb2871a1108fd1d90197",
+      "copied_from": "session/ciecze-publish-smoke/cup_first_f0_r.png"
+    },
+    {
+      "path": "reproducibility/publication-smoke/key_first_f0_b.png",
+      "bytes": 112139,
+      "sha256": "6db9913417eec5019970c4e6829885255d0aecac768e75b682c611f6e2ee870f",
+      "copied_from": "session/ciecze-publish-smoke/key_first_f0_b.png"
+    },
+    {
+      "path": "reproducibility/publication-smoke/key_first_f0_r.png",
+      "bytes": 106830,
+      "sha256": "12ff92954707f2ddca89873b88208c34bac08f901e3a2a2d016e4f80e87653eb",
+      "copied_from": "session/ciecze-publish-smoke/key_first_f0_r.png"
+    },
+    {
+      "path": "reproducibility/publication-smoke/overview.png",
+      "bytes": 39780,
+      "sha256": "0e18d641de8f65584ad945044bb11da30d55f5a6f11de24861be6c32462773a1",
+      "copied_from": "session/ciecze-publish-smoke/overview.png"
+    },
+    {
+      "path": "reproducibility/publication-smoke/patches.csv",
+      "bytes": 10686,
+      "sha256": "16ebacb24b4c55d48b53932a4167c8d873e0cc18da125a5540304661315ade43",
+      "copied_from": "session/ciecze-publish-smoke/patches.csv"
+    },
+    {
+      "path": "reproducibility/publication-smoke/summary.json",
+      "bytes": 8612,
+      "sha256": "9587eb9442948da83fcbbe944b65e3e2243381036839fd1e348b008704d14eb2",
+      "copied_from": "session/ciecze-publish-smoke/summary.json"
+    },
+    {
+      "path": "reproducibility/publication-smoke/traces.csv",
+      "bytes": 65408,
+      "sha256": "2f23629b47db766049cc987629e76e4f47622a5c9ca1542f6aa1689902ffdc5f",
+      "copied_from": "session/ciecze-publish-smoke/traces.csv"
+    },
+    {
+      "path": "reproducibility/validation.json",
+      "bytes": 1812,
+      "sha256": "dc90f75c2c9c2a4c7a922a88653c4abf291c1b4d4ac8d1ccc21951af974dd131"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 294,
+      "sha256": "674988abe95b6f1718cdb82433b225a9f3bfae83e95718feeacc781a7d618480"
+    },
+    {
+      "path": "results/bernoulli/layers.csv",
+      "bytes": 1372,
+      "sha256": "2225cd246c89032d9a9bee8742493c3215779590d063eb1de09315f7643b31c4",
+      "copied_from": "session/bernoulli_wolne/layers.csv"
+    },
+    {
+      "path": "results/bernoulli/layers.png",
+      "bytes": 129634,
+      "sha256": "0a3291bbc8bd66971f1b06fae10d4c4903419414fe5ea8b7524541cec35b7924",
+      "copied_from": "session/bernoulli_wolne/layers.png"
+    },
+    {
+      "path": "results/dye/patches.csv",
+      "bytes": 167431,
+      "sha256": "9c9e1b363085e974801974d393ab9d26cd9c6c910b94694489a6abc38914bac5",
+      "copied_from": "session/dye_out/patches.csv"
+    },
+    {
+      "path": "results/dye/pilot.json",
+      "bytes": 916,
+      "sha256": "08244c00985f0c0fe162b3e6d508484208573271631cd560c2577709c5ce34ff",
+      "copied_from": "session/dye_out/pilot.json"
+    },
+    {
+      "path": "results/dye/source_first_f0.png",
+      "bytes": 166400,
+      "sha256": "fa3898a978fe8339a49064c6faf4bc266fdf61bda57505ebfce17870fa78511a",
+      "copied_from": "session/dye_out/source_first_f0.png"
+    },
+    {
+      "path": "results/dye/source_first_f2.png",
+      "bytes": 166121,
+      "sha256": "83fb42719a6be260729a51faf672c3a23414de8a0e25e256e04762e8479eaa11",
+      "copied_from": "session/dye_out/source_first_f2.png"
+    },
+    {
+      "path": "results/dye/source_first_f6.png",
+      "bytes": 166580,
+      "sha256": "5c1b5bbb483e7d58fea252c3c0deb516d78da3add94698aa836181ccb661a85a",
+      "copied_from": "session/dye_out/source_first_f6.png"
+    },
+    {
+      "path": "results/dye/source_last_f0.png",
+      "bytes": 167840,
+      "sha256": "84212c78f9bacfde029081dc3b7f08e98b88dcfc8aa3ea5c1c99d596d23074b8",
+      "copied_from": "session/dye_out/source_last_f0.png"
+    },
+    {
+      "path": "results/dye/source_last_f2.png",
+      "bytes": 170797,
+      "sha256": "4c9babe49ff9af5981b3960aea683b8e5ecab9f2a2615d1fc862f8774c921c4f",
+      "copied_from": "session/dye_out/source_last_f2.png"
+    },
+    {
+      "path": "results/dye/source_last_f6.png",
+      "bytes": 165214,
+      "sha256": "07d2f3a3756a42b253d44df5d2ab494ae28c5eecdd6b8ac501dcb056951b68a8",
+      "copied_from": "session/dye_out/source_last_f6.png"
+    },
+    {
+      "path": "results/dye/summary.json",
+      "bytes": 17978,
+      "sha256": "dd5d8e3a415af7bd201270e9b23e79cc2823587da6db429ba7ca3c2f25bfe4c5",
+      "copied_from": "session/dye_out/summary.json"
+    },
+    {
+      "path": "results/dye/traces.csv",
+      "bytes": 384529,
+      "sha256": "91c2e12c060e09ecd59d1d11de859f9e023db3efb89c30c587c03a8082f759ba",
+      "copied_from": "session/dye_out/traces.csv"
+    },
+    {
+      "path": "results/smoke/dye/patches.csv",
+      "bytes": 21387,
+      "sha256": "1427c94220d9653616a3da4ceb457c6d9b96b378126d29bc075ed178ec5b02c7",
+      "copied_from": "session/dye_smoke/patches.csv"
+    },
+    {
+      "path": "results/smoke/dye/source_first_f0.png",
+      "bytes": 165028,
+      "sha256": "2ab3d3f3064fccf2e662ed4bcdb8d3bc59da8e0c5df97d67efe29c677d138d5c",
+      "copied_from": "session/dye_smoke/source_first_f0.png"
+    },
+    {
+      "path": "results/smoke/dye/source_last_f0.png",
+      "bytes": 165156,
+      "sha256": "eaca705421dae2d16e26465c9815f2f6aac2106a5e833447fc2eedc53db8a1c2",
+      "copied_from": "session/dye_smoke/source_last_f0.png"
+    },
+    {
+      "path": "results/smoke/dye/summary.json",
+      "bytes": 4825,
+      "sha256": "1b6e13f9580ae62c45952f483496a04ad68e304a3085b93f954e61601cadd599",
+      "copied_from": "session/dye_smoke/summary.json"
+    },
+    {
+      "path": "results/smoke/dye/traces.csv",
+      "bytes": 73125,
+      "sha256": "d3ebce55140614ba76dd509ef5b5422fdf9976ee09939c4c565f876f0da67c59",
+      "copied_from": "session/dye_smoke/traces.csv"
+    },
+    {
+      "path": "results/smoke/valve/analysis.json",
+      "bytes": 7649,
+      "sha256": "381e8861751c3792760da65ad20b116485b304d2cbeebb0b4b7bb06a4140d41e",
+      "copied_from": "session/valve_smoke/analysis.json"
+    },
+    {
+      "path": "results/smoke/valve/baseline.json",
+      "bytes": 8532,
+      "sha256": "581ce68125d1303c241c04cf2e37f6ab77dea4a069b3ad4741fc7495ae8e96e8",
+      "copied_from": "session/valve_smoke/baseline.json"
+    },
+    {
+      "path": "results/smoke/valve/cup_first_f0_b.png",
+      "bytes": 113531,
+      "sha256": "1a82162ec2d5bfc8a4c2fa39cfbb549ca07f04c7c30fc8866da55881d29d14b1",
+      "copied_from": "session/valve_smoke/cup_first_f0_b.png"
+    },
+    {
+      "path": "results/smoke/valve/cup_first_f0_r.png",
+      "bytes": 107882,
+      "sha256": "d50aeb591dffb73c7507722fc96e79cdf11cbed3c1fba2782013aa09836598d4",
+      "copied_from": "session/valve_smoke/cup_first_f0_r.png"
+    },
+    {
+      "path": "results/smoke/valve/key_first_f0_b.png",
+      "bytes": 112595,
+      "sha256": "941bc068c3d13efe44bcdeb172877cf909c8f32ddbcc84c6b9a90317664beb15",
+      "copied_from": "session/valve_smoke/key_first_f0_b.png"
+    },
+    {
+      "path": "results/smoke/valve/key_first_f0_r.png",
+      "bytes": 105903,
+      "sha256": "e1b41834dc2817859dfe164a9932940897b1fe81a99d35f12e1223aca137b004",
+      "copied_from": "session/valve_smoke/key_first_f0_r.png"
+    },
+    {
+      "path": "results/smoke/valve/overview.png",
+      "bytes": 39780,
+      "sha256": "0e18d641de8f65584ad945044bb11da30d55f5a6f11de24861be6c32462773a1",
+      "copied_from": "session/valve_smoke/overview.png"
+    },
+    {
+      "path": "results/smoke/valve/patches.csv",
+      "bytes": 20215,
+      "sha256": "520bac4ba1572de51a99b7d48076b8749997005443b34d412137b663f2559697",
+      "copied_from": "session/valve_smoke/patches.csv"
+    },
+    {
+      "path": "results/smoke/valve/summary.json",
+      "bytes": 8532,
+      "sha256": "581ce68125d1303c241c04cf2e37f6ab77dea4a069b3ad4741fc7495ae8e96e8",
+      "copied_from": "session/valve_smoke/summary.json"
+    },
+    {
+      "path": "results/smoke/valve/traces.csv",
+      "bytes": 65408,
+      "sha256": "2f23629b47db766049cc987629e76e4f47622a5c9ca1542f6aa1689902ffdc5f",
+      "copied_from": "session/valve_smoke/traces.csv"
+    },
+    {
+      "path": "results/valve/analysis.json",
+      "bytes": 49710,
+      "sha256": "b985c7b0cb85284d70938cc91f88f79ce1211a464eb9786dd64c870b50fdfe76",
+      "copied_from": "session/valve_out/analysis.json"
+    },
+    {
+      "path": "results/valve/baseline.json",
+      "bytes": 31658,
+      "sha256": "fa6a8887e2ab45cb69df4f080d6e33e5dc5caae77a4279021c4880f6eac898b9",
+      "copied_from": "session/valve_out/baseline.json"
+    },
+    {
+      "path": "results/valve/cup_first_f0_b.png",
+      "bytes": 112594,
+      "sha256": "dd7193f44646b87f9c5632a149da08ac0047914565d4e4ff6ad158b96c11d3de",
+      "copied_from": "session/valve_out/cup_first_f0_b.png"
+    },
+    {
+      "path": "results/valve/cup_first_f0_r.png",
+      "bytes": 112950,
+      "sha256": "bdf50f66340d6a02483ea45dace7045483aac95fde080d9fd3603832a66a7767",
+      "copied_from": "session/valve_out/cup_first_f0_r.png"
+    },
+    {
+      "path": "results/valve/cup_first_f2_b.png",
+      "bytes": 111277,
+      "sha256": "cf2687028321ae182897c8473ed32a637dc5eeaa3be3fd0a27ab37b8c1a86a44",
+      "copied_from": "session/valve_out/cup_first_f2_b.png"
+    },
+    {
+      "path": "results/valve/cup_first_f2_r.png",
+      "bytes": 111397,
+      "sha256": "47472e13886b4d80b40a7b089aeabd9daa2efb4b4bba59a16634c8e1d4a06f64",
+      "copied_from": "session/valve_out/cup_first_f2_r.png"
+    },
+    {
+      "path": "results/valve/cup_first_f6_b.png",
+      "bytes": 113992,
+      "sha256": "00e45d36fd31721593654a45a5906e443f70f4e54d0df6061cea774eca66f7b7",
+      "copied_from": "session/valve_out/cup_first_f6_b.png"
+    },
+    {
+      "path": "results/valve/cup_first_f6_r.png",
+      "bytes": 111004,
+      "sha256": "023b76b9fb451cdfacc833d7190a6e33f6fd9f833cbfee96082876ea97813c31",
+      "copied_from": "session/valve_out/cup_first_f6_r.png"
+    },
+    {
+      "path": "results/valve/key_first_f0_b.png",
+      "bytes": 110407,
+      "sha256": "66584bfefef35098388db6ceea96f923efd0695508da7eb9297576cacd442193",
+      "copied_from": "session/valve_out/key_first_f0_b.png"
+    },
+    {
+      "path": "results/valve/key_first_f0_r.png",
+      "bytes": 114611,
+      "sha256": "0d560fc32c4fa21f7d881dca09870ee87456cef2bf8b6473bc1ad6af3c5692dd",
+      "copied_from": "session/valve_out/key_first_f0_r.png"
+    },
+    {
+      "path": "results/valve/key_first_f2_b.png",
+      "bytes": 111026,
+      "sha256": "c6efa72cd6df38dc56eb4e8064c22fd432eddaee41f055126f70ef89fc2cc8c2",
+      "copied_from": "session/valve_out/key_first_f2_b.png"
+    },
+    {
+      "path": "results/valve/key_first_f2_r.png",
+      "bytes": 115303,
+      "sha256": "db47beb32976b896fbbeed76fb70fd730ca1f3233fb2349c59c63660adf9a274",
+      "copied_from": "session/valve_out/key_first_f2_r.png"
+    },
+    {
+      "path": "results/valve/key_first_f6_b.png",
+      "bytes": 111172,
+      "sha256": "f48db8c20bf71fb5467227857a96176ffb787c6673cb45389e21f33136735173",
+      "copied_from": "session/valve_out/key_first_f6_b.png"
+    },
+    {
+      "path": "results/valve/key_first_f6_r.png",
+      "bytes": 112269,
+      "sha256": "e72bf6a5ec23dcef11d7f992f839d52a0e7a9a882f53f43fab7da620758012e1",
+      "copied_from": "session/valve_out/key_first_f6_r.png"
+    },
+    {
+      "path": "results/valve/overview.png",
+      "bytes": 52519,
+      "sha256": "7cfb179e4c50d875a03865e2b2dae55f9465900e8a64ddc55a1b2d8b4085ff26",
+      "copied_from": "session/valve_out/overview.png"
+    },
+    {
+      "path": "results/valve/patches.csv",
+      "bytes": 153310,
+      "sha256": "917a8ebba68b6d15ec90d3602fac7774e820b276fc3032d0a6d878413cf9ae7d",
+      "copied_from": "session/valve_out/patches.csv"
+    },
+    {
+      "path": "results/valve/pilot.json",
+      "bytes": 4557,
+      "sha256": "192e2b2879692fd831757a3565c87b0504a9abd07447f949ccaf8e4a5bc379a0",
+      "copied_from": "session/valve_out/pilot.json"
+    },
+    {
+      "path": "results/valve/summary.json",
+      "bytes": 31658,
+      "sha256": "fa6a8887e2ab45cb69df4f080d6e33e5dc5caae77a4279021c4880f6eac898b9",
+      "copied_from": "session/valve_out/summary.json"
+    },
+    {
+      "path": "results/valve/traces.csv",
+      "bytes": 323594,
+      "sha256": "030e1fc1c75c0c78592a0086ede6d4fa9c961eab0650acaa1c6df5e29aaaf24b",
+      "copied_from": "session/valve_out/traces.csv"
+    },
+    {
+      "path": "valve_flow.py",
+      "bytes": 15140,
+      "sha256": "d4475b265335c0e0e10cdec7e31e60037c18ea8ace47adfd96a95a5d1d550b8d",
+      "copied_from": "session/Downloads/valve_flow.py"
+    },
+    {
+      "path": "verify_results.py",
+      "bytes": 6633,
+      "sha256": "7f88c2fa4e8edcaffb855a3809ec1b1e34a0e8586a369aae1a56b2b7bee73232"
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-27",
+  "scope": "Publication packaging and retained experiment evidence, not a new scientific benchmark",
+  "original_experiment_scripts_byte_identical": true,
+  "preserved_artifact_files_byte_identical": true,
+  "recorded_evidence_verifier": {
+    "command": "python verify_results.py",
+    "observed_result": "passed",
+    "bernoulli_rows": 20,
+    "dye_trace_rows": 7770,
+    "dye_interventions": 960,
+    "dye_correct_pairs": "6/6",
+    "valve_trace_rows": 8526,
+    "valve_interventions": 960,
+    "valve_correct_individual_preferences": "14/24",
+    "valve_correct_pairs": "2/12",
+    "valve_red_preferences": "20/24"
+  },
+  "packaged_runtime_smoke": {
+    "entrypoint": "valve_flow.py",
+    "arguments": "--model <original pinned local snapshot> --fillers 0 --layers 0 --out <temporary publication smoke directory>",
+    "observed_result": "completed",
+    "paired_preference_passes": "1/4",
+    "interpretation": "Runtime and embedded intervention controls passed; preference failures are retained scientific outcomes, not hidden.",
+    "artifacts": "reproducibility/publication-smoke"
+  },
+  "credential_checks": {
+    "github_targeted_secret_scan": "unavailable: repository does not have GitHub Advanced Security enabled",
+    "fallback": "Local grep over publication codebase for common GitHub, Hugging Face, OpenAI, AWS access-key and private-key signatures",
+    "fallback_result": "no matches",
+    "scope_limit": "This is not an exhaustive secret audit; only an explicit allowlist of experiment files and generated documentation was copied. Model weights, credentials, environments and caches were excluded."
+  },
+  "clean_environment_install_verified": false,
+  "remote_commit_verification": "Recorded separately in the publication response after push; not asserted here."
+}

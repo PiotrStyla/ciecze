@@ -1,0 +1,14 @@
+{
+  "model": "PiotrSty/gollem-v6-250m-sft-answers",
+  "purpose": "Exploratory template selection on the evaluation checkpoint; not held-out evidence",
+  "metric": "log P(full answer czerwony) - log P(full answer niebieski)",
+  "results": [
+    {"template": "Kolor klucza: {word}.\nKolor klucza:", "red_margin": -1.5593, "blue_margin": 1.0812},
+    {"template": "Klucz jest {word}. Jaki jest klucz? Klucz jest", "red_margin": 3.7462, "blue_margin": -2.9411},
+    {"template": "Zapamiętaj: klucz = {word}.\nPytanie: klucz =\nOdpowiedź:", "red_margin": 3.5449, "blue_margin": -3.4191},
+    {"template": "A: {word}. B: zielony.\nA:", "red_margin": 0.2088, "blue_margin": 1.5200},
+    {"template": "Kolor: {word}.\nKolor:", "red_margin": 0.2942, "blue_margin": -0.5339}
+  ],
+  "selected": "Klucz jest {word}. Jaki jest klucz? Klucz jest",
+  "answer_token_ids": {" czerwony": [3921, 1153], " niebieski": [13335, 381]}
+}

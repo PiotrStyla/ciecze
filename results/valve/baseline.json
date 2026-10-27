@@ -1,0 +1,1450 @@
+{
+  "model": "PiotrSty/gollem-v6-250m-sft-answers",
+  "snapshot": "C:\\Users\\Hipek\\.cache\\huggingface\\hub\\models--PiotrSty--gollem-v6-250m-sft-answers\\snapshots\\3a60edc280d93fb73ead0f5a5ba220986525aa76",
+  "torch": "2.14.0+cpu",
+  "device": "cpu",
+  "seed": 20261027,
+  "sampled_blocks": [
+    0,
+    5,
+    10,
+    15,
+    19
+  ],
+  "baselines": [
+    {
+      "case": "key_first_f0_r",
+      "fillers": 0,
+      "key_first": true,
+      "swapped": false,
+      "context": "Kluczyk jest czerwony. Kubek jest niebieski. ",
+      "prompts": [
+        "Kluczyk jest czerwony. Kubek jest niebieski. Jaki jest kluczyk? Odpowiedź:",
+        "Kluczyk jest czerwony. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          15131,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          15131,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "czerwony",
+        "niebieski"
+      ],
+      "margins_red_minus_blue": [
+        0.37843799591064453,
+        -0.6181862354278564
+      ],
+      "correct_preferences": [
+        true,
+        true
+      ],
+      "signed_question_gap": 0.996624231338501,
+      "regions": {
+        "question_subject": [
+          15,
+          16
+        ],
+        "question_mark": [
+          17
+        ],
+        "readout": [
+          19
+        ],
+        "facts_control": [
+          4,
+          5,
+          10,
+          11
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.3501529849690996e-07
+    },
+    {
+      "case": "key_first_f0_b",
+      "fillers": 0,
+      "key_first": true,
+      "swapped": true,
+      "context": "Kluczyk jest niebieski. Kubek jest czerwony. ",
+      "prompts": [
+        "Kluczyk jest niebieski. Kubek jest czerwony. Jaki jest kluczyk? Odpowiedź:",
+        "Kluczyk jest niebieski. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          15131,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          15131,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "niebieski",
+        "czerwony"
+      ],
+      "margins_red_minus_blue": [
+        -0.02217721939086914,
+        -0.14472389221191406
+      ],
+      "correct_preferences": [
+        true,
+        false
+      ],
+      "signed_question_gap": -0.12254667282104492,
+      "regions": {
+        "question_subject": [
+          15,
+          16
+        ],
+        "question_mark": [
+          17
+        ],
+        "readout": [
+          19
+        ],
+        "facts_control": [
+          4,
+          5,
+          10,
+          11
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.6988765594305733e-07
+    },
+    {
+      "case": "cup_first_f0_r",
+      "fillers": 0,
+      "key_first": false,
+      "swapped": false,
+      "context": "Kubek jest niebieski. Kluczyk jest czerwony. ",
+      "prompts": [
+        "Kubek jest niebieski. Kluczyk jest czerwony. Jaki jest kluczyk? Odpowiedź:",
+        "Kubek jest niebieski. Kluczyk jest czerwony. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          453,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          453,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "czerwony",
+        "niebieski"
+      ],
+      "margins_red_minus_blue": [
+        0.4330940246582031,
+        0.0010995864868164062
+      ],
+      "correct_preferences": [
+        true,
+        false
+      ],
+      "signed_question_gap": 0.4319944381713867,
+      "regions": {
+        "question_subject": [
+          16,
+          17
+        ],
+        "question_mark": [
+          18
+        ],
+        "readout": [
+          20
+        ],
+        "facts_control": [
+          4,
+          5,
+          11,
+          12
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.9623078628683288e-07
+    },
+    {
+      "case": "cup_first_f0_b",
+      "fillers": 0,
+      "key_first": false,
+      "swapped": true,
+      "context": "Kubek jest czerwony. Kluczyk jest niebieski. ",
+      "prompts": [
+        "Kubek jest czerwony. Kluczyk jest niebieski. Jaki jest kluczyk? Odpowiedź:",
+        "Kubek jest czerwony. Kluczyk jest niebieski. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          453,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          453,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "niebieski",
+        "czerwony"
+      ],
+      "margins_red_minus_blue": [
+        0.2651050090789795,
+        0.20194363594055176
+      ],
+      "correct_preferences": [
+        false,
+        true
+      ],
+      "signed_question_gap": -0.06316137313842773,
+      "regions": {
+        "question_subject": [
+          16,
+          17
+        ],
+        "question_mark": [
+          18
+        ],
+        "readout": [
+          20
+        ],
+        "facts_control": [
+          4,
+          5,
+          11,
+          12
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.4662712999324867e-07
+    },
+    {
+      "case": "key_first_f2_r",
+      "fillers": 2,
+      "key_first": true,
+      "swapped": false,
+      "context": "Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. ",
+      "prompts": [
+        "Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. Jaki jest kluczyk? Odpowiedź:",
+        "Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          15131,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          15131,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "czerwony",
+        "niebieski"
+      ],
+      "margins_red_minus_blue": [
+        1.1732778549194336,
+        0.1552577018737793
+      ],
+      "correct_preferences": [
+        true,
+        false
+      ],
+      "signed_question_gap": 1.0180201530456543,
+      "regions": {
+        "question_subject": [
+          25,
+          26
+        ],
+        "question_mark": [
+          27
+        ],
+        "readout": [
+          29
+        ],
+        "facts_control": [
+          4,
+          5,
+          20,
+          21
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.1780613817791163e-07
+    },
+    {
+      "case": "key_first_f2_b",
+      "fillers": 2,
+      "key_first": true,
+      "swapped": true,
+      "context": "Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. ",
+      "prompts": [
+        "Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. Jaki jest kluczyk? Odpowiedź:",
+        "Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          15131,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          15131,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "niebieski",
+        "czerwony"
+      ],
+      "margins_red_minus_blue": [
+        0.7499793767929077,
+        1.0887563228607178
+      ],
+      "correct_preferences": [
+        false,
+        true
+      ],
+      "signed_question_gap": 0.33877694606781006,
+      "regions": {
+        "question_subject": [
+          25,
+          26
+        ],
+        "question_mark": [
+          27
+        ],
+        "readout": [
+          29
+        ],
+        "facts_control": [
+          4,
+          5,
+          20,
+          21
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.4614764154430304e-07
+    },
+    {
+      "case": "cup_first_f2_r",
+      "fillers": 2,
+      "key_first": false,
+      "swapped": false,
+      "context": "Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. ",
+      "prompts": [
+        "Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. Jaki jest kluczyk? Odpowiedź:",
+        "Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          453,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          453,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "czerwony",
+        "niebieski"
+      ],
+      "margins_red_minus_blue": [
+        0.6022700071334839,
+        0.3454923629760742
+      ],
+      "correct_preferences": [
+        true,
+        false
+      ],
+      "signed_question_gap": 0.25677764415740967,
+      "regions": {
+        "question_subject": [
+          26,
+          27
+        ],
+        "question_mark": [
+          28
+        ],
+        "readout": [
+          30
+        ],
+        "facts_control": [
+          4,
+          5,
+          21,
+          22
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.698839753316861e-07
+    },
+    {
+      "case": "cup_first_f2_b",
+      "fillers": 2,
+      "key_first": false,
+      "swapped": true,
+      "context": "Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. ",
+      "prompts": [
+        "Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. Jaki jest kluczyk? Odpowiedź:",
+        "Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          453,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          453,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "niebieski",
+        "czerwony"
+      ],
+      "margins_red_minus_blue": [
+        1.1954606771469116,
+        1.164541482925415
+      ],
+      "correct_preferences": [
+        false,
+        true
+      ],
+      "signed_question_gap": -0.030919194221496582,
+      "regions": {
+        "question_subject": [
+          26,
+          27
+        ],
+        "question_mark": [
+          28
+        ],
+        "readout": [
+          30
+        ],
+        "facts_control": [
+          4,
+          5,
+          21,
+          22
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.1753280659831944e-07
+    },
+    {
+      "case": "key_first_f6_r",
+      "fillers": 6,
+      "key_first": true,
+      "swapped": false,
+      "context": "Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. ",
+      "prompts": [
+        "Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. Jaki jest kluczyk? Odpowiedź:",
+        "Kluczyk jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          15131,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          15131,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "czerwony",
+        "niebieski"
+      ],
+      "margins_red_minus_blue": [
+        1.3923336267471313,
+        -0.015136003494262695
+      ],
+      "correct_preferences": [
+        true,
+        true
+      ],
+      "signed_question_gap": 1.407469630241394,
+      "regions": {
+        "question_subject": [
+          45,
+          46
+        ],
+        "question_mark": [
+          47
+        ],
+        "readout": [
+          49
+        ],
+        "facts_control": [
+          4,
+          5,
+          40,
+          41
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.198345387365407e-07
+    },
+    {
+      "case": "key_first_f6_b",
+      "fillers": 6,
+      "key_first": true,
+      "swapped": true,
+      "context": "Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. ",
+      "prompts": [
+        "Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. Jaki jest kluczyk? Odpowiedź:",
+        "Kluczyk jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          15131,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          15131,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "niebieski",
+        "czerwony"
+      ],
+      "margins_red_minus_blue": [
+        1.137556552886963,
+        1.5823695659637451
+      ],
+      "correct_preferences": [
+        false,
+        true
+      ],
+      "signed_question_gap": 0.4448130130767822,
+      "regions": {
+        "question_subject": [
+          45,
+          46
+        ],
+        "question_mark": [
+          47
+        ],
+        "readout": [
+          49
+        ],
+        "facts_control": [
+          4,
+          5,
+          40,
+          41
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.1420534207218225e-07
+    },
+    {
+      "case": "cup_first_f6_r",
+      "fillers": 6,
+      "key_first": false,
+      "swapped": false,
+      "context": "Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. ",
+      "prompts": [
+        "Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. Jaki jest kluczyk? Odpowiedź:",
+        "Kubek jest niebieski. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest czerwony. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          453,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          453,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "czerwony",
+        "niebieski"
+      ],
+      "margins_red_minus_blue": [
+        1.0592249631881714,
+        0.7130300998687744
+      ],
+      "correct_preferences": [
+        true,
+        false
+      ],
+      "signed_question_gap": 0.346194863319397,
+      "regions": {
+        "question_subject": [
+          46,
+          47
+        ],
+        "question_mark": [
+          48
+        ],
+        "readout": [
+          50
+        ],
+        "facts_control": [
+          4,
+          5,
+          41,
+          42
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.1758757523239183e-07
+    },
+    {
+      "case": "cup_first_f6_b",
+      "fillers": 6,
+      "key_first": false,
+      "swapped": true,
+      "context": "Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. ",
+      "prompts": [
+        "Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. Jaki jest kluczyk? Odpowiedź:",
+        "Kubek jest czerwony. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Na stole leży książka. Kluczyk jest niebieski. Jaki jest kubek? Odpowiedź:"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          453,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          18127,
+          8058,
+          33,
+          27363,
+          28
+        ],
+        [
+          45,
+          453,
+          510,
+          432,
+          3921,
+          1153,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          1346,
+          19684,
+          16143,
+          14625,
+          16,
+          478,
+          708,
+          8058,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          20404,
+          510,
+          33,
+          27363,
+          28
+        ]
+      ],
+      "expected_answers": [
+        "niebieski",
+        "czerwony"
+      ],
+      "margins_red_minus_blue": [
+        1.2220478057861328,
+        1.3282902240753174
+      ],
+      "correct_preferences": [
+        false,
+        true
+      ],
+      "signed_question_gap": 0.10624241828918457,
+      "regions": {
+        "question_subject": [
+          46,
+          47
+        ],
+        "question_mark": [
+          48
+        ],
+        "readout": [
+          50
+        ],
+        "facts_control": [
+          4,
+          5,
+          41,
+          42
+        ]
+      },
+      "max_earlier_relative_difference": 0.0,
+      "max_self_patch_error": 0.0,
+      "max_null_norm_relative_error": 1.191346044038255e-07
+    }
+  ],
+  "limitations": [
+    "Exploratory single-model experiment; template chosen after initial pilot.",
+    "Kluczyk replaces klucz to align query token counts, not to optimize accuracy.",
+    "One norm-matched null per intervention; no significance claims.",
+    "Identical earlier context states follow causality, not a discovered mechanism.",
+    "Late readout patches are an expected calibration, not proof of a unique route.",
+    "Only residual stream is patched; recipient value_residual v0 is unchanged.",
+    "Forced two-answer preference is not free-generation accuracy."
+  ],
+  "paired_preference_passes": 2
+}

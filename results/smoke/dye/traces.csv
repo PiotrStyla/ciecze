@@ -1,0 +1,1471 @@
+case,dye,state,token,token_text,sensitivity
+source_first_f0,signal,0,0,Klucz,0.0
+source_first_f0,signal,0,1, jest,0.0
+source_first_f0,signal,0,2, czerw,0.7890520691871643
+source_first_f0,signal,0,3,ony,1.1119458675384521
+source_first_f0,signal,0,4,.,0.0
+source_first_f0,signal,0,5, Kub,0.0
+source_first_f0,signal,0,6,ek,0.0
+source_first_f0,signal,0,7, jest,0.0
+source_first_f0,signal,0,8, ziel,0.0
+source_first_f0,signal,0,9,ony,0.0
+source_first_f0,signal,0,10,.,0.0
+source_first_f0,signal,0,11, Jaki,0.0
+source_first_f0,signal,0,12, jest,0.0
+source_first_f0,signal,0,13, klucz,0.0
+source_first_f0,signal,0,14,?,0.0
+source_first_f0,signal,0,15, Klucz,0.0
+source_first_f0,signal,0,16, jest,0.0
+source_first_f0,signal,1,0,Klucz,0.0
+source_first_f0,signal,1,1, jest,0.0
+source_first_f0,signal,1,2, czerw,0.3081111013889313
+source_first_f0,signal,1,3,ony,0.20821432769298553
+source_first_f0,signal,1,4,.,0.026783186942338943
+source_first_f0,signal,1,5, Kub,0.028979899361729622
+source_first_f0,signal,1,6,ek,0.020766951143741608
+source_first_f0,signal,1,7, jest,0.016696250066161156
+source_first_f0,signal,1,8, ziel,0.021444756537675858
+source_first_f0,signal,1,9,ony,0.017513835802674294
+source_first_f0,signal,1,10,.,0.015309854410588741
+source_first_f0,signal,1,11, Jaki,0.011078598909080029
+source_first_f0,signal,1,12, jest,0.009136035107076168
+source_first_f0,signal,1,13, klucz,0.011790310963988304
+source_first_f0,signal,1,14,?,0.011015687137842178
+source_first_f0,signal,1,15, Klucz,0.011131379753351212
+source_first_f0,signal,1,16, jest,0.008348573930561543
+source_first_f0,signal,2,0,Klucz,0.0
+source_first_f0,signal,2,1, jest,0.0
+source_first_f0,signal,2,2, czerw,0.2936823070049286
+source_first_f0,signal,2,3,ony,0.20279008150100708
+source_first_f0,signal,2,4,.,0.02179059199988842
+source_first_f0,signal,2,5, Kub,0.02776176482439041
+source_first_f0,signal,2,6,ek,0.02045311965048313
+source_first_f0,signal,2,7, jest,0.016682593151926994
+source_first_f0,signal,2,8, ziel,0.02379740960896015
+source_first_f0,signal,2,9,ony,0.017163235694169998
+source_first_f0,signal,2,10,.,0.009797533042728901
+source_first_f0,signal,2,11, Jaki,0.010714679956436157
+source_first_f0,signal,2,12, jest,0.010476184077560902
+source_first_f0,signal,2,13, klucz,0.010965937748551369
+source_first_f0,signal,2,14,?,0.01493891142308712
+source_first_f0,signal,2,15, Klucz,0.009736075066030025
+source_first_f0,signal,2,16, jest,0.00998415146023035
+source_first_f0,signal,3,0,Klucz,0.0
+source_first_f0,signal,3,1, jest,0.0
+source_first_f0,signal,3,2, czerw,0.2699463367462158
+source_first_f0,signal,3,3,ony,0.2396083027124405
+source_first_f0,signal,3,4,.,0.020553693175315857
+source_first_f0,signal,3,5, Kub,0.03306679427623749
+source_first_f0,signal,3,6,ek,0.02505417913198471
+source_first_f0,signal,3,7, jest,0.019029738381505013
+source_first_f0,signal,3,8, ziel,0.023314466699957848
+source_first_f0,signal,3,9,ony,0.015441671013832092
+source_first_f0,signal,3,10,.,0.010333744809031487
+source_first_f0,signal,3,11, Jaki,0.010281497612595558
+source_first_f0,signal,3,12, jest,0.008567710407078266
+source_first_f0,signal,3,13, klucz,0.010359156876802444
+source_first_f0,signal,3,14,?,0.014271179214119911
+source_first_f0,signal,3,15, Klucz,0.009874115698039532
+source_first_f0,signal,3,16, jest,0.007938937284052372
+source_first_f0,signal,4,0,Klucz,0.0
+source_first_f0,signal,4,1, jest,0.0
+source_first_f0,signal,4,2, czerw,0.29341888427734375
+source_first_f0,signal,4,3,ony,0.25582048296928406
+source_first_f0,signal,4,4,.,0.021266648545861244
+source_first_f0,signal,4,5, Kub,0.03226206451654434
+source_first_f0,signal,4,6,ek,0.03515719249844551
+source_first_f0,signal,4,7, jest,0.022988775745034218
+source_first_f0,signal,4,8, ziel,0.021428896114230156
+source_first_f0,signal,4,9,ony,0.017815278843045235
+source_first_f0,signal,4,10,.,0.011216591112315655
+source_first_f0,signal,4,11, Jaki,0.015031963586807251
+source_first_f0,signal,4,12, jest,0.010254988446831703
+source_first_f0,signal,4,13, klucz,0.012577220797538757
+source_first_f0,signal,4,14,?,0.012322083115577698
+source_first_f0,signal,4,15, Klucz,0.013579855673015118
+source_first_f0,signal,4,16, jest,0.007979520596563816
+source_first_f0,signal,5,0,Klucz,0.0
+source_first_f0,signal,5,1, jest,0.0
+source_first_f0,signal,5,2, czerw,0.24686546623706818
+source_first_f0,signal,5,3,ony,0.23306255042552948
+source_first_f0,signal,5,4,.,0.054241739213466644
+source_first_f0,signal,5,5, Kub,0.03237069025635719
+source_first_f0,signal,5,6,ek,0.037679385393857956
+source_first_f0,signal,5,7, jest,0.01987335830926895
+source_first_f0,signal,5,8, ziel,0.021547237411141396
+source_first_f0,signal,5,9,ony,0.03799925744533539
+source_first_f0,signal,5,10,.,0.014478612691164017
+source_first_f0,signal,5,11, Jaki,0.017506448552012444
+source_first_f0,signal,5,12, jest,0.013276657089591026
+source_first_f0,signal,5,13, klucz,0.015195177868008614
+source_first_f0,signal,5,14,?,0.011705009266734123
+source_first_f0,signal,5,15, Klucz,0.015231010504066944
+source_first_f0,signal,5,16, jest,0.008847883902490139
+source_first_f0,signal,6,0,Klucz,0.0
+source_first_f0,signal,6,1, jest,0.0
+source_first_f0,signal,6,2, czerw,0.25783321261405945
+source_first_f0,signal,6,3,ony,0.21868641674518585
+source_first_f0,signal,6,4,.,0.01200308371335268
+source_first_f0,signal,6,5, Kub,0.037122420966625214
+source_first_f0,signal,6,6,ek,0.042694780975580215
+source_first_f0,signal,6,7, jest,0.02490410767495632
+source_first_f0,signal,6,8, ziel,0.0372745506465435
+source_first_f0,signal,6,9,ony,0.04438038915395737
+source_first_f0,signal,6,10,.,0.0178054329007864
+source_first_f0,signal,6,11, Jaki,0.0186290480196476
+source_first_f0,signal,6,12, jest,0.016728825867176056
+source_first_f0,signal,6,13, klucz,0.019213229417800903
+source_first_f0,signal,6,14,?,0.015466196462512016
+source_first_f0,signal,6,15, Klucz,0.015544387511909008
+source_first_f0,signal,6,16, jest,0.016615157946944237
+source_first_f0,signal,7,0,Klucz,0.0
+source_first_f0,signal,7,1, jest,0.0
+source_first_f0,signal,7,2, czerw,0.26074495911598206
+source_first_f0,signal,7,3,ony,0.2038159817457199
+source_first_f0,signal,7,4,.,0.003219863399863243
+source_first_f0,signal,7,5, Kub,0.043930623680353165
+source_first_f0,signal,7,6,ek,0.04801727458834648
+source_first_f0,signal,7,7, jest,0.027688130736351013
+source_first_f0,signal,7,8, ziel,0.045107897371053696
+source_first_f0,signal,7,9,ony,0.049723319709300995
+source_first_f0,signal,7,10,.,0.02126285247504711
+source_first_f0,signal,7,11, Jaki,0.02133582904934883
+source_first_f0,signal,7,12, jest,0.018423233181238174
+source_first_f0,signal,7,13, klucz,0.02254636585712433
+source_first_f0,signal,7,14,?,0.014272650703787804
+source_first_f0,signal,7,15, Klucz,0.0164452213793993
+source_first_f0,signal,7,16, jest,0.017977319657802582
+source_first_f0,signal,8,0,Klucz,0.0
+source_first_f0,signal,8,1, jest,0.0
+source_first_f0,signal,8,2, czerw,0.27267345786094666
+source_first_f0,signal,8,3,ony,0.20973895490169525
+source_first_f0,signal,8,4,.,0.0028995824977755547
+source_first_f0,signal,8,5, Kub,0.05224081501364708
+source_first_f0,signal,8,6,ek,0.059067562222480774
+source_first_f0,signal,8,7, jest,0.03864539787173271
+source_first_f0,signal,8,8, ziel,0.051960453391075134
+source_first_f0,signal,8,9,ony,0.06438402831554413
+source_first_f0,signal,8,10,.,0.032167594879865646
+source_first_f0,signal,8,11, Jaki,0.02681720443069935
+source_first_f0,signal,8,12, jest,0.023344343528151512
+source_first_f0,signal,8,13, klucz,0.027999036014080048
+source_first_f0,signal,8,14,?,0.015764251351356506
+source_first_f0,signal,8,15, Klucz,0.02082098461687565
+source_first_f0,signal,8,16, jest,0.01964646577835083
+source_first_f0,signal,9,0,Klucz,0.0
+source_first_f0,signal,9,1, jest,0.0
+source_first_f0,signal,9,2, czerw,0.34451743960380554
+source_first_f0,signal,9,3,ony,0.24869775772094727
+source_first_f0,signal,9,4,.,0.0028487429954111576
+source_first_f0,signal,9,5, Kub,0.060451168566942215
+source_first_f0,signal,9,6,ek,0.07206537574529648
+source_first_f0,signal,9,7, jest,0.05046733096241951
+source_first_f0,signal,9,8, ziel,0.05459163710474968
+source_first_f0,signal,9,9,ony,0.07351696491241455
+source_first_f0,signal,9,10,.,0.04728706553578377
+source_first_f0,signal,9,11, Jaki,0.034114595502614975
+source_first_f0,signal,9,12, jest,0.030285080894827843
+source_first_f0,signal,9,13, klucz,0.03881850093603134
+source_first_f0,signal,9,14,?,0.0293288491666317
+source_first_f0,signal,9,15, Klucz,0.027689827606081963
+source_first_f0,signal,9,16, jest,0.06768064200878143
+source_first_f0,signal,10,0,Klucz,0.0
+source_first_f0,signal,10,1, jest,0.0
+source_first_f0,signal,10,2, czerw,0.4858101010322571
+source_first_f0,signal,10,3,ony,0.2943469285964966
+source_first_f0,signal,10,4,.,0.0027993442490696907
+source_first_f0,signal,10,5, Kub,0.06925830245018005
+source_first_f0,signal,10,6,ek,0.08112186193466187
+source_first_f0,signal,10,7, jest,0.058746952563524246
+source_first_f0,signal,10,8, ziel,0.060882654041051865
+source_first_f0,signal,10,9,ony,0.082400843501091
+source_first_f0,signal,10,10,.,0.0630648210644722
+source_first_f0,signal,10,11, Jaki,0.04049627110362053
+source_first_f0,signal,10,12, jest,0.03688788041472435
+source_first_f0,signal,10,13, klucz,0.051490701735019684
+source_first_f0,signal,10,14,?,0.03926519677042961
+source_first_f0,signal,10,15, Klucz,0.03184005245566368
+source_first_f0,signal,10,16, jest,0.07256299257278442
+source_first_f0,signal,11,0,Klucz,0.0
+source_first_f0,signal,11,1, jest,0.0
+source_first_f0,signal,11,2, czerw,0.5802202224731445
+source_first_f0,signal,11,3,ony,0.3121163845062256
+source_first_f0,signal,11,4,.,0.002774571068584919
+source_first_f0,signal,11,5, Kub,0.06670934706926346
+source_first_f0,signal,11,6,ek,0.08234059065580368
+source_first_f0,signal,11,7, jest,0.0738864615559578
+source_first_f0,signal,11,8, ziel,0.06437171995639801
+source_first_f0,signal,11,9,ony,0.09445755183696747
+source_first_f0,signal,11,10,.,0.06678301841020584
+source_first_f0,signal,11,11, Jaki,0.05331501364707947
+source_first_f0,signal,11,12, jest,0.04600629583001137
+source_first_f0,signal,11,13, klucz,0.056176070123910904
+source_first_f0,signal,11,14,?,0.04645197093486786
+source_first_f0,signal,11,15, Klucz,0.03693478927016258
+source_first_f0,signal,11,16, jest,0.0731314942240715
+source_first_f0,signal,12,0,Klucz,0.0
+source_first_f0,signal,12,1, jest,0.0
+source_first_f0,signal,12,2, czerw,0.6360555291175842
+source_first_f0,signal,12,3,ony,0.31008288264274597
+source_first_f0,signal,12,4,.,0.0027779957745224237
+source_first_f0,signal,12,5, Kub,0.09265131503343582
+source_first_f0,signal,12,6,ek,0.09105809777975082
+source_first_f0,signal,12,7, jest,0.09155075252056122
+source_first_f0,signal,12,8, ziel,0.07221511751413345
+source_first_f0,signal,12,9,ony,0.10172942280769348
+source_first_f0,signal,12,10,.,0.06266007572412491
+source_first_f0,signal,12,11, Jaki,0.0587664432823658
+source_first_f0,signal,12,12, jest,0.053083714097738266
+source_first_f0,signal,12,13, klucz,0.06161675974726677
+source_first_f0,signal,12,14,?,0.04494307562708855
+source_first_f0,signal,12,15, Klucz,0.03917843475937843
+source_first_f0,signal,12,16, jest,0.07633204013109207
+source_first_f0,signal,13,0,Klucz,0.0
+source_first_f0,signal,13,1, jest,0.0
+source_first_f0,signal,13,2, czerw,0.6559414267539978
+source_first_f0,signal,13,3,ony,0.2941915690898895
+source_first_f0,signal,13,4,.,0.0028328001499176025
+source_first_f0,signal,13,5, Kub,0.10355692356824875
+source_first_f0,signal,13,6,ek,0.08970033377408981
+source_first_f0,signal,13,7, jest,0.09359972923994064
+source_first_f0,signal,13,8, ziel,0.0739169642329216
+source_first_f0,signal,13,9,ony,0.09796159714460373
+source_first_f0,signal,13,10,.,0.05668434500694275
+source_first_f0,signal,13,11, Jaki,0.05755795165896416
+source_first_f0,signal,13,12, jest,0.054093729704618454
+source_first_f0,signal,13,13, klucz,0.06139843910932541
+source_first_f0,signal,13,14,?,0.04924684017896652
+source_first_f0,signal,13,15, Klucz,0.04052707180380821
+source_first_f0,signal,13,16, jest,0.067161425948143
+source_first_f0,signal,14,0,Klucz,0.0
+source_first_f0,signal,14,1, jest,0.0
+source_first_f0,signal,14,2, czerw,0.7238951325416565
+source_first_f0,signal,14,3,ony,0.29230886697769165
+source_first_f0,signal,14,4,.,0.002840366680175066
+source_first_f0,signal,14,5, Kub,0.11335857212543488
+source_first_f0,signal,14,6,ek,0.09511001408100128
+source_first_f0,signal,14,7, jest,0.09516385197639465
+source_first_f0,signal,14,8, ziel,0.071983702480793
+source_first_f0,signal,14,9,ony,0.0954277291893959
+source_first_f0,signal,14,10,.,0.0542285293340683
+source_first_f0,signal,14,11, Jaki,0.057050541043281555
+source_first_f0,signal,14,12, jest,0.055513445287942886
+source_first_f0,signal,14,13, klucz,0.05938505753874779
+source_first_f0,signal,14,14,?,0.04932762309908867
+source_first_f0,signal,14,15, Klucz,0.04328686371445656
+source_first_f0,signal,14,16, jest,0.06714723259210587
+source_first_f0,signal,15,0,Klucz,0.0
+source_first_f0,signal,15,1, jest,0.0
+source_first_f0,signal,15,2, czerw,0.7989795804023743
+source_first_f0,signal,15,3,ony,0.3236708343029022
+source_first_f0,signal,15,4,.,0.002886050147935748
+source_first_f0,signal,15,5, Kub,0.11073952168226242
+source_first_f0,signal,15,6,ek,0.10500048100948334
+source_first_f0,signal,15,7, jest,0.0970999076962471
+source_first_f0,signal,15,8, ziel,0.08553086221218109
+source_first_f0,signal,15,9,ony,0.09051021188497543
+source_first_f0,signal,15,10,.,0.056533828377723694
+source_first_f0,signal,15,11, Jaki,0.059890322387218475
+source_first_f0,signal,15,12, jest,0.0586768239736557
+source_first_f0,signal,15,13, klucz,0.06298425793647766
+source_first_f0,signal,15,14,?,0.0705157145857811
+source_first_f0,signal,15,15, Klucz,0.06961219757795334
+source_first_f0,signal,15,16, jest,0.11963420361280441
+source_first_f0,signal,16,0,Klucz,0.0
+source_first_f0,signal,16,1, jest,0.0
+source_first_f0,signal,16,2, czerw,0.9330317974090576
+source_first_f0,signal,16,3,ony,0.36620330810546875
+source_first_f0,signal,16,4,.,0.004320499487221241
+source_first_f0,signal,16,5, Kub,0.11616013199090958
+source_first_f0,signal,16,6,ek,0.09872128069400787
+source_first_f0,signal,16,7, jest,0.10015269368886948
+source_first_f0,signal,16,8, ziel,0.07869789749383926
+source_first_f0,signal,16,9,ony,0.08230002224445343
+source_first_f0,signal,16,10,.,0.05935964733362198
+source_first_f0,signal,16,11, Jaki,0.058336835354566574
+source_first_f0,signal,16,12, jest,0.0568191334605217
+source_first_f0,signal,16,13, klucz,0.06016186252236366
+source_first_f0,signal,16,14,?,0.07107501477003098
+source_first_f0,signal,16,15, Klucz,0.0657341405749321
+source_first_f0,signal,16,16, jest,0.10798352211713791
+source_first_f0,signal,17,0,Klucz,0.0
+source_first_f0,signal,17,1, jest,0.0
+source_first_f0,signal,17,2, czerw,0.9669967889785767
+source_first_f0,signal,17,3,ony,0.3775390684604645
+source_first_f0,signal,17,4,.,0.010471707209944725
+source_first_f0,signal,17,5, Kub,0.11276953667402267
+source_first_f0,signal,17,6,ek,0.09534302353858948
+source_first_f0,signal,17,7, jest,0.09816749393939972
+source_first_f0,signal,17,8, ziel,0.06944603472948074
+source_first_f0,signal,17,9,ony,0.0702420026063919
+source_first_f0,signal,17,10,.,0.05606653168797493
+source_first_f0,signal,17,11, Jaki,0.0548425167798996
+source_first_f0,signal,17,12, jest,0.05525894835591316
+source_first_f0,signal,17,13, klucz,0.05428406968712807
+source_first_f0,signal,17,14,?,0.06767089664936066
+source_first_f0,signal,17,15, Klucz,0.06312882155179977
+source_first_f0,signal,17,16, jest,0.0972403883934021
+source_first_f0,signal,18,0,Klucz,0.0
+source_first_f0,signal,18,1, jest,0.0
+source_first_f0,signal,18,2, czerw,1.0031009912490845
+source_first_f0,signal,18,3,ony,0.3929285407066345
+source_first_f0,signal,18,4,.,0.028153009712696075
+source_first_f0,signal,18,5, Kub,0.11769288778305054
+source_first_f0,signal,18,6,ek,0.09489919245243073
+source_first_f0,signal,18,7, jest,0.10600252449512482
+source_first_f0,signal,18,8, ziel,0.06860224157571793
+source_first_f0,signal,18,9,ony,0.06176789104938507
+source_first_f0,signal,18,10,.,0.060088176280260086
+source_first_f0,signal,18,11, Jaki,0.05911837890744209
+source_first_f0,signal,18,12, jest,0.057445961982011795
+source_first_f0,signal,18,13, klucz,0.054997265338897705
+source_first_f0,signal,18,14,?,0.07090117037296295
+source_first_f0,signal,18,15, Klucz,0.06655795872211456
+source_first_f0,signal,18,16, jest,0.09914470463991165
+source_first_f0,signal,19,0,Klucz,0.0
+source_first_f0,signal,19,1, jest,0.0
+source_first_f0,signal,19,2, czerw,1.00331449508667
+source_first_f0,signal,19,3,ony,0.41530129313468933
+source_first_f0,signal,19,4,.,0.03244110569357872
+source_first_f0,signal,19,5, Kub,0.11836174875497818
+source_first_f0,signal,19,6,ek,0.10702935606241226
+source_first_f0,signal,19,7, jest,0.1158689484000206
+source_first_f0,signal,19,8, ziel,0.06319651007652283
+source_first_f0,signal,19,9,ony,0.06590910255908966
+source_first_f0,signal,19,10,.,0.07446218281984329
+source_first_f0,signal,19,11, Jaki,0.08820737898349762
+source_first_f0,signal,19,12, jest,0.08343788981437683
+source_first_f0,signal,19,13, klucz,0.08027902990579605
+source_first_f0,signal,19,14,?,0.08832161128520966
+source_first_f0,signal,19,15, Klucz,0.09362022578716278
+source_first_f0,signal,19,16, jest,0.1186923086643219
+source_first_f0,signal,20,0,Klucz,0.0
+source_first_f0,signal,20,1, jest,0.0
+source_first_f0,signal,20,2, czerw,1.0634527206420898
+source_first_f0,signal,20,3,ony,0.4668687582015991
+source_first_f0,signal,20,4,.,0.18248341977596283
+source_first_f0,signal,20,5, Kub,0.13248105347156525
+source_first_f0,signal,20,6,ek,0.15476170182228088
+source_first_f0,signal,20,7, jest,0.15487822890281677
+source_first_f0,signal,20,8, ziel,0.06967900693416595
+source_first_f0,signal,20,9,ony,0.1058095172047615
+source_first_f0,signal,20,10,.,0.10414251685142517
+source_first_f0,signal,20,11, Jaki,0.12925633788108826
+source_first_f0,signal,20,12, jest,0.12540005147457123
+source_first_f0,signal,20,13, klucz,0.13374118506908417
+source_first_f0,signal,20,14,?,0.12095126509666443
+source_first_f0,signal,20,15, Klucz,0.14449401199817657
+source_first_f0,signal,20,16, jest,0.18331153690814972
+source_first_f0,distractor,0,0,Klucz,0.0
+source_first_f0,distractor,0,1, jest,0.0
+source_first_f0,distractor,0,2, czerw,0.0
+source_first_f0,distractor,0,3,ony,0.0
+source_first_f0,distractor,0,4,.,0.0
+source_first_f0,distractor,0,5, Kub,0.0
+source_first_f0,distractor,0,6,ek,0.0
+source_first_f0,distractor,0,7, jest,0.0
+source_first_f0,distractor,0,8, ziel,0.8255845904350281
+source_first_f0,distractor,0,9,ony,1.1119458675384521
+source_first_f0,distractor,0,10,.,0.0
+source_first_f0,distractor,0,11, Jaki,0.0
+source_first_f0,distractor,0,12, jest,0.0
+source_first_f0,distractor,0,13, klucz,0.0
+source_first_f0,distractor,0,14,?,0.0
+source_first_f0,distractor,0,15, Klucz,0.0
+source_first_f0,distractor,0,16, jest,0.0
+source_first_f0,distractor,1,0,Klucz,0.0
+source_first_f0,distractor,1,1, jest,0.0
+source_first_f0,distractor,1,2, czerw,0.0
+source_first_f0,distractor,1,3,ony,0.0
+source_first_f0,distractor,1,4,.,0.0
+source_first_f0,distractor,1,5, Kub,0.0
+source_first_f0,distractor,1,6,ek,0.0
+source_first_f0,distractor,1,7, jest,0.0
+source_first_f0,distractor,1,8, ziel,0.3262012004852295
+source_first_f0,distractor,1,9,ony,0.19787181913852692
+source_first_f0,distractor,1,10,.,0.011991273611783981
+source_first_f0,distractor,1,11, Jaki,0.021283136680722237
+source_first_f0,distractor,1,12, jest,0.013882748782634735
+source_first_f0,distractor,1,13, klucz,0.01680033840239048
+source_first_f0,distractor,1,14,?,0.02036309242248535
+source_first_f0,distractor,1,15, Klucz,0.014382905326783657
+source_first_f0,distractor,1,16, jest,0.009546448476612568
+source_first_f0,distractor,2,0,Klucz,0.0
+source_first_f0,distractor,2,1, jest,0.0
+source_first_f0,distractor,2,2, czerw,0.0
+source_first_f0,distractor,2,3,ony,0.0
+source_first_f0,distractor,2,4,.,0.0
+source_first_f0,distractor,2,5, Kub,0.0
+source_first_f0,distractor,2,6,ek,0.0
+source_first_f0,distractor,2,7, jest,0.0
+source_first_f0,distractor,2,8, ziel,0.2868652045726776
+source_first_f0,distractor,2,9,ony,0.18611681461334229
+source_first_f0,distractor,2,10,.,0.014890845865011215
+source_first_f0,distractor,2,11, Jaki,0.01612022891640663
+source_first_f0,distractor,2,12, jest,0.01591206155717373
+source_first_f0,distractor,2,13, klucz,0.01520600076764822
+source_first_f0,distractor,2,14,?,0.028930123895406723
+source_first_f0,distractor,2,15, Klucz,0.010866262950003147
+source_first_f0,distractor,2,16, jest,0.012377407401800156
+source_first_f0,distractor,3,0,Klucz,0.0
+source_first_f0,distractor,3,1, jest,0.0
+source_first_f0,distractor,3,2, czerw,0.0
+source_first_f0,distractor,3,3,ony,0.0
+source_first_f0,distractor,3,4,.,0.0
+source_first_f0,distractor,3,5, Kub,0.0
+source_first_f0,distractor,3,6,ek,0.0
+source_first_f0,distractor,3,7, jest,0.0
+source_first_f0,distractor,3,8, ziel,0.30139559507369995
+source_first_f0,distractor,3,9,ony,0.21615642309188843
+source_first_f0,distractor,3,10,.,0.017302151769399643
+source_first_f0,distractor,3,11, Jaki,0.013576269149780273
+source_first_f0,distractor,3,12, jest,0.012535545974969864
+source_first_f0,distractor,3,13, klucz,0.013553936965763569
+source_first_f0,distractor,3,14,?,0.03023497946560383
+source_first_f0,distractor,3,15, Klucz,0.009720465168356895
+source_first_f0,distractor,3,16, jest,0.009223631583154202
+source_first_f0,distractor,4,0,Klucz,0.0
+source_first_f0,distractor,4,1, jest,0.0
+source_first_f0,distractor,4,2, czerw,0.0
+source_first_f0,distractor,4,3,ony,0.0
+source_first_f0,distractor,4,4,.,0.0
+source_first_f0,distractor,4,5, Kub,0.0
+source_first_f0,distractor,4,6,ek,0.0
+source_first_f0,distractor,4,7, jest,0.0
+source_first_f0,distractor,4,8, ziel,0.30642935633659363
+source_first_f0,distractor,4,9,ony,0.22761990129947662
+source_first_f0,distractor,4,10,.,0.017441757023334503
+source_first_f0,distractor,4,11, Jaki,0.01750902459025383
+source_first_f0,distractor,4,12, jest,0.013208948075771332
+source_first_f0,distractor,4,13, klucz,0.01670794002711773
+source_first_f0,distractor,4,14,?,0.02782147005200386
+source_first_f0,distractor,4,15, Klucz,0.013412253931164742
+source_first_f0,distractor,4,16, jest,0.009121482260525227
+source_first_f0,distractor,5,0,Klucz,0.0
+source_first_f0,distractor,5,1, jest,0.0
+source_first_f0,distractor,5,2, czerw,0.0
+source_first_f0,distractor,5,3,ony,0.0
+source_first_f0,distractor,5,4,.,0.0
+source_first_f0,distractor,5,5, Kub,0.0
+source_first_f0,distractor,5,6,ek,0.0
+source_first_f0,distractor,5,7, jest,0.0
+source_first_f0,distractor,5,8, ziel,0.2635496258735657
+source_first_f0,distractor,5,9,ony,0.20183295011520386
+source_first_f0,distractor,5,10,.,0.04078688099980354
+source_first_f0,distractor,5,11, Jaki,0.01792745478451252
+source_first_f0,distractor,5,12, jest,0.01436799019575119
+source_first_f0,distractor,5,13, klucz,0.017910737544298172
+source_first_f0,distractor,5,14,?,0.02375430427491665
+source_first_f0,distractor,5,15, Klucz,0.014327955432236195
+source_first_f0,distractor,5,16, jest,0.009235098958015442
+source_first_f0,distractor,6,0,Klucz,0.0
+source_first_f0,distractor,6,1, jest,0.0
+source_first_f0,distractor,6,2, czerw,0.0
+source_first_f0,distractor,6,3,ony,0.0
+source_first_f0,distractor,6,4,.,0.0
+source_first_f0,distractor,6,5, Kub,0.0
+source_first_f0,distractor,6,6,ek,0.0
+source_first_f0,distractor,6,7, jest,0.0
+source_first_f0,distractor,6,8, ziel,0.2575109899044037
+source_first_f0,distractor,6,9,ony,0.1970350593328476
+source_first_f0,distractor,6,10,.,0.040430568158626556
+source_first_f0,distractor,6,11, Jaki,0.02320149727165699
+source_first_f0,distractor,6,12, jest,0.021956095471978188
+source_first_f0,distractor,6,13, klucz,0.023859430104494095
+source_first_f0,distractor,6,14,?,0.02417929843068123
+source_first_f0,distractor,6,15, Klucz,0.017595868557691574
+source_first_f0,distractor,6,16, jest,0.011725015938282013
+source_first_f0,distractor,7,0,Klucz,0.0
+source_first_f0,distractor,7,1, jest,0.0
+source_first_f0,distractor,7,2, czerw,0.0
+source_first_f0,distractor,7,3,ony,0.0
+source_first_f0,distractor,7,4,.,0.0
+source_first_f0,distractor,7,5, Kub,0.0
+source_first_f0,distractor,7,6,ek,0.0
+source_first_f0,distractor,7,7, jest,0.0
+source_first_f0,distractor,7,8, ziel,0.24622568488121033
+source_first_f0,distractor,7,9,ony,0.18981170654296875
+source_first_f0,distractor,7,10,.,0.05069974064826965
+source_first_f0,distractor,7,11, Jaki,0.027253398671746254
+source_first_f0,distractor,7,12, jest,0.024238310754299164
+source_first_f0,distractor,7,13, klucz,0.027143126353621483
+source_first_f0,distractor,7,14,?,0.02237982675433159
+source_first_f0,distractor,7,15, Klucz,0.021402377635240555
+source_first_f0,distractor,7,16, jest,0.014609556645154953
+source_first_f0,distractor,8,0,Klucz,0.0
+source_first_f0,distractor,8,1, jest,0.0
+source_first_f0,distractor,8,2, czerw,0.0
+source_first_f0,distractor,8,3,ony,0.0
+source_first_f0,distractor,8,4,.,0.0
+source_first_f0,distractor,8,5, Kub,0.0
+source_first_f0,distractor,8,6,ek,0.0
+source_first_f0,distractor,8,7, jest,0.0
+source_first_f0,distractor,8,8, ziel,0.2559521794319153
+source_first_f0,distractor,8,9,ony,0.1936751902103424
+source_first_f0,distractor,8,10,.,0.06672067195177078
+source_first_f0,distractor,8,11, Jaki,0.03656312823295593
+source_first_f0,distractor,8,12, jest,0.0341574065387249
+source_first_f0,distractor,8,13, klucz,0.032201092690229416
+source_first_f0,distractor,8,14,?,0.026254231110215187
+source_first_f0,distractor,8,15, Klucz,0.02408243902027607
+source_first_f0,distractor,8,16, jest,0.024873483926057816
+source_first_f0,distractor,9,0,Klucz,0.0
+source_first_f0,distractor,9,1, jest,0.0
+source_first_f0,distractor,9,2, czerw,0.0
+source_first_f0,distractor,9,3,ony,0.0
+source_first_f0,distractor,9,4,.,0.0
+source_first_f0,distractor,9,5, Kub,0.0
+source_first_f0,distractor,9,6,ek,0.0
+source_first_f0,distractor,9,7, jest,0.0
+source_first_f0,distractor,9,8, ziel,0.3144940733909607
+source_first_f0,distractor,9,9,ony,0.21261441707611084
+source_first_f0,distractor,9,10,.,0.07391590625047684
+source_first_f0,distractor,9,11, Jaki,0.04196875914931297
+source_first_f0,distractor,9,12, jest,0.040075089782476425
+source_first_f0,distractor,9,13, klucz,0.03728022426366806
+source_first_f0,distractor,9,14,?,0.032169159501791
+source_first_f0,distractor,9,15, Klucz,0.028713291510939598
+source_first_f0,distractor,9,16, jest,0.031078239902853966
+source_first_f0,distractor,10,0,Klucz,0.0
+source_first_f0,distractor,10,1, jest,0.0
+source_first_f0,distractor,10,2, czerw,0.0
+source_first_f0,distractor,10,3,ony,0.0
+source_first_f0,distractor,10,4,.,0.0
+source_first_f0,distractor,10,5, Kub,0.0
+source_first_f0,distractor,10,6,ek,0.0
+source_first_f0,distractor,10,7, jest,0.0
+source_first_f0,distractor,10,8, ziel,0.44717106223106384
+source_first_f0,distractor,10,9,ony,0.24479834735393524
+source_first_f0,distractor,10,10,.,0.09103281795978546
+source_first_f0,distractor,10,11, Jaki,0.04958311840891838
+source_first_f0,distractor,10,12, jest,0.0439077764749527
+source_first_f0,distractor,10,13, klucz,0.040543220937252045
+source_first_f0,distractor,10,14,?,0.03673398122191429
+source_first_f0,distractor,10,15, Klucz,0.033609870821237564
+source_first_f0,distractor,10,16, jest,0.03449227288365364
+source_first_f0,distractor,11,0,Klucz,0.0
+source_first_f0,distractor,11,1, jest,0.0
+source_first_f0,distractor,11,2, czerw,0.0
+source_first_f0,distractor,11,3,ony,0.0
+source_first_f0,distractor,11,4,.,0.0
+source_first_f0,distractor,11,5, Kub,0.0
+source_first_f0,distractor,11,6,ek,0.0
+source_first_f0,distractor,11,7, jest,0.0
+source_first_f0,distractor,11,8, ziel,0.5124723315238953
+source_first_f0,distractor,11,9,ony,0.23714934289455414
+source_first_f0,distractor,11,10,.,0.09396141767501831
+source_first_f0,distractor,11,11, Jaki,0.0636853277683258
+source_first_f0,distractor,11,12, jest,0.05814875289797783
+source_first_f0,distractor,11,13, klucz,0.046745579689741135
+source_first_f0,distractor,11,14,?,0.04409469664096832
+source_first_f0,distractor,11,15, Klucz,0.03708508238196373
+source_first_f0,distractor,11,16, jest,0.03950207680463791
+source_first_f0,distractor,12,0,Klucz,0.0
+source_first_f0,distractor,12,1, jest,0.0
+source_first_f0,distractor,12,2, czerw,0.0
+source_first_f0,distractor,12,3,ony,0.0
+source_first_f0,distractor,12,4,.,0.0
+source_first_f0,distractor,12,5, Kub,0.0
+source_first_f0,distractor,12,6,ek,0.0
+source_first_f0,distractor,12,7, jest,0.0
+source_first_f0,distractor,12,8, ziel,0.5903882384300232
+source_first_f0,distractor,12,9,ony,0.24369388818740845
+source_first_f0,distractor,12,10,.,0.08843829482793808
+source_first_f0,distractor,12,11, Jaki,0.06876597553491592
+source_first_f0,distractor,12,12, jest,0.06749925762414932
+source_first_f0,distractor,12,13, klucz,0.05415097624063492
+source_first_f0,distractor,12,14,?,0.0457100085914135
+source_first_f0,distractor,12,15, Klucz,0.042912598699331284
+source_first_f0,distractor,12,16, jest,0.04511157050728798
+source_first_f0,distractor,13,0,Klucz,0.0
+source_first_f0,distractor,13,1, jest,0.0
+source_first_f0,distractor,13,2, czerw,0.0
+source_first_f0,distractor,13,3,ony,0.0
+source_first_f0,distractor,13,4,.,0.0
+source_first_f0,distractor,13,5, Kub,0.0
+source_first_f0,distractor,13,6,ek,0.0
+source_first_f0,distractor,13,7, jest,0.0
+source_first_f0,distractor,13,8, ziel,0.6208398342132568
+source_first_f0,distractor,13,9,ony,0.23534144461154938
+source_first_f0,distractor,13,10,.,0.07581744343042374
+source_first_f0,distractor,13,11, Jaki,0.06401287764310837
+source_first_f0,distractor,13,12, jest,0.06751350313425064
+source_first_f0,distractor,13,13, klucz,0.05308550223708153
+source_first_f0,distractor,13,14,?,0.0437016524374485
+source_first_f0,distractor,13,15, Klucz,0.04216554015874863
+source_first_f0,distractor,13,16, jest,0.04948951303958893
+source_first_f0,distractor,14,0,Klucz,0.0
+source_first_f0,distractor,14,1, jest,0.0
+source_first_f0,distractor,14,2, czerw,0.0
+source_first_f0,distractor,14,3,ony,0.0
+source_first_f0,distractor,14,4,.,0.0
+source_first_f0,distractor,14,5, Kub,0.0
+source_first_f0,distractor,14,6,ek,0.0
+source_first_f0,distractor,14,7, jest,0.0
+source_first_f0,distractor,14,8, ziel,0.6453880071640015
+source_first_f0,distractor,14,9,ony,0.22940823435783386
+source_first_f0,distractor,14,10,.,0.07328606396913528
+source_first_f0,distractor,14,11, Jaki,0.06227394938468933
+source_first_f0,distractor,14,12, jest,0.06832972168922424
+source_first_f0,distractor,14,13, klucz,0.05254117771983147
+source_first_f0,distractor,14,14,?,0.046978387981653214
+source_first_f0,distractor,14,15, Klucz,0.04541698470711708
+source_first_f0,distractor,14,16, jest,0.05027873069047928
+source_first_f0,distractor,15,0,Klucz,0.0
+source_first_f0,distractor,15,1, jest,0.0
+source_first_f0,distractor,15,2, czerw,0.0
+source_first_f0,distractor,15,3,ony,0.0
+source_first_f0,distractor,15,4,.,0.0
+source_first_f0,distractor,15,5, Kub,0.0
+source_first_f0,distractor,15,6,ek,0.0
+source_first_f0,distractor,15,7, jest,0.0
+source_first_f0,distractor,15,8, ziel,0.7000629901885986
+source_first_f0,distractor,15,9,ony,0.2137908935546875
+source_first_f0,distractor,15,10,.,0.07330280542373657
+source_first_f0,distractor,15,11, Jaki,0.06421979516744614
+source_first_f0,distractor,15,12, jest,0.06854409724473953
+source_first_f0,distractor,15,13, klucz,0.05297982692718506
+source_first_f0,distractor,15,14,?,0.061256468296051025
+source_first_f0,distractor,15,15, Klucz,0.05498094484210014
+source_first_f0,distractor,15,16, jest,0.055881429463624954
+source_first_f0,distractor,16,0,Klucz,0.0
+source_first_f0,distractor,16,1, jest,0.0
+source_first_f0,distractor,16,2, czerw,0.0
+source_first_f0,distractor,16,3,ony,0.0
+source_first_f0,distractor,16,4,.,0.0
+source_first_f0,distractor,16,5, Kub,0.0
+source_first_f0,distractor,16,6,ek,0.0
+source_first_f0,distractor,16,7, jest,0.0
+source_first_f0,distractor,16,8, ziel,0.8043375611305237
+source_first_f0,distractor,16,9,ony,0.20989134907722473
+source_first_f0,distractor,16,10,.,0.07161286473274231
+source_first_f0,distractor,16,11, Jaki,0.06631997972726822
+source_first_f0,distractor,16,12, jest,0.06853377819061279
+source_first_f0,distractor,16,13, klucz,0.052916668355464935
+source_first_f0,distractor,16,14,?,0.06498252600431442
+source_first_f0,distractor,16,15, Klucz,0.055469755083322525
+source_first_f0,distractor,16,16, jest,0.05271092802286148
+source_first_f0,distractor,17,0,Klucz,0.0
+source_first_f0,distractor,17,1, jest,0.0
+source_first_f0,distractor,17,2, czerw,0.0
+source_first_f0,distractor,17,3,ony,0.0
+source_first_f0,distractor,17,4,.,0.0
+source_first_f0,distractor,17,5, Kub,0.0
+source_first_f0,distractor,17,6,ek,0.0
+source_first_f0,distractor,17,7, jest,0.0
+source_first_f0,distractor,17,8, ziel,0.7753065824508667
+source_first_f0,distractor,17,9,ony,0.1796034425497055
+source_first_f0,distractor,17,10,.,0.07029298692941666
+source_first_f0,distractor,17,11, Jaki,0.06416019052267075
+source_first_f0,distractor,17,12, jest,0.0688331350684166
+source_first_f0,distractor,17,13, klucz,0.04727797210216522
+source_first_f0,distractor,17,14,?,0.06255414336919785
+source_first_f0,distractor,17,15, Klucz,0.05555745214223862
+source_first_f0,distractor,17,16, jest,0.05275006964802742
+source_first_f0,distractor,18,0,Klucz,0.0
+source_first_f0,distractor,18,1, jest,0.0
+source_first_f0,distractor,18,2, czerw,0.0
+source_first_f0,distractor,18,3,ony,0.0
+source_first_f0,distractor,18,4,.,0.0
+source_first_f0,distractor,18,5, Kub,0.0
+source_first_f0,distractor,18,6,ek,0.0
+source_first_f0,distractor,18,7, jest,0.0
+source_first_f0,distractor,18,8, ziel,0.8260491490364075
+source_first_f0,distractor,18,9,ony,0.1574394702911377
+source_first_f0,distractor,18,10,.,0.06794183701276779
+source_first_f0,distractor,18,11, Jaki,0.0689208060503006
+source_first_f0,distractor,18,12, jest,0.07021371275186539
+source_first_f0,distractor,18,13, klucz,0.04431300610303879
+source_first_f0,distractor,18,14,?,0.0646989569067955
+source_first_f0,distractor,18,15, Klucz,0.0547831654548645
+source_first_f0,distractor,18,16, jest,0.053884148597717285
+source_first_f0,distractor,19,0,Klucz,0.0
+source_first_f0,distractor,19,1, jest,0.0
+source_first_f0,distractor,19,2, czerw,0.0
+source_first_f0,distractor,19,3,ony,0.0
+source_first_f0,distractor,19,4,.,0.0
+source_first_f0,distractor,19,5, Kub,0.0
+source_first_f0,distractor,19,6,ek,0.0
+source_first_f0,distractor,19,7, jest,0.0
+source_first_f0,distractor,19,8, ziel,0.8982518911361694
+source_first_f0,distractor,19,9,ony,0.15213783085346222
+source_first_f0,distractor,19,10,.,0.07352108508348465
+source_first_f0,distractor,19,11, Jaki,0.08857335150241852
+source_first_f0,distractor,19,12, jest,0.08878911286592484
+source_first_f0,distractor,19,13, klucz,0.05483897775411606
+source_first_f0,distractor,19,14,?,0.07690540701150894
+source_first_f0,distractor,19,15, Klucz,0.0676480084657669
+source_first_f0,distractor,19,16, jest,0.0716233178973198
+source_first_f0,distractor,20,0,Klucz,0.0
+source_first_f0,distractor,20,1, jest,0.0
+source_first_f0,distractor,20,2, czerw,0.0
+source_first_f0,distractor,20,3,ony,0.0
+source_first_f0,distractor,20,4,.,0.0
+source_first_f0,distractor,20,5, Kub,0.0
+source_first_f0,distractor,20,6,ek,0.0
+source_first_f0,distractor,20,7, jest,0.0
+source_first_f0,distractor,20,8, ziel,1.0496422052383423
+source_first_f0,distractor,20,9,ony,0.2444915771484375
+source_first_f0,distractor,20,10,.,0.10263977944850922
+source_first_f0,distractor,20,11, Jaki,0.13411282002925873
+source_first_f0,distractor,20,12, jest,0.13313032686710358
+source_first_f0,distractor,20,13, klucz,0.09408610314130783
+source_first_f0,distractor,20,14,?,0.10791823267936707
+source_first_f0,distractor,20,15, Klucz,0.10977103561162949
+source_first_f0,distractor,20,16, jest,0.1164122000336647
+source_last_f0,signal,0,0,K,0.0
+source_last_f0,signal,0,1,ub,0.0
+source_last_f0,signal,0,2,ek,0.0
+source_last_f0,signal,0,3, jest,0.0
+source_last_f0,signal,0,4, ziel,0.0
+source_last_f0,signal,0,5,ony,0.0
+source_last_f0,signal,0,6,.,0.0
+source_last_f0,signal,0,7, Klucz,0.0
+source_last_f0,signal,0,8, jest,0.0
+source_last_f0,signal,0,9, czerw,0.7890520691871643
+source_last_f0,signal,0,10,ony,1.1119458675384521
+source_last_f0,signal,0,11,.,0.0
+source_last_f0,signal,0,12, Jaki,0.0
+source_last_f0,signal,0,13, jest,0.0
+source_last_f0,signal,0,14, klucz,0.0
+source_last_f0,signal,0,15,?,0.0
+source_last_f0,signal,0,16, Klucz,0.0
+source_last_f0,signal,0,17, jest,0.0
+source_last_f0,signal,1,0,K,0.0
+source_last_f0,signal,1,1,ub,0.0
+source_last_f0,signal,1,2,ek,0.0
+source_last_f0,signal,1,3, jest,0.0
+source_last_f0,signal,1,4, ziel,0.0
+source_last_f0,signal,1,5,ony,0.0
+source_last_f0,signal,1,6,.,0.0
+source_last_f0,signal,1,7, Klucz,0.0
+source_last_f0,signal,1,8, jest,0.0
+source_last_f0,signal,1,9, czerw,0.2857479751110077
+source_last_f0,signal,1,10,ony,0.19165457785129547
+source_last_f0,signal,1,11,.,0.013074710965156555
+source_last_f0,signal,1,12, Jaki,0.01793782040476799
+source_last_f0,signal,1,13, jest,0.012762444093823433
+source_last_f0,signal,1,14, klucz,0.0162834320217371
+source_last_f0,signal,1,15,?,0.015025400556623936
+source_last_f0,signal,1,16, Klucz,0.013482681475579739
+source_last_f0,signal,1,17, jest,0.008703133091330528
+source_last_f0,signal,2,0,K,0.0
+source_last_f0,signal,2,1,ub,0.0
+source_last_f0,signal,2,2,ek,0.0
+source_last_f0,signal,2,3, jest,0.0
+source_last_f0,signal,2,4, ziel,0.0
+source_last_f0,signal,2,5,ony,0.0
+source_last_f0,signal,2,6,.,0.0
+source_last_f0,signal,2,7, Klucz,0.0
+source_last_f0,signal,2,8, jest,0.0
+source_last_f0,signal,2,9, czerw,0.2716510593891144
+source_last_f0,signal,2,10,ony,0.19416940212249756
+source_last_f0,signal,2,11,.,0.013970954343676567
+source_last_f0,signal,2,12, Jaki,0.013252484612166882
+source_last_f0,signal,2,13, jest,0.01400021929293871
+source_last_f0,signal,2,14, klucz,0.015284649096429348
+source_last_f0,signal,2,15,?,0.024852460250258446
+source_last_f0,signal,2,16, Klucz,0.009752658195793629
+source_last_f0,signal,2,17, jest,0.011821680702269077
+source_last_f0,signal,3,0,K,0.0
+source_last_f0,signal,3,1,ub,0.0
+source_last_f0,signal,3,2,ek,0.0
+source_last_f0,signal,3,3, jest,0.0
+source_last_f0,signal,3,4, ziel,0.0
+source_last_f0,signal,3,5,ony,0.0
+source_last_f0,signal,3,6,.,0.0
+source_last_f0,signal,3,7, Klucz,0.0
+source_last_f0,signal,3,8, jest,0.0
+source_last_f0,signal,3,9, czerw,0.24544934928417206
+source_last_f0,signal,3,10,ony,0.2253645658493042
+source_last_f0,signal,3,11,.,0.01643502712249756
+source_last_f0,signal,3,12, Jaki,0.013353548012673855
+source_last_f0,signal,3,13, jest,0.010462920181453228
+source_last_f0,signal,3,14, klucz,0.01255141943693161
+source_last_f0,signal,3,15,?,0.023648757487535477
+source_last_f0,signal,3,16, Klucz,0.009162606671452522
+source_last_f0,signal,3,17, jest,0.009679571725428104
+source_last_f0,signal,4,0,K,0.0
+source_last_f0,signal,4,1,ub,0.0
+source_last_f0,signal,4,2,ek,0.0
+source_last_f0,signal,4,3, jest,0.0
+source_last_f0,signal,4,4, ziel,0.0
+source_last_f0,signal,4,5,ony,0.0
+source_last_f0,signal,4,6,.,0.0
+source_last_f0,signal,4,7, Klucz,0.0
+source_last_f0,signal,4,8, jest,0.0
+source_last_f0,signal,4,9, czerw,0.25159668922424316
+source_last_f0,signal,4,10,ony,0.22912253439426422
+source_last_f0,signal,4,11,.,0.01715828664600849
+source_last_f0,signal,4,12, Jaki,0.019112002104520798
+source_last_f0,signal,4,13, jest,0.014227869920432568
+source_last_f0,signal,4,14, klucz,0.016534987837076187
+source_last_f0,signal,4,15,?,0.020784584805369377
+source_last_f0,signal,4,16, Klucz,0.01341806910932064
+source_last_f0,signal,4,17, jest,0.00997441727668047
+source_last_f0,signal,5,0,K,0.0
+source_last_f0,signal,5,1,ub,0.0
+source_last_f0,signal,5,2,ek,0.0
+source_last_f0,signal,5,3, jest,0.0
+source_last_f0,signal,5,4, ziel,0.0
+source_last_f0,signal,5,5,ony,0.0
+source_last_f0,signal,5,6,.,0.0
+source_last_f0,signal,5,7, Klucz,0.0
+source_last_f0,signal,5,8, jest,0.0
+source_last_f0,signal,5,9, czerw,0.22955501079559326
+source_last_f0,signal,5,10,ony,0.20423206686973572
+source_last_f0,signal,5,11,.,0.052553579211235046
+source_last_f0,signal,5,12, Jaki,0.021174060180783272
+source_last_f0,signal,5,13, jest,0.016663605347275734
+source_last_f0,signal,5,14, klucz,0.018935345113277435
+source_last_f0,signal,5,15,?,0.020717084407806396
+source_last_f0,signal,5,16, Klucz,0.014957217499613762
+source_last_f0,signal,5,17, jest,0.01064045075327158
+source_last_f0,signal,6,0,K,0.0
+source_last_f0,signal,6,1,ub,0.0
+source_last_f0,signal,6,2,ek,0.0
+source_last_f0,signal,6,3, jest,0.0
+source_last_f0,signal,6,4, ziel,0.0
+source_last_f0,signal,6,5,ony,0.0
+source_last_f0,signal,6,6,.,0.0
+source_last_f0,signal,6,7, Klucz,0.0
+source_last_f0,signal,6,8, jest,0.0
+source_last_f0,signal,6,9, czerw,0.2364245057106018
+source_last_f0,signal,6,10,ony,0.18537379801273346
+source_last_f0,signal,6,11,.,0.048956725746393204
+source_last_f0,signal,6,12, Jaki,0.02200925163924694
+source_last_f0,signal,6,13, jest,0.020999955013394356
+source_last_f0,signal,6,14, klucz,0.023254692554473877
+source_last_f0,signal,6,15,?,0.02445649541914463
+source_last_f0,signal,6,16, Klucz,0.016485102474689484
+source_last_f0,signal,6,17, jest,0.019213082268834114
+source_last_f0,signal,7,0,K,0.0
+source_last_f0,signal,7,1,ub,0.0
+source_last_f0,signal,7,2,ek,0.0
+source_last_f0,signal,7,3, jest,0.0
+source_last_f0,signal,7,4, ziel,0.0
+source_last_f0,signal,7,5,ony,0.0
+source_last_f0,signal,7,6,.,0.0
+source_last_f0,signal,7,7, Klucz,0.0
+source_last_f0,signal,7,8, jest,0.0
+source_last_f0,signal,7,9, czerw,0.23677146434783936
+source_last_f0,signal,7,10,ony,0.18162581324577332
+source_last_f0,signal,7,11,.,0.05227039009332657
+source_last_f0,signal,7,12, Jaki,0.026058120653033257
+source_last_f0,signal,7,13, jest,0.023033764213323593
+source_last_f0,signal,7,14, klucz,0.026845650747418404
+source_last_f0,signal,7,15,?,0.02091231942176819
+source_last_f0,signal,7,16, Klucz,0.017871616408228874
+source_last_f0,signal,7,17, jest,0.02511410228908062
+source_last_f0,signal,8,0,K,0.0
+source_last_f0,signal,8,1,ub,0.0
+source_last_f0,signal,8,2,ek,0.0
+source_last_f0,signal,8,3, jest,0.0
+source_last_f0,signal,8,4, ziel,0.0
+source_last_f0,signal,8,5,ony,0.0
+source_last_f0,signal,8,6,.,0.0
+source_last_f0,signal,8,7, Klucz,0.0
+source_last_f0,signal,8,8, jest,0.0
+source_last_f0,signal,8,9, czerw,0.2431730329990387
+source_last_f0,signal,8,10,ony,0.18235841393470764
+source_last_f0,signal,8,11,.,0.062135156244039536
+source_last_f0,signal,8,12, Jaki,0.035691920667886734
+source_last_f0,signal,8,13, jest,0.03130596876144409
+source_last_f0,signal,8,14, klucz,0.032982729375362396
+source_last_f0,signal,8,15,?,0.024601202458143234
+source_last_f0,signal,8,16, Klucz,0.023570558056235313
+source_last_f0,signal,8,17, jest,0.033065877854824066
+source_last_f0,signal,9,0,K,0.0
+source_last_f0,signal,9,1,ub,0.0
+source_last_f0,signal,9,2,ek,0.0
+source_last_f0,signal,9,3, jest,0.0
+source_last_f0,signal,9,4, ziel,0.0
+source_last_f0,signal,9,5,ony,0.0
+source_last_f0,signal,9,6,.,0.0
+source_last_f0,signal,9,7, Klucz,0.0
+source_last_f0,signal,9,8, jest,0.0
+source_last_f0,signal,9,9, czerw,0.2959142327308655
+source_last_f0,signal,9,10,ony,0.1947392076253891
+source_last_f0,signal,9,11,.,0.07566604763269424
+source_last_f0,signal,9,12, Jaki,0.04428808018565178
+source_last_f0,signal,9,13, jest,0.0406203530728817
+source_last_f0,signal,9,14, klucz,0.04448375105857849
+source_last_f0,signal,9,15,?,0.03682201728224754
+source_last_f0,signal,9,16, Klucz,0.02960464358329773
+source_last_f0,signal,9,17, jest,0.07237260043621063
+source_last_f0,signal,10,0,K,0.0
+source_last_f0,signal,10,1,ub,0.0
+source_last_f0,signal,10,2,ek,0.0
+source_last_f0,signal,10,3, jest,0.0
+source_last_f0,signal,10,4, ziel,0.0
+source_last_f0,signal,10,5,ony,0.0
+source_last_f0,signal,10,6,.,0.0
+source_last_f0,signal,10,7, Klucz,0.0
+source_last_f0,signal,10,8, jest,0.0
+source_last_f0,signal,10,9, czerw,0.42347297072410583
+source_last_f0,signal,10,10,ony,0.21610920131206512
+source_last_f0,signal,10,11,.,0.08974874764680862
+source_last_f0,signal,10,12, Jaki,0.0555175356566906
+source_last_f0,signal,10,13, jest,0.04784643277525902
+source_last_f0,signal,10,14, klucz,0.057117752730846405
+source_last_f0,signal,10,15,?,0.046715036034584045
+source_last_f0,signal,10,16, Klucz,0.03676161542534828
+source_last_f0,signal,10,17, jest,0.07498309761285782
+source_last_f0,signal,11,0,K,0.0
+source_last_f0,signal,11,1,ub,0.0
+source_last_f0,signal,11,2,ek,0.0
+source_last_f0,signal,11,3, jest,0.0
+source_last_f0,signal,11,4, ziel,0.0
+source_last_f0,signal,11,5,ony,0.0
+source_last_f0,signal,11,6,.,0.0
+source_last_f0,signal,11,7, Klucz,0.0
+source_last_f0,signal,11,8, jest,0.0
+source_last_f0,signal,11,9, czerw,0.5100200772285461
+source_last_f0,signal,11,10,ony,0.22360187768936157
+source_last_f0,signal,11,11,.,0.09043992310762405
+source_last_f0,signal,11,12, Jaki,0.06245929375290871
+source_last_f0,signal,11,13, jest,0.0538560226559639
+source_last_f0,signal,11,14, klucz,0.060807857662439346
+source_last_f0,signal,11,15,?,0.05532247945666313
+source_last_f0,signal,11,16, Klucz,0.04542679712176323
+source_last_f0,signal,11,17, jest,0.07913333922624588
+source_last_f0,signal,12,0,K,0.0
+source_last_f0,signal,12,1,ub,0.0
+source_last_f0,signal,12,2,ek,0.0
+source_last_f0,signal,12,3, jest,0.0
+source_last_f0,signal,12,4, ziel,0.0
+source_last_f0,signal,12,5,ony,0.0
+source_last_f0,signal,12,6,.,0.0
+source_last_f0,signal,12,7, Klucz,0.0
+source_last_f0,signal,12,8, jest,0.0
+source_last_f0,signal,12,9, czerw,0.5910550355911255
+source_last_f0,signal,12,10,ony,0.2431458830833435
+source_last_f0,signal,12,11,.,0.08050591498613358
+source_last_f0,signal,12,12, Jaki,0.06776265799999237
+source_last_f0,signal,12,13, jest,0.060621947050094604
+source_last_f0,signal,12,14, klucz,0.06468212604522705
+source_last_f0,signal,12,15,?,0.05443459749221802
+source_last_f0,signal,12,16, Klucz,0.04993929713964462
+source_last_f0,signal,12,17, jest,0.07533847540616989
+source_last_f0,signal,13,0,K,0.0
+source_last_f0,signal,13,1,ub,0.0
+source_last_f0,signal,13,2,ek,0.0
+source_last_f0,signal,13,3, jest,0.0
+source_last_f0,signal,13,4, ziel,0.0
+source_last_f0,signal,13,5,ony,0.0
+source_last_f0,signal,13,6,.,0.0
+source_last_f0,signal,13,7, Klucz,0.0
+source_last_f0,signal,13,8, jest,0.0
+source_last_f0,signal,13,9, czerw,0.6136541962623596
+source_last_f0,signal,13,10,ony,0.21073554456233978
+source_last_f0,signal,13,11,.,0.07156268507242203
+source_last_f0,signal,13,12, Jaki,0.0683002695441246
+source_last_f0,signal,13,13, jest,0.06396058946847916
+source_last_f0,signal,13,14, klucz,0.062112338840961456
+source_last_f0,signal,13,15,?,0.0559980571269989
+source_last_f0,signal,13,16, Klucz,0.05015995725989342
+source_last_f0,signal,13,17, jest,0.07048668712377548
+source_last_f0,signal,14,0,K,0.0
+source_last_f0,signal,14,1,ub,0.0
+source_last_f0,signal,14,2,ek,0.0
+source_last_f0,signal,14,3, jest,0.0
+source_last_f0,signal,14,4, ziel,0.0
+source_last_f0,signal,14,5,ony,0.0
+source_last_f0,signal,14,6,.,0.0
+source_last_f0,signal,14,7, Klucz,0.0
+source_last_f0,signal,14,8, jest,0.0
+source_last_f0,signal,14,9, czerw,0.6751008033752441
+source_last_f0,signal,14,10,ony,0.1909070909023285
+source_last_f0,signal,14,11,.,0.0663721114397049
+source_last_f0,signal,14,12, Jaki,0.06416994333267212
+source_last_f0,signal,14,13, jest,0.06215113401412964
+source_last_f0,signal,14,14, klucz,0.05995198339223862
+source_last_f0,signal,14,15,?,0.05444483831524849
+source_last_f0,signal,14,16, Klucz,0.05330951511859894
+source_last_f0,signal,14,17, jest,0.0672152042388916
+source_last_f0,signal,15,0,K,0.0
+source_last_f0,signal,15,1,ub,0.0
+source_last_f0,signal,15,2,ek,0.0
+source_last_f0,signal,15,3, jest,0.0
+source_last_f0,signal,15,4, ziel,0.0
+source_last_f0,signal,15,5,ony,0.0
+source_last_f0,signal,15,6,.,0.0
+source_last_f0,signal,15,7, Klucz,0.0
+source_last_f0,signal,15,8, jest,0.0
+source_last_f0,signal,15,9, czerw,0.7126911878585815
+source_last_f0,signal,15,10,ony,0.15847843885421753
+source_last_f0,signal,15,11,.,0.06493337452411652
+source_last_f0,signal,15,12, Jaki,0.06396777927875519
+source_last_f0,signal,15,13, jest,0.06285330653190613
+source_last_f0,signal,15,14, klucz,0.0630798414349556
+source_last_f0,signal,15,15,?,0.07403147220611572
+source_last_f0,signal,15,16, Klucz,0.0821889340877533
+source_last_f0,signal,15,17, jest,0.10884544998407364
+source_last_f0,signal,16,0,K,0.0
+source_last_f0,signal,16,1,ub,0.0
+source_last_f0,signal,16,2,ek,0.0
+source_last_f0,signal,16,3, jest,0.0
+source_last_f0,signal,16,4, ziel,0.0
+source_last_f0,signal,16,5,ony,0.0
+source_last_f0,signal,16,6,.,0.0
+source_last_f0,signal,16,7, Klucz,0.0
+source_last_f0,signal,16,8, jest,0.0
+source_last_f0,signal,16,9, czerw,0.8567755222320557
+source_last_f0,signal,16,10,ony,0.14209605753421783
+source_last_f0,signal,16,11,.,0.061311397701501846
+source_last_f0,signal,16,12, Jaki,0.06189974024891853
+source_last_f0,signal,16,13, jest,0.0612601563334465
+source_last_f0,signal,16,14, klucz,0.05906056612730026
+source_last_f0,signal,16,15,?,0.06983259320259094
+source_last_f0,signal,16,16, Klucz,0.0737655833363533
+source_last_f0,signal,16,17, jest,0.09746399521827698
+source_last_f0,signal,17,0,K,0.0
+source_last_f0,signal,17,1,ub,0.0
+source_last_f0,signal,17,2,ek,0.0
+source_last_f0,signal,17,3, jest,0.0
+source_last_f0,signal,17,4, ziel,0.0
+source_last_f0,signal,17,5,ony,0.0
+source_last_f0,signal,17,6,.,0.0
+source_last_f0,signal,17,7, Klucz,0.0
+source_last_f0,signal,17,8, jest,0.0
+source_last_f0,signal,17,9, czerw,0.8138743042945862
+source_last_f0,signal,17,10,ony,0.11951800435781479
+source_last_f0,signal,17,11,.,0.05820796638727188
+source_last_f0,signal,17,12, Jaki,0.057817354798316956
+source_last_f0,signal,17,13, jest,0.059156499803066254
+source_last_f0,signal,17,14, klucz,0.052476488053798676
+source_last_f0,signal,17,15,?,0.06664823740720749
+source_last_f0,signal,17,16, Klucz,0.066318579018116
+source_last_f0,signal,17,17, jest,0.08718613535165787
+source_last_f0,signal,18,0,K,0.0
+source_last_f0,signal,18,1,ub,0.0
+source_last_f0,signal,18,2,ek,0.0
+source_last_f0,signal,18,3, jest,0.0
+source_last_f0,signal,18,4, ziel,0.0
+source_last_f0,signal,18,5,ony,0.0
+source_last_f0,signal,18,6,.,0.0
+source_last_f0,signal,18,7, Klucz,0.0
+source_last_f0,signal,18,8, jest,0.0
+source_last_f0,signal,18,9, czerw,0.8485171794891357
+source_last_f0,signal,18,10,ony,0.10572034120559692
+source_last_f0,signal,18,11,.,0.05379606410861015
+source_last_f0,signal,18,12, Jaki,0.05832397937774658
+source_last_f0,signal,18,13, jest,0.05881423503160477
+source_last_f0,signal,18,14, klucz,0.050234604626894
+source_last_f0,signal,18,15,?,0.07086346298456192
+source_last_f0,signal,18,16, Klucz,0.06621459126472473
+source_last_f0,signal,18,17, jest,0.08358706533908844
+source_last_f0,signal,19,0,K,0.0
+source_last_f0,signal,19,1,ub,0.0
+source_last_f0,signal,19,2,ek,0.0
+source_last_f0,signal,19,3, jest,0.0
+source_last_f0,signal,19,4, ziel,0.0
+source_last_f0,signal,19,5,ony,0.0
+source_last_f0,signal,19,6,.,0.0
+source_last_f0,signal,19,7, Klucz,0.0
+source_last_f0,signal,19,8, jest,0.0
+source_last_f0,signal,19,9, czerw,0.8993098735809326
+source_last_f0,signal,19,10,ony,0.10365232080221176
+source_last_f0,signal,19,11,.,0.06128089874982834
+source_last_f0,signal,19,12, Jaki,0.07551677525043488
+source_last_f0,signal,19,13, jest,0.07775759696960449
+source_last_f0,signal,19,14, klucz,0.06217407435178757
+source_last_f0,signal,19,15,?,0.08559957146644592
+source_last_f0,signal,19,16, Klucz,0.07860288769006729
+source_last_f0,signal,19,17, jest,0.09157028049230576
+source_last_f0,signal,20,0,K,0.0
+source_last_f0,signal,20,1,ub,0.0
+source_last_f0,signal,20,2,ek,0.0
+source_last_f0,signal,20,3, jest,0.0
+source_last_f0,signal,20,4, ziel,0.0
+source_last_f0,signal,20,5,ony,0.0
+source_last_f0,signal,20,6,.,0.0
+source_last_f0,signal,20,7, Klucz,0.0
+source_last_f0,signal,20,8, jest,0.0
+source_last_f0,signal,20,9, czerw,0.9936009645462036
+source_last_f0,signal,20,10,ony,0.15876109898090363
+source_last_f0,signal,20,11,.,0.0903463214635849
+source_last_f0,signal,20,12, Jaki,0.10948216170072556
+source_last_f0,signal,20,13, jest,0.11608944833278656
+source_last_f0,signal,20,14, klucz,0.10704928636550903
+source_last_f0,signal,20,15,?,0.12100142985582352
+source_last_f0,signal,20,16, Klucz,0.11887627840042114
+source_last_f0,signal,20,17, jest,0.13658961653709412
+source_last_f0,distractor,0,0,K,0.0
+source_last_f0,distractor,0,1,ub,0.0
+source_last_f0,distractor,0,2,ek,0.0
+source_last_f0,distractor,0,3, jest,0.0
+source_last_f0,distractor,0,4, ziel,0.8255845904350281
+source_last_f0,distractor,0,5,ony,1.1119458675384521
+source_last_f0,distractor,0,6,.,0.0
+source_last_f0,distractor,0,7, Klucz,0.0
+source_last_f0,distractor,0,8, jest,0.0
+source_last_f0,distractor,0,9, czerw,0.0
+source_last_f0,distractor,0,10,ony,0.0
+source_last_f0,distractor,0,11,.,0.0
+source_last_f0,distractor,0,12, Jaki,0.0
+source_last_f0,distractor,0,13, jest,0.0
+source_last_f0,distractor,0,14, klucz,0.0
+source_last_f0,distractor,0,15,?,0.0
+source_last_f0,distractor,0,16, Klucz,0.0
+source_last_f0,distractor,0,17, jest,0.0
+source_last_f0,distractor,1,0,K,0.0
+source_last_f0,distractor,1,1,ub,0.0
+source_last_f0,distractor,1,2,ek,0.0
+source_last_f0,distractor,1,3, jest,0.0
+source_last_f0,distractor,1,4, ziel,0.33311811089515686
+source_last_f0,distractor,1,5,ony,0.20031587779521942
+source_last_f0,distractor,1,6,.,0.018153108656406403
+source_last_f0,distractor,1,7, Klucz,0.03203082084655762
+source_last_f0,distractor,1,8, jest,0.017667734995484352
+source_last_f0,distractor,1,9, czerw,0.023376159369945526
+source_last_f0,distractor,1,10,ony,0.01835920847952366
+source_last_f0,distractor,1,11,.,0.008382820524275303
+source_last_f0,distractor,1,12, Jaki,0.01367515604943037
+source_last_f0,distractor,1,13, jest,0.009907790459692478
+source_last_f0,distractor,1,14, klucz,0.011939934454858303
+source_last_f0,distractor,1,15,?,0.013253576122224331
+source_last_f0,distractor,1,16, Klucz,0.012384381145238876
+source_last_f0,distractor,1,17, jest,0.008669608272612095
+source_last_f0,distractor,2,0,K,0.0
+source_last_f0,distractor,2,1,ub,0.0
+source_last_f0,distractor,2,2,ek,0.0
+source_last_f0,distractor,2,3, jest,0.0
+source_last_f0,distractor,2,4, ziel,0.300296813249588
+source_last_f0,distractor,2,5,ony,0.1905394345521927
+source_last_f0,distractor,2,6,.,0.020747706294059753
+source_last_f0,distractor,2,7, Klucz,0.027475522831082344
+source_last_f0,distractor,2,8, jest,0.01744999550282955
+source_last_f0,distractor,2,9, czerw,0.029899921268224716
+source_last_f0,distractor,2,10,ony,0.01541998703032732
+source_last_f0,distractor,2,11,.,0.010877943597733974
+source_last_f0,distractor,2,12, Jaki,0.01246429793536663
+source_last_f0,distractor,2,13, jest,0.011699256487190723
+source_last_f0,distractor,2,14, klucz,0.012417233549058437
+source_last_f0,distractor,2,15,?,0.017600230872631073
+source_last_f0,distractor,2,16, Klucz,0.009777108207345009
+source_last_f0,distractor,2,17, jest,0.009958658367395401
+source_last_f0,distractor,3,0,K,0.0
+source_last_f0,distractor,3,1,ub,0.0
+source_last_f0,distractor,3,2,ek,0.0
+source_last_f0,distractor,3,3, jest,0.0
+source_last_f0,distractor,3,4, ziel,0.3223773241043091
+source_last_f0,distractor,3,5,ony,0.22998233139514923
+source_last_f0,distractor,3,6,.,0.01801278628408909
+source_last_f0,distractor,3,7, Klucz,0.027550753206014633
+source_last_f0,distractor,3,8, jest,0.012700271792709827
+source_last_f0,distractor,3,9, czerw,0.028869684785604477
+source_last_f0,distractor,3,10,ony,0.01613030582666397
+source_last_f0,distractor,3,11,.,0.009832603856921196
+source_last_f0,distractor,3,12, Jaki,0.009923359379172325
+source_last_f0,distractor,3,13, jest,0.008310593664646149
+source_last_f0,distractor,3,14, klucz,0.010825792327523232
+source_last_f0,distractor,3,15,?,0.018565639853477478
+source_last_f0,distractor,3,16, Klucz,0.00868750549852848
+source_last_f0,distractor,3,17, jest,0.006203655619174242
+source_last_f0,distractor,4,0,K,0.0
+source_last_f0,distractor,4,1,ub,0.0
+source_last_f0,distractor,4,2,ek,0.0
+source_last_f0,distractor,4,3, jest,0.0
+source_last_f0,distractor,4,4, ziel,0.31612837314605713
+source_last_f0,distractor,4,5,ony,0.241968035697937
+source_last_f0,distractor,4,6,.,0.017615951597690582
+source_last_f0,distractor,4,7, Klucz,0.03194011375308037
+source_last_f0,distractor,4,8, jest,0.016399532556533813
+source_last_f0,distractor,4,9, czerw,0.039200812578201294
+source_last_f0,distractor,4,10,ony,0.03219546005129814
+source_last_f0,distractor,4,11,.,0.01059680338948965
+source_last_f0,distractor,4,12, Jaki,0.01252965908497572
+source_last_f0,distractor,4,13, jest,0.009639031253755093
+source_last_f0,distractor,4,14, klucz,0.014348998665809631
+source_last_f0,distractor,4,15,?,0.01756029762327671
+source_last_f0,distractor,4,16, Klucz,0.011743630282580853
+source_last_f0,distractor,4,17, jest,0.006739339791238308
+source_last_f0,distractor,5,0,K,0.0
+source_last_f0,distractor,5,1,ub,0.0
+source_last_f0,distractor,5,2,ek,0.0
+source_last_f0,distractor,5,3, jest,0.0
+source_last_f0,distractor,5,4, ziel,0.2905343472957611
+source_last_f0,distractor,5,5,ony,0.223074272274971
+source_last_f0,distractor,5,6,.,0.03430916741490364
+source_last_f0,distractor,5,7, Klucz,0.03492607921361923
+source_last_f0,distractor,5,8, jest,0.020366866141557693
+source_last_f0,distractor,5,9, czerw,0.041042353957891464
+source_last_f0,distractor,5,10,ony,0.04757623374462128
+source_last_f0,distractor,5,11,.,0.012944820336997509
+source_last_f0,distractor,5,12, Jaki,0.013390346430242062
+source_last_f0,distractor,5,13, jest,0.011794880963861942
+source_last_f0,distractor,5,14, klucz,0.018256746232509613
+source_last_f0,distractor,5,15,?,0.015444058924913406
+source_last_f0,distractor,5,16, Klucz,0.013645176775753498
+source_last_f0,distractor,5,17, jest,0.00831905473023653
+source_last_f0,distractor,6,0,K,0.0
+source_last_f0,distractor,6,1,ub,0.0
+source_last_f0,distractor,6,2,ek,0.0
+source_last_f0,distractor,6,3, jest,0.0
+source_last_f0,distractor,6,4, ziel,0.3010063171386719
+source_last_f0,distractor,6,5,ony,0.23131610453128815
+source_last_f0,distractor,6,6,.,0.011641216464340687
+source_last_f0,distractor,6,7, Klucz,0.03963260352611542
+source_last_f0,distractor,6,8, jest,0.02608887106180191
+source_last_f0,distractor,6,9, czerw,0.04504168778657913
+source_last_f0,distractor,6,10,ony,0.05866766721010208
+source_last_f0,distractor,6,11,.,0.015394607558846474
+source_last_f0,distractor,6,12, Jaki,0.015562043525278568
+source_last_f0,distractor,6,13, jest,0.016537416726350784
+source_last_f0,distractor,6,14, klucz,0.022765928879380226
+source_last_f0,distractor,6,15,?,0.018010107800364494
+source_last_f0,distractor,6,16, Klucz,0.016244057565927505
+source_last_f0,distractor,6,17, jest,0.011629155836999416
+source_last_f0,distractor,7,0,K,0.0
+source_last_f0,distractor,7,1,ub,0.0
+source_last_f0,distractor,7,2,ek,0.0
+source_last_f0,distractor,7,3, jest,0.0
+source_last_f0,distractor,7,4, ziel,0.30424797534942627
+source_last_f0,distractor,7,5,ony,0.22771385312080383
+source_last_f0,distractor,7,6,.,0.002087883884087205
+source_last_f0,distractor,7,7, Klucz,0.048256877809762955
+source_last_f0,distractor,7,8, jest,0.03034587763249874
+source_last_f0,distractor,7,9, czerw,0.05706844851374626
+source_last_f0,distractor,7,10,ony,0.06516610831022263
+source_last_f0,distractor,7,11,.,0.01993820257484913
+source_last_f0,distractor,7,12, Jaki,0.02029833383858204
+source_last_f0,distractor,7,13, jest,0.018979256972670555
+source_last_f0,distractor,7,14, klucz,0.024934010580182076
+source_last_f0,distractor,7,15,?,0.01757579669356346
+source_last_f0,distractor,7,16, Klucz,0.017709139734506607
+source_last_f0,distractor,7,17, jest,0.016426337882876396
+source_last_f0,distractor,8,0,K,0.0
+source_last_f0,distractor,8,1,ub,0.0
+source_last_f0,distractor,8,2,ek,0.0
+source_last_f0,distractor,8,3, jest,0.0
+source_last_f0,distractor,8,4, ziel,0.32010045647621155
+source_last_f0,distractor,8,5,ony,0.24552711844444275
+source_last_f0,distractor,8,6,.,0.0018273673485964537
+source_last_f0,distractor,8,7, Klucz,0.07166372239589691
+source_last_f0,distractor,8,8, jest,0.04321396350860596
+source_last_f0,distractor,8,9, czerw,0.06536601483821869
+source_last_f0,distractor,8,10,ony,0.07802005857229233
+source_last_f0,distractor,8,11,.,0.03289427235722542
+source_last_f0,distractor,8,12, Jaki,0.028902869671583176
+source_last_f0,distractor,8,13, jest,0.026450494304299355
+source_last_f0,distractor,8,14, klucz,0.034439489245414734
+source_last_f0,distractor,8,15,?,0.022258207201957703
+source_last_f0,distractor,8,16, Klucz,0.022121896967291832
+source_last_f0,distractor,8,17, jest,0.020975807681679726
+source_last_f0,distractor,9,0,K,0.0
+source_last_f0,distractor,9,1,ub,0.0
+source_last_f0,distractor,9,2,ek,0.0
+source_last_f0,distractor,9,3, jest,0.0
+source_last_f0,distractor,9,4, ziel,0.4065592885017395
+source_last_f0,distractor,9,5,ony,0.2871682941913605
+source_last_f0,distractor,9,6,.,0.00180805625859648
+source_last_f0,distractor,9,7, Klucz,0.09858936816453934
+source_last_f0,distractor,9,8, jest,0.08822572231292725
+source_last_f0,distractor,9,9, czerw,0.07321886718273163
+source_last_f0,distractor,9,10,ony,0.09118703007698059
+source_last_f0,distractor,9,11,.,0.06784062087535858
+source_last_f0,distractor,9,12, Jaki,0.050352972000837326
+source_last_f0,distractor,9,13, jest,0.03929273784160614
+source_last_f0,distractor,9,14, klucz,0.050606969743967056
+source_last_f0,distractor,9,15,?,0.04675363004207611
+source_last_f0,distractor,9,16, Klucz,0.032338060438632965
+source_last_f0,distractor,9,17, jest,0.03372911363840103
+source_last_f0,distractor,10,0,K,0.0
+source_last_f0,distractor,10,1,ub,0.0
+source_last_f0,distractor,10,2,ek,0.0
+source_last_f0,distractor,10,3, jest,0.0
+source_last_f0,distractor,10,4, ziel,0.5528749823570251
+source_last_f0,distractor,10,5,ony,0.3392270505428314
+source_last_f0,distractor,10,6,.,0.0017905806889757514
+source_last_f0,distractor,10,7, Klucz,0.11850638687610626
+source_last_f0,distractor,10,8, jest,0.12622208893299103
+source_last_f0,distractor,10,9, czerw,0.07822252064943314
+source_last_f0,distractor,10,10,ony,0.1033879891037941
+source_last_f0,distractor,10,11,.,0.07825542986392975
+source_last_f0,distractor,10,12, Jaki,0.058830372989177704
+source_last_f0,distractor,10,13, jest,0.047463055700063705
+source_last_f0,distractor,10,14, klucz,0.06174982339143753
+source_last_f0,distractor,10,15,?,0.05890323221683502
+source_last_f0,distractor,10,16, Klucz,0.043741561472415924
+source_last_f0,distractor,10,17, jest,0.04698014631867409
+source_last_f0,distractor,11,0,K,0.0
+source_last_f0,distractor,11,1,ub,0.0
+source_last_f0,distractor,11,2,ek,0.0
+source_last_f0,distractor,11,3, jest,0.0
+source_last_f0,distractor,11,4, ziel,0.6438183784484863
+source_last_f0,distractor,11,5,ony,0.35695692896842957
+source_last_f0,distractor,11,6,.,0.0017808654811233282
+source_last_f0,distractor,11,7, Klucz,0.1364036649465561
+source_last_f0,distractor,11,8, jest,0.1541043519973755
+source_last_f0,distractor,11,9, czerw,0.09316233545541763
+source_last_f0,distractor,11,10,ony,0.13022960722446442
+source_last_f0,distractor,11,11,.,0.09407830983400345
+source_last_f0,distractor,11,12, Jaki,0.07629325240850449
+source_last_f0,distractor,11,13, jest,0.056025099009275436
+source_last_f0,distractor,11,14, klucz,0.070017509162426
+source_last_f0,distractor,11,15,?,0.08271869271993637
+source_last_f0,distractor,11,16, Klucz,0.059783466160297394
+source_last_f0,distractor,11,17, jest,0.05903548747301102
+source_last_f0,distractor,12,0,K,0.0
+source_last_f0,distractor,12,1,ub,0.0
+source_last_f0,distractor,12,2,ek,0.0
+source_last_f0,distractor,12,3, jest,0.0
+source_last_f0,distractor,12,4, ziel,0.7234209775924683
+source_last_f0,distractor,12,5,ony,0.3542914390563965
+source_last_f0,distractor,12,6,.,0.0018335683271288872
+source_last_f0,distractor,12,7, Klucz,0.16836348176002502
+source_last_f0,distractor,12,8, jest,0.2085309773683548
+source_last_f0,distractor,12,9, czerw,0.11346184462308884
+source_last_f0,distractor,12,10,ony,0.1503317803144455
+source_last_f0,distractor,12,11,.,0.10685887187719345
+source_last_f0,distractor,12,12, Jaki,0.09706272929906845
+source_last_f0,distractor,12,13, jest,0.07216757535934448
+source_last_f0,distractor,12,14, klucz,0.08624033629894257
+source_last_f0,distractor,12,15,?,0.0858367383480072
+source_last_f0,distractor,12,16, Klucz,0.07861418277025223
+source_last_f0,distractor,12,17, jest,0.0662246122956276
+source_last_f0,distractor,13,0,K,0.0
+source_last_f0,distractor,13,1,ub,0.0
+source_last_f0,distractor,13,2,ek,0.0
+source_last_f0,distractor,13,3, jest,0.0
+source_last_f0,distractor,13,4, ziel,0.7268596291542053
+source_last_f0,distractor,13,5,ony,0.3452399969100952
+source_last_f0,distractor,13,6,.,0.0027051041834056377
+source_last_f0,distractor,13,7, Klucz,0.17628653347492218
+source_last_f0,distractor,13,8, jest,0.22367776930332184
+source_last_f0,distractor,13,9, czerw,0.12044726312160492
+source_last_f0,distractor,13,10,ony,0.14788268506526947
+source_last_f0,distractor,13,11,.,0.09904347360134125
+source_last_f0,distractor,13,12, Jaki,0.10456579923629761
+source_last_f0,distractor,13,13, jest,0.0820985734462738
+source_last_f0,distractor,13,14, klucz,0.08799118548631668
+source_last_f0,distractor,13,15,?,0.0882749855518341
+source_last_f0,distractor,13,16, Klucz,0.08543199300765991
+source_last_f0,distractor,13,17, jest,0.07629940658807755
+source_last_f0,distractor,14,0,K,0.0
+source_last_f0,distractor,14,1,ub,0.0
+source_last_f0,distractor,14,2,ek,0.0
+source_last_f0,distractor,14,3, jest,0.0
+source_last_f0,distractor,14,4, ziel,0.7492455840110779
+source_last_f0,distractor,14,5,ony,0.34620076417922974
+source_last_f0,distractor,14,6,.,0.002808942226693034
+source_last_f0,distractor,14,7, Klucz,0.19296620786190033
+source_last_f0,distractor,14,8, jest,0.22768142819404602
+source_last_f0,distractor,14,9, czerw,0.13379839062690735
+source_last_f0,distractor,14,10,ony,0.14386993646621704
+source_last_f0,distractor,14,11,.,0.09862134605646133
+source_last_f0,distractor,14,12, Jaki,0.10195738822221756
+source_last_f0,distractor,14,13, jest,0.08366160094738007
+source_last_f0,distractor,14,14, klucz,0.09183159470558167
+source_last_f0,distractor,14,15,?,0.0833817794919014
+source_last_f0,distractor,14,16, Klucz,0.08990765362977982
+source_last_f0,distractor,14,17, jest,0.07361122965812683
+source_last_f0,distractor,15,0,K,0.0
+source_last_f0,distractor,15,1,ub,0.0
+source_last_f0,distractor,15,2,ek,0.0
+source_last_f0,distractor,15,3, jest,0.0
+source_last_f0,distractor,15,4, ziel,0.8074512481689453
+source_last_f0,distractor,15,5,ony,0.34490102529525757
+source_last_f0,distractor,15,6,.,0.0028250059112906456
+source_last_f0,distractor,15,7, Klucz,0.19722725450992584
+source_last_f0,distractor,15,8, jest,0.24387414753437042
+source_last_f0,distractor,15,9, czerw,0.13787895441055298
+source_last_f0,distractor,15,10,ony,0.13666553795337677
+source_last_f0,distractor,15,11,.,0.09686783701181412
+source_last_f0,distractor,15,12, Jaki,0.09871146827936172
+source_last_f0,distractor,15,13, jest,0.08345165848731995
+source_last_f0,distractor,15,14, klucz,0.09534874558448792
+source_last_f0,distractor,15,15,?,0.07940474897623062
+source_last_f0,distractor,15,16, Klucz,0.10241095721721649
+source_last_f0,distractor,15,17, jest,0.08321782946586609
+source_last_f0,distractor,16,0,K,0.0
+source_last_f0,distractor,16,1,ub,0.0
+source_last_f0,distractor,16,2,ek,0.0
+source_last_f0,distractor,16,3, jest,0.0
+source_last_f0,distractor,16,4, ziel,0.9199889898300171
+source_last_f0,distractor,16,5,ony,0.338583379983902
+source_last_f0,distractor,16,6,.,0.004149629734456539
+source_last_f0,distractor,16,7, Klucz,0.19102109968662262
+source_last_f0,distractor,16,8, jest,0.27728891372680664
+source_last_f0,distractor,16,9, czerw,0.13850626349449158
+source_last_f0,distractor,16,10,ony,0.1343260258436203
+source_last_f0,distractor,16,11,.,0.0926041230559349
+source_last_f0,distractor,16,12, Jaki,0.09573040157556534
+source_last_f0,distractor,16,13, jest,0.07834458351135254
+source_last_f0,distractor,16,14, klucz,0.09081209450960159
+source_last_f0,distractor,16,15,?,0.07858345657587051
+source_last_f0,distractor,16,16, Klucz,0.09833132475614548
+source_last_f0,distractor,16,17, jest,0.07772908359766006
+source_last_f0,distractor,17,0,K,0.0
+source_last_f0,distractor,17,1,ub,0.0
+source_last_f0,distractor,17,2,ek,0.0
+source_last_f0,distractor,17,3, jest,0.0
+source_last_f0,distractor,17,4, ziel,0.8807174563407898
+source_last_f0,distractor,17,5,ony,0.3020482659339905
+source_last_f0,distractor,17,6,.,0.010488497093319893
+source_last_f0,distractor,17,7, Klucz,0.1871144324541092
+source_last_f0,distractor,17,8, jest,0.2574212849140167
+source_last_f0,distractor,17,9, czerw,0.12886519730091095
+source_last_f0,distractor,17,10,ony,0.11782819032669067
+source_last_f0,distractor,17,11,.,0.09190046787261963
+source_last_f0,distractor,17,12, Jaki,0.09451849013566971
+source_last_f0,distractor,17,13, jest,0.08099614828824997
+source_last_f0,distractor,17,14, klucz,0.08754091709852219
+source_last_f0,distractor,17,15,?,0.07541591674089432
+source_last_f0,distractor,17,16, Klucz,0.0998111292719841
+source_last_f0,distractor,17,17, jest,0.07570698112249374
+source_last_f0,distractor,18,0,K,0.0
+source_last_f0,distractor,18,1,ub,0.0
+source_last_f0,distractor,18,2,ek,0.0
+source_last_f0,distractor,18,3, jest,0.0
+source_last_f0,distractor,18,4, ziel,0.9240220189094543
+source_last_f0,distractor,18,5,ony,0.26841220259666443
+source_last_f0,distractor,18,6,.,0.025492340326309204
+source_last_f0,distractor,18,7, Klucz,0.18687953054904938
+source_last_f0,distractor,18,8, jest,0.2464776486158371
+source_last_f0,distractor,18,9, czerw,0.11936145275831223
+source_last_f0,distractor,18,10,ony,0.10823039710521698
+source_last_f0,distractor,18,11,.,0.08740027993917465
+source_last_f0,distractor,18,12, Jaki,0.10064815729856491
+source_last_f0,distractor,18,13, jest,0.08027883619070053
+source_last_f0,distractor,18,14, klucz,0.0840107649564743
+source_last_f0,distractor,18,15,?,0.06880151480436325
+source_last_f0,distractor,18,16, Klucz,0.09844231605529785
+source_last_f0,distractor,18,17, jest,0.07678018510341644
+source_last_f0,distractor,19,0,K,0.0
+source_last_f0,distractor,19,1,ub,0.0
+source_last_f0,distractor,19,2,ek,0.0
+source_last_f0,distractor,19,3, jest,0.0
+source_last_f0,distractor,19,4, ziel,0.9605755805969238
+source_last_f0,distractor,19,5,ony,0.2551613748073578
+source_last_f0,distractor,19,6,.,0.027587655931711197
+source_last_f0,distractor,19,7, Klucz,0.19356118142604828
+source_last_f0,distractor,19,8, jest,0.2509182095527649
+source_last_f0,distractor,19,9, czerw,0.10991662740707397
+source_last_f0,distractor,19,10,ony,0.10981400310993195
+source_last_f0,distractor,19,11,.,0.09287848323583603
+source_last_f0,distractor,19,12, Jaki,0.11754584312438965
+source_last_f0,distractor,19,13, jest,0.09783963114023209
+source_last_f0,distractor,19,14, klucz,0.09450730681419373
+source_last_f0,distractor,19,15,?,0.07628075033426285
+source_last_f0,distractor,19,16, Klucz,0.10991708189249039
+source_last_f0,distractor,19,17, jest,0.09156688302755356
+source_last_f0,distractor,20,0,K,0.0
+source_last_f0,distractor,20,1,ub,0.0
+source_last_f0,distractor,20,2,ek,0.0
+source_last_f0,distractor,20,3, jest,0.0
+source_last_f0,distractor,20,4, ziel,1.0592401027679443
+source_last_f0,distractor,20,5,ony,0.34505024552345276
+source_last_f0,distractor,20,6,.,0.15602850914001465
+source_last_f0,distractor,20,7, Klucz,0.2694467306137085
+source_last_f0,distractor,20,8, jest,0.34967631101608276
+source_last_f0,distractor,20,9, czerw,0.11260975152254105
+source_last_f0,distractor,20,10,ony,0.16640913486480713
+source_last_f0,distractor,20,11,.,0.13952098786830902
+source_last_f0,distractor,20,12, Jaki,0.17371134459972382
+source_last_f0,distractor,20,13, jest,0.1509770005941391
+source_last_f0,distractor,20,14, klucz,0.15385271608829498
+source_last_f0,distractor,20,15,?,0.11219169944524765
+source_last_f0,distractor,20,16, Klucz,0.15892146527767181
+source_last_f0,distractor,20,17, jest,0.13903586566448212

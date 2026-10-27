@@ -1,0 +1,27 @@
+# Local environments and bytecode
+.venv/
+.venv-*/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Model weights, caches and new local runs
+models/
+.cache/
+runs/
+bernoulli_out/
+dye_out/
+valve_out/
+*.safetensors
+*.pt
+*.pth
+*.bin
+
+# Credentials and machine-local settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

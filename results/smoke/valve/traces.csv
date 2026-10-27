@@ -1,0 +1,1723 @@
+case,state,token,key_token,cup_token,sensitivity
+key_first_f0_r,0,0,K,K,0.0
+key_first_f0_r,0,1,lu,lu,0.0
+key_first_f0_r,0,2,czyk,czyk,0.0
+key_first_f0_r,0,3, jest, jest,0.0
+key_first_f0_r,0,4, czerw, czerw,0.0
+key_first_f0_r,0,5,ony,ony,0.0
+key_first_f0_r,0,6,.,.,0.0
+key_first_f0_r,0,7, Kub, Kub,0.0
+key_first_f0_r,0,8,ek,ek,0.0
+key_first_f0_r,0,9, jest, jest,0.0
+key_first_f0_r,0,10, niebies, niebies,0.0
+key_first_f0_r,0,11,ki,ki,0.0
+key_first_f0_r,0,12,.,.,0.0
+key_first_f0_r,0,13, Jaki, Jaki,0.0
+key_first_f0_r,0,14, jest, jest,0.0
+key_first_f0_r,0,15, klu, kub,0.8215619921684265
+key_first_f0_r,0,16,czyk,ek,1.061078667640686
+key_first_f0_r,0,17,?,?,0.0
+key_first_f0_r,0,18, Odpowiedź, Odpowiedź,0.0
+key_first_f0_r,0,19,:,:,0.0
+key_first_f0_r,1,0,K,K,0.0
+key_first_f0_r,1,1,lu,lu,0.0
+key_first_f0_r,1,2,czyk,czyk,0.0
+key_first_f0_r,1,3, jest, jest,0.0
+key_first_f0_r,1,4, czerw, czerw,0.0
+key_first_f0_r,1,5,ony,ony,0.0
+key_first_f0_r,1,6,.,.,0.0
+key_first_f0_r,1,7, Kub, Kub,0.0
+key_first_f0_r,1,8,ek,ek,0.0
+key_first_f0_r,1,9, jest, jest,0.0
+key_first_f0_r,1,10, niebies, niebies,0.0
+key_first_f0_r,1,11,ki,ki,0.0
+key_first_f0_r,1,12,.,.,0.0
+key_first_f0_r,1,13, Jaki, Jaki,0.0
+key_first_f0_r,1,14, jest, jest,0.0
+key_first_f0_r,1,15, klu, kub,0.36128440499305725
+key_first_f0_r,1,16,czyk,ek,0.210249662399292
+key_first_f0_r,1,17,?,?,0.016297342255711555
+key_first_f0_r,1,18, Odpowiedź, Odpowiedź,0.02250378020107746
+key_first_f0_r,1,19,:,:,0.012021520175039768
+key_first_f0_r,2,0,K,K,0.0
+key_first_f0_r,2,1,lu,lu,0.0
+key_first_f0_r,2,2,czyk,czyk,0.0
+key_first_f0_r,2,3, jest, jest,0.0
+key_first_f0_r,2,4, czerw, czerw,0.0
+key_first_f0_r,2,5,ony,ony,0.0
+key_first_f0_r,2,6,.,.,0.0
+key_first_f0_r,2,7, Kub, Kub,0.0
+key_first_f0_r,2,8,ek,ek,0.0
+key_first_f0_r,2,9, jest, jest,0.0
+key_first_f0_r,2,10, niebies, niebies,0.0
+key_first_f0_r,2,11,ki,ki,0.0
+key_first_f0_r,2,12,.,.,0.0
+key_first_f0_r,2,13, Jaki, Jaki,0.0
+key_first_f0_r,2,14, jest, jest,0.0
+key_first_f0_r,2,15, klu, kub,0.35262513160705566
+key_first_f0_r,2,16,czyk,ek,0.22379957139492035
+key_first_f0_r,2,17,?,?,0.019419927150011063
+key_first_f0_r,2,18, Odpowiedź, Odpowiedź,0.02047325111925602
+key_first_f0_r,2,19,:,:,0.012671337462961674
+key_first_f0_r,3,0,K,K,0.0
+key_first_f0_r,3,1,lu,lu,0.0
+key_first_f0_r,3,2,czyk,czyk,0.0
+key_first_f0_r,3,3, jest, jest,0.0
+key_first_f0_r,3,4, czerw, czerw,0.0
+key_first_f0_r,3,5,ony,ony,0.0
+key_first_f0_r,3,6,.,.,0.0
+key_first_f0_r,3,7, Kub, Kub,0.0
+key_first_f0_r,3,8,ek,ek,0.0
+key_first_f0_r,3,9, jest, jest,0.0
+key_first_f0_r,3,10, niebies, niebies,0.0
+key_first_f0_r,3,11,ki,ki,0.0
+key_first_f0_r,3,12,.,.,0.0
+key_first_f0_r,3,13, Jaki, Jaki,0.0
+key_first_f0_r,3,14, jest, jest,0.0
+key_first_f0_r,3,15, klu, kub,0.3405395448207855
+key_first_f0_r,3,16,czyk,ek,0.3346799314022064
+key_first_f0_r,3,17,?,?,0.025645695626735687
+key_first_f0_r,3,18, Odpowiedź, Odpowiedź,0.01825716905295849
+key_first_f0_r,3,19,:,:,0.02066849172115326
+key_first_f0_r,4,0,K,K,0.0
+key_first_f0_r,4,1,lu,lu,0.0
+key_first_f0_r,4,2,czyk,czyk,0.0
+key_first_f0_r,4,3, jest, jest,0.0
+key_first_f0_r,4,4, czerw, czerw,0.0
+key_first_f0_r,4,5,ony,ony,0.0
+key_first_f0_r,4,6,.,.,0.0
+key_first_f0_r,4,7, Kub, Kub,0.0
+key_first_f0_r,4,8,ek,ek,0.0
+key_first_f0_r,4,9, jest, jest,0.0
+key_first_f0_r,4,10, niebies, niebies,0.0
+key_first_f0_r,4,11,ki,ki,0.0
+key_first_f0_r,4,12,.,.,0.0
+key_first_f0_r,4,13, Jaki, Jaki,0.0
+key_first_f0_r,4,14, jest, jest,0.0
+key_first_f0_r,4,15, klu, kub,0.34019726514816284
+key_first_f0_r,4,16,czyk,ek,0.3939136862754822
+key_first_f0_r,4,17,?,?,0.0284537672996521
+key_first_f0_r,4,18, Odpowiedź, Odpowiedź,0.021089298650622368
+key_first_f0_r,4,19,:,:,0.026066668331623077
+key_first_f0_r,5,0,K,K,0.0
+key_first_f0_r,5,1,lu,lu,0.0
+key_first_f0_r,5,2,czyk,czyk,0.0
+key_first_f0_r,5,3, jest, jest,0.0
+key_first_f0_r,5,4, czerw, czerw,0.0
+key_first_f0_r,5,5,ony,ony,0.0
+key_first_f0_r,5,6,.,.,0.0
+key_first_f0_r,5,7, Kub, Kub,0.0
+key_first_f0_r,5,8,ek,ek,0.0
+key_first_f0_r,5,9, jest, jest,0.0
+key_first_f0_r,5,10, niebies, niebies,0.0
+key_first_f0_r,5,11,ki,ki,0.0
+key_first_f0_r,5,12,.,.,0.0
+key_first_f0_r,5,13, Jaki, Jaki,0.0
+key_first_f0_r,5,14, jest, jest,0.0
+key_first_f0_r,5,15, klu, kub,0.3378344476222992
+key_first_f0_r,5,16,czyk,ek,0.4029727876186371
+key_first_f0_r,5,17,?,?,0.07759717851877213
+key_first_f0_r,5,18, Odpowiedź, Odpowiedź,0.023316411301493645
+key_first_f0_r,5,19,:,:,0.03584751859307289
+key_first_f0_r,6,0,K,K,0.0
+key_first_f0_r,6,1,lu,lu,0.0
+key_first_f0_r,6,2,czyk,czyk,0.0
+key_first_f0_r,6,3, jest, jest,0.0
+key_first_f0_r,6,4, czerw, czerw,0.0
+key_first_f0_r,6,5,ony,ony,0.0
+key_first_f0_r,6,6,.,.,0.0
+key_first_f0_r,6,7, Kub, Kub,0.0
+key_first_f0_r,6,8,ek,ek,0.0
+key_first_f0_r,6,9, jest, jest,0.0
+key_first_f0_r,6,10, niebies, niebies,0.0
+key_first_f0_r,6,11,ki,ki,0.0
+key_first_f0_r,6,12,.,.,0.0
+key_first_f0_r,6,13, Jaki, Jaki,0.0
+key_first_f0_r,6,14, jest, jest,0.0
+key_first_f0_r,6,15, klu, kub,0.36686939001083374
+key_first_f0_r,6,16,czyk,ek,0.3613167703151703
+key_first_f0_r,6,17,?,?,0.08203960955142975
+key_first_f0_r,6,18, Odpowiedź, Odpowiedź,0.0300544872879982
+key_first_f0_r,6,19,:,:,0.032013021409511566
+key_first_f0_r,7,0,K,K,0.0
+key_first_f0_r,7,1,lu,lu,0.0
+key_first_f0_r,7,2,czyk,czyk,0.0
+key_first_f0_r,7,3, jest, jest,0.0
+key_first_f0_r,7,4, czerw, czerw,0.0
+key_first_f0_r,7,5,ony,ony,0.0
+key_first_f0_r,7,6,.,.,0.0
+key_first_f0_r,7,7, Kub, Kub,0.0
+key_first_f0_r,7,8,ek,ek,0.0
+key_first_f0_r,7,9, jest, jest,0.0
+key_first_f0_r,7,10, niebies, niebies,0.0
+key_first_f0_r,7,11,ki,ki,0.0
+key_first_f0_r,7,12,.,.,0.0
+key_first_f0_r,7,13, Jaki, Jaki,0.0
+key_first_f0_r,7,14, jest, jest,0.0
+key_first_f0_r,7,15, klu, kub,0.4053881764411926
+key_first_f0_r,7,16,czyk,ek,0.3632262945175171
+key_first_f0_r,7,17,?,?,0.09329968690872192
+key_first_f0_r,7,18, Odpowiedź, Odpowiedź,0.033654287457466125
+key_first_f0_r,7,19,:,:,0.0333738699555397
+key_first_f0_r,8,0,K,K,0.0
+key_first_f0_r,8,1,lu,lu,0.0
+key_first_f0_r,8,2,czyk,czyk,0.0
+key_first_f0_r,8,3, jest, jest,0.0
+key_first_f0_r,8,4, czerw, czerw,0.0
+key_first_f0_r,8,5,ony,ony,0.0
+key_first_f0_r,8,6,.,.,0.0
+key_first_f0_r,8,7, Kub, Kub,0.0
+key_first_f0_r,8,8,ek,ek,0.0
+key_first_f0_r,8,9, jest, jest,0.0
+key_first_f0_r,8,10, niebies, niebies,0.0
+key_first_f0_r,8,11,ki,ki,0.0
+key_first_f0_r,8,12,.,.,0.0
+key_first_f0_r,8,13, Jaki, Jaki,0.0
+key_first_f0_r,8,14, jest, jest,0.0
+key_first_f0_r,8,15, klu, kub,0.42433610558509827
+key_first_f0_r,8,16,czyk,ek,0.36594492197036743
+key_first_f0_r,8,17,?,?,0.12228228896856308
+key_first_f0_r,8,18, Odpowiedź, Odpowiedź,0.03912358731031418
+key_first_f0_r,8,19,:,:,0.03945441171526909
+key_first_f0_r,9,0,K,K,0.0
+key_first_f0_r,9,1,lu,lu,0.0
+key_first_f0_r,9,2,czyk,czyk,0.0
+key_first_f0_r,9,3, jest, jest,0.0
+key_first_f0_r,9,4, czerw, czerw,0.0
+key_first_f0_r,9,5,ony,ony,0.0
+key_first_f0_r,9,6,.,.,0.0
+key_first_f0_r,9,7, Kub, Kub,0.0
+key_first_f0_r,9,8,ek,ek,0.0
+key_first_f0_r,9,9, jest, jest,0.0
+key_first_f0_r,9,10, niebies, niebies,0.0
+key_first_f0_r,9,11,ki,ki,0.0
+key_first_f0_r,9,12,.,.,0.0
+key_first_f0_r,9,13, Jaki, Jaki,0.0
+key_first_f0_r,9,14, jest, jest,0.0
+key_first_f0_r,9,15, klu, kub,0.5317546129226685
+key_first_f0_r,9,16,czyk,ek,0.43426477909088135
+key_first_f0_r,9,17,?,?,0.16232632100582123
+key_first_f0_r,9,18, Odpowiedź, Odpowiedź,0.053339384496212006
+key_first_f0_r,9,19,:,:,0.0693894624710083
+key_first_f0_r,10,0,K,K,0.0
+key_first_f0_r,10,1,lu,lu,0.0
+key_first_f0_r,10,2,czyk,czyk,0.0
+key_first_f0_r,10,3, jest, jest,0.0
+key_first_f0_r,10,4, czerw, czerw,0.0
+key_first_f0_r,10,5,ony,ony,0.0
+key_first_f0_r,10,6,.,.,0.0
+key_first_f0_r,10,7, Kub, Kub,0.0
+key_first_f0_r,10,8,ek,ek,0.0
+key_first_f0_r,10,9, jest, jest,0.0
+key_first_f0_r,10,10, niebies, niebies,0.0
+key_first_f0_r,10,11,ki,ki,0.0
+key_first_f0_r,10,12,.,.,0.0
+key_first_f0_r,10,13, Jaki, Jaki,0.0
+key_first_f0_r,10,14, jest, jest,0.0
+key_first_f0_r,10,15, klu, kub,0.7639844417572021
+key_first_f0_r,10,16,czyk,ek,0.5718429684638977
+key_first_f0_r,10,17,?,?,0.17571887373924255
+key_first_f0_r,10,18, Odpowiedź, Odpowiedź,0.06406652927398682
+key_first_f0_r,10,19,:,:,0.08698397129774094
+key_first_f0_r,11,0,K,K,0.0
+key_first_f0_r,11,1,lu,lu,0.0
+key_first_f0_r,11,2,czyk,czyk,0.0
+key_first_f0_r,11,3, jest, jest,0.0
+key_first_f0_r,11,4, czerw, czerw,0.0
+key_first_f0_r,11,5,ony,ony,0.0
+key_first_f0_r,11,6,.,.,0.0
+key_first_f0_r,11,7, Kub, Kub,0.0
+key_first_f0_r,11,8,ek,ek,0.0
+key_first_f0_r,11,9, jest, jest,0.0
+key_first_f0_r,11,10, niebies, niebies,0.0
+key_first_f0_r,11,11,ki,ki,0.0
+key_first_f0_r,11,12,.,.,0.0
+key_first_f0_r,11,13, Jaki, Jaki,0.0
+key_first_f0_r,11,14, jest, jest,0.0
+key_first_f0_r,11,15, klu, kub,0.9158123135566711
+key_first_f0_r,11,16,czyk,ek,0.6031860113143921
+key_first_f0_r,11,17,?,?,0.20631852746009827
+key_first_f0_r,11,18, Odpowiedź, Odpowiedź,0.08631434291601181
+key_first_f0_r,11,19,:,:,0.1830126792192459
+key_first_f0_r,12,0,K,K,0.0
+key_first_f0_r,12,1,lu,lu,0.0
+key_first_f0_r,12,2,czyk,czyk,0.0
+key_first_f0_r,12,3, jest, jest,0.0
+key_first_f0_r,12,4, czerw, czerw,0.0
+key_first_f0_r,12,5,ony,ony,0.0
+key_first_f0_r,12,6,.,.,0.0
+key_first_f0_r,12,7, Kub, Kub,0.0
+key_first_f0_r,12,8,ek,ek,0.0
+key_first_f0_r,12,9, jest, jest,0.0
+key_first_f0_r,12,10, niebies, niebies,0.0
+key_first_f0_r,12,11,ki,ki,0.0
+key_first_f0_r,12,12,.,.,0.0
+key_first_f0_r,12,13, Jaki, Jaki,0.0
+key_first_f0_r,12,14, jest, jest,0.0
+key_first_f0_r,12,15, klu, kub,0.9887316226959229
+key_first_f0_r,12,16,czyk,ek,0.6074845194816589
+key_first_f0_r,12,17,?,?,0.20449893176555634
+key_first_f0_r,12,18, Odpowiedź, Odpowiedź,0.10336712747812271
+key_first_f0_r,12,19,:,:,0.17853912711143494
+key_first_f0_r,13,0,K,K,0.0
+key_first_f0_r,13,1,lu,lu,0.0
+key_first_f0_r,13,2,czyk,czyk,0.0
+key_first_f0_r,13,3, jest, jest,0.0
+key_first_f0_r,13,4, czerw, czerw,0.0
+key_first_f0_r,13,5,ony,ony,0.0
+key_first_f0_r,13,6,.,.,0.0
+key_first_f0_r,13,7, Kub, Kub,0.0
+key_first_f0_r,13,8,ek,ek,0.0
+key_first_f0_r,13,9, jest, jest,0.0
+key_first_f0_r,13,10, niebies, niebies,0.0
+key_first_f0_r,13,11,ki,ki,0.0
+key_first_f0_r,13,12,.,.,0.0
+key_first_f0_r,13,13, Jaki, Jaki,0.0
+key_first_f0_r,13,14, jest, jest,0.0
+key_first_f0_r,13,15, klu, kub,0.9840465784072876
+key_first_f0_r,13,16,czyk,ek,0.5788924694061279
+key_first_f0_r,13,17,?,?,0.20802578330039978
+key_first_f0_r,13,18, Odpowiedź, Odpowiedź,0.10873234272003174
+key_first_f0_r,13,19,:,:,0.25027933716773987
+key_first_f0_r,14,0,K,K,0.0
+key_first_f0_r,14,1,lu,lu,0.0
+key_first_f0_r,14,2,czyk,czyk,0.0
+key_first_f0_r,14,3, jest, jest,0.0
+key_first_f0_r,14,4, czerw, czerw,0.0
+key_first_f0_r,14,5,ony,ony,0.0
+key_first_f0_r,14,6,.,.,0.0
+key_first_f0_r,14,7, Kub, Kub,0.0
+key_first_f0_r,14,8,ek,ek,0.0
+key_first_f0_r,14,9, jest, jest,0.0
+key_first_f0_r,14,10, niebies, niebies,0.0
+key_first_f0_r,14,11,ki,ki,0.0
+key_first_f0_r,14,12,.,.,0.0
+key_first_f0_r,14,13, Jaki, Jaki,0.0
+key_first_f0_r,14,14, jest, jest,0.0
+key_first_f0_r,14,15, klu, kub,0.9906964898109436
+key_first_f0_r,14,16,czyk,ek,0.5571134686470032
+key_first_f0_r,14,17,?,?,0.20038874447345734
+key_first_f0_r,14,18, Odpowiedź, Odpowiedź,0.11021251976490021
+key_first_f0_r,14,19,:,:,0.27081623673439026
+key_first_f0_r,15,0,K,K,0.0
+key_first_f0_r,15,1,lu,lu,0.0
+key_first_f0_r,15,2,czyk,czyk,0.0
+key_first_f0_r,15,3, jest, jest,0.0
+key_first_f0_r,15,4, czerw, czerw,0.0
+key_first_f0_r,15,5,ony,ony,0.0
+key_first_f0_r,15,6,.,.,0.0
+key_first_f0_r,15,7, Kub, Kub,0.0
+key_first_f0_r,15,8,ek,ek,0.0
+key_first_f0_r,15,9, jest, jest,0.0
+key_first_f0_r,15,10, niebies, niebies,0.0
+key_first_f0_r,15,11,ki,ki,0.0
+key_first_f0_r,15,12,.,.,0.0
+key_first_f0_r,15,13, Jaki, Jaki,0.0
+key_first_f0_r,15,14, jest, jest,0.0
+key_first_f0_r,15,15, klu, kub,1.0359889268875122
+key_first_f0_r,15,16,czyk,ek,0.5456930994987488
+key_first_f0_r,15,17,?,?,0.19579873979091644
+key_first_f0_r,15,18, Odpowiedź, Odpowiedź,0.1108945682644844
+key_first_f0_r,15,19,:,:,0.3690618574619293
+key_first_f0_r,16,0,K,K,0.0
+key_first_f0_r,16,1,lu,lu,0.0
+key_first_f0_r,16,2,czyk,czyk,0.0
+key_first_f0_r,16,3, jest, jest,0.0
+key_first_f0_r,16,4, czerw, czerw,0.0
+key_first_f0_r,16,5,ony,ony,0.0
+key_first_f0_r,16,6,.,.,0.0
+key_first_f0_r,16,7, Kub, Kub,0.0
+key_first_f0_r,16,8,ek,ek,0.0
+key_first_f0_r,16,9, jest, jest,0.0
+key_first_f0_r,16,10, niebies, niebies,0.0
+key_first_f0_r,16,11,ki,ki,0.0
+key_first_f0_r,16,12,.,.,0.0
+key_first_f0_r,16,13, Jaki, Jaki,0.0
+key_first_f0_r,16,14, jest, jest,0.0
+key_first_f0_r,16,15, klu, kub,1.0041066408157349
+key_first_f0_r,16,16,czyk,ek,0.5234372615814209
+key_first_f0_r,16,17,?,?,0.1886528730392456
+key_first_f0_r,16,18, Odpowiedź, Odpowiedź,0.10928186774253845
+key_first_f0_r,16,19,:,:,0.40073874592781067
+key_first_f0_r,17,0,K,K,0.0
+key_first_f0_r,17,1,lu,lu,0.0
+key_first_f0_r,17,2,czyk,czyk,0.0
+key_first_f0_r,17,3, jest, jest,0.0
+key_first_f0_r,17,4, czerw, czerw,0.0
+key_first_f0_r,17,5,ony,ony,0.0
+key_first_f0_r,17,6,.,.,0.0
+key_first_f0_r,17,7, Kub, Kub,0.0
+key_first_f0_r,17,8,ek,ek,0.0
+key_first_f0_r,17,9, jest, jest,0.0
+key_first_f0_r,17,10, niebies, niebies,0.0
+key_first_f0_r,17,11,ki,ki,0.0
+key_first_f0_r,17,12,.,.,0.0
+key_first_f0_r,17,13, Jaki, Jaki,0.0
+key_first_f0_r,17,14, jest, jest,0.0
+key_first_f0_r,17,15, klu, kub,0.9636436104774475
+key_first_f0_r,17,16,czyk,ek,0.46457117795944214
+key_first_f0_r,17,17,?,?,0.1826133280992508
+key_first_f0_r,17,18, Odpowiedź, Odpowiedź,0.10557430237531662
+key_first_f0_r,17,19,:,:,0.4388306736946106
+key_first_f0_r,18,0,K,K,0.0
+key_first_f0_r,18,1,lu,lu,0.0
+key_first_f0_r,18,2,czyk,czyk,0.0
+key_first_f0_r,18,3, jest, jest,0.0
+key_first_f0_r,18,4, czerw, czerw,0.0
+key_first_f0_r,18,5,ony,ony,0.0
+key_first_f0_r,18,6,.,.,0.0
+key_first_f0_r,18,7, Kub, Kub,0.0
+key_first_f0_r,18,8,ek,ek,0.0
+key_first_f0_r,18,9, jest, jest,0.0
+key_first_f0_r,18,10, niebies, niebies,0.0
+key_first_f0_r,18,11,ki,ki,0.0
+key_first_f0_r,18,12,.,.,0.0
+key_first_f0_r,18,13, Jaki, Jaki,0.0
+key_first_f0_r,18,14, jest, jest,0.0
+key_first_f0_r,18,15, klu, kub,0.9152604341506958
+key_first_f0_r,18,16,czyk,ek,0.4097808599472046
+key_first_f0_r,18,17,?,?,0.16876138746738434
+key_first_f0_r,18,18, Odpowiedź, Odpowiedź,0.09996906667947769
+key_first_f0_r,18,19,:,:,0.4313681423664093
+key_first_f0_r,19,0,K,K,0.0
+key_first_f0_r,19,1,lu,lu,0.0
+key_first_f0_r,19,2,czyk,czyk,0.0
+key_first_f0_r,19,3, jest, jest,0.0
+key_first_f0_r,19,4, czerw, czerw,0.0
+key_first_f0_r,19,5,ony,ony,0.0
+key_first_f0_r,19,6,.,.,0.0
+key_first_f0_r,19,7, Kub, Kub,0.0
+key_first_f0_r,19,8,ek,ek,0.0
+key_first_f0_r,19,9, jest, jest,0.0
+key_first_f0_r,19,10, niebies, niebies,0.0
+key_first_f0_r,19,11,ki,ki,0.0
+key_first_f0_r,19,12,.,.,0.0
+key_first_f0_r,19,13, Jaki, Jaki,0.0
+key_first_f0_r,19,14, jest, jest,0.0
+key_first_f0_r,19,15, klu, kub,0.8961222767829895
+key_first_f0_r,19,16,czyk,ek,0.4098994731903076
+key_first_f0_r,19,17,?,?,0.19227051734924316
+key_first_f0_r,19,18, Odpowiedź, Odpowiedź,0.10188621282577515
+key_first_f0_r,19,19,:,:,0.43314018845558167
+key_first_f0_r,20,0,K,K,0.0
+key_first_f0_r,20,1,lu,lu,0.0
+key_first_f0_r,20,2,czyk,czyk,0.0
+key_first_f0_r,20,3, jest, jest,0.0
+key_first_f0_r,20,4, czerw, czerw,0.0
+key_first_f0_r,20,5,ony,ony,0.0
+key_first_f0_r,20,6,.,.,0.0
+key_first_f0_r,20,7, Kub, Kub,0.0
+key_first_f0_r,20,8,ek,ek,0.0
+key_first_f0_r,20,9, jest, jest,0.0
+key_first_f0_r,20,10, niebies, niebies,0.0
+key_first_f0_r,20,11,ki,ki,0.0
+key_first_f0_r,20,12,.,.,0.0
+key_first_f0_r,20,13, Jaki, Jaki,0.0
+key_first_f0_r,20,14, jest, jest,0.0
+key_first_f0_r,20,15, klu, kub,1.0376158952713013
+key_first_f0_r,20,16,czyk,ek,0.6569473743438721
+key_first_f0_r,20,17,?,?,0.28831976652145386
+key_first_f0_r,20,18, Odpowiedź, Odpowiedź,0.15190169215202332
+key_first_f0_r,20,19,:,:,0.6128738522529602
+key_first_f0_b,0,0,K,K,0.0
+key_first_f0_b,0,1,lu,lu,0.0
+key_first_f0_b,0,2,czyk,czyk,0.0
+key_first_f0_b,0,3, jest, jest,0.0
+key_first_f0_b,0,4, niebies, niebies,0.0
+key_first_f0_b,0,5,ki,ki,0.0
+key_first_f0_b,0,6,.,.,0.0
+key_first_f0_b,0,7, Kub, Kub,0.0
+key_first_f0_b,0,8,ek,ek,0.0
+key_first_f0_b,0,9, jest, jest,0.0
+key_first_f0_b,0,10, czerw, czerw,0.0
+key_first_f0_b,0,11,ony,ony,0.0
+key_first_f0_b,0,12,.,.,0.0
+key_first_f0_b,0,13, Jaki, Jaki,0.0
+key_first_f0_b,0,14, jest, jest,0.0
+key_first_f0_b,0,15, klu, kub,0.8215619921684265
+key_first_f0_b,0,16,czyk,ek,1.061078667640686
+key_first_f0_b,0,17,?,?,0.0
+key_first_f0_b,0,18, Odpowiedź, Odpowiedź,0.0
+key_first_f0_b,0,19,:,:,0.0
+key_first_f0_b,1,0,K,K,0.0
+key_first_f0_b,1,1,lu,lu,0.0
+key_first_f0_b,1,2,czyk,czyk,0.0
+key_first_f0_b,1,3, jest, jest,0.0
+key_first_f0_b,1,4, niebies, niebies,0.0
+key_first_f0_b,1,5,ki,ki,0.0
+key_first_f0_b,1,6,.,.,0.0
+key_first_f0_b,1,7, Kub, Kub,0.0
+key_first_f0_b,1,8,ek,ek,0.0
+key_first_f0_b,1,9, jest, jest,0.0
+key_first_f0_b,1,10, czerw, czerw,0.0
+key_first_f0_b,1,11,ony,ony,0.0
+key_first_f0_b,1,12,.,.,0.0
+key_first_f0_b,1,13, Jaki, Jaki,0.0
+key_first_f0_b,1,14, jest, jest,0.0
+key_first_f0_b,1,15, klu, kub,0.36516639590263367
+key_first_f0_b,1,16,czyk,ek,0.210423082113266
+key_first_f0_b,1,17,?,?,0.01637755148112774
+key_first_f0_b,1,18, Odpowiedź, Odpowiedź,0.022665122523903847
+key_first_f0_b,1,19,:,:,0.012064755894243717
+key_first_f0_b,2,0,K,K,0.0
+key_first_f0_b,2,1,lu,lu,0.0
+key_first_f0_b,2,2,czyk,czyk,0.0
+key_first_f0_b,2,3, jest, jest,0.0
+key_first_f0_b,2,4, niebies, niebies,0.0
+key_first_f0_b,2,5,ki,ki,0.0
+key_first_f0_b,2,6,.,.,0.0
+key_first_f0_b,2,7, Kub, Kub,0.0
+key_first_f0_b,2,8,ek,ek,0.0
+key_first_f0_b,2,9, jest, jest,0.0
+key_first_f0_b,2,10, czerw, czerw,0.0
+key_first_f0_b,2,11,ony,ony,0.0
+key_first_f0_b,2,12,.,.,0.0
+key_first_f0_b,2,13, Jaki, Jaki,0.0
+key_first_f0_b,2,14, jest, jest,0.0
+key_first_f0_b,2,15, klu, kub,0.3553292155265808
+key_first_f0_b,2,16,czyk,ek,0.22388140857219696
+key_first_f0_b,2,17,?,?,0.019476082175970078
+key_first_f0_b,2,18, Odpowiedź, Odpowiedź,0.020584845915436745
+key_first_f0_b,2,19,:,:,0.012884542346000671
+key_first_f0_b,3,0,K,K,0.0
+key_first_f0_b,3,1,lu,lu,0.0
+key_first_f0_b,3,2,czyk,czyk,0.0
+key_first_f0_b,3,3, jest, jest,0.0
+key_first_f0_b,3,4, niebies, niebies,0.0
+key_first_f0_b,3,5,ki,ki,0.0
+key_first_f0_b,3,6,.,.,0.0
+key_first_f0_b,3,7, Kub, Kub,0.0
+key_first_f0_b,3,8,ek,ek,0.0
+key_first_f0_b,3,9, jest, jest,0.0
+key_first_f0_b,3,10, czerw, czerw,0.0
+key_first_f0_b,3,11,ony,ony,0.0
+key_first_f0_b,3,12,.,.,0.0
+key_first_f0_b,3,13, Jaki, Jaki,0.0
+key_first_f0_b,3,14, jest, jest,0.0
+key_first_f0_b,3,15, klu, kub,0.34260186553001404
+key_first_f0_b,3,16,czyk,ek,0.3375103175640106
+key_first_f0_b,3,17,?,?,0.025821641087532043
+key_first_f0_b,3,18, Odpowiedź, Odpowiedź,0.018293440341949463
+key_first_f0_b,3,19,:,:,0.021158413961529732
+key_first_f0_b,4,0,K,K,0.0
+key_first_f0_b,4,1,lu,lu,0.0
+key_first_f0_b,4,2,czyk,czyk,0.0
+key_first_f0_b,4,3, jest, jest,0.0
+key_first_f0_b,4,4, niebies, niebies,0.0
+key_first_f0_b,4,5,ki,ki,0.0
+key_first_f0_b,4,6,.,.,0.0
+key_first_f0_b,4,7, Kub, Kub,0.0
+key_first_f0_b,4,8,ek,ek,0.0
+key_first_f0_b,4,9, jest, jest,0.0
+key_first_f0_b,4,10, czerw, czerw,0.0
+key_first_f0_b,4,11,ony,ony,0.0
+key_first_f0_b,4,12,.,.,0.0
+key_first_f0_b,4,13, Jaki, Jaki,0.0
+key_first_f0_b,4,14, jest, jest,0.0
+key_first_f0_b,4,15, klu, kub,0.34078124165534973
+key_first_f0_b,4,16,czyk,ek,0.39816269278526306
+key_first_f0_b,4,17,?,?,0.028504135087132454
+key_first_f0_b,4,18, Odpowiedź, Odpowiedź,0.0211471039801836
+key_first_f0_b,4,19,:,:,0.02668408490717411
+key_first_f0_b,5,0,K,K,0.0
+key_first_f0_b,5,1,lu,lu,0.0
+key_first_f0_b,5,2,czyk,czyk,0.0
+key_first_f0_b,5,3, jest, jest,0.0
+key_first_f0_b,5,4, niebies, niebies,0.0
+key_first_f0_b,5,5,ki,ki,0.0
+key_first_f0_b,5,6,.,.,0.0
+key_first_f0_b,5,7, Kub, Kub,0.0
+key_first_f0_b,5,8,ek,ek,0.0
+key_first_f0_b,5,9, jest, jest,0.0
+key_first_f0_b,5,10, czerw, czerw,0.0
+key_first_f0_b,5,11,ony,ony,0.0
+key_first_f0_b,5,12,.,.,0.0
+key_first_f0_b,5,13, Jaki, Jaki,0.0
+key_first_f0_b,5,14, jest, jest,0.0
+key_first_f0_b,5,15, klu, kub,0.3377760350704193
+key_first_f0_b,5,16,czyk,ek,0.4039094150066376
+key_first_f0_b,5,17,?,?,0.07764572650194168
+key_first_f0_b,5,18, Odpowiedź, Odpowiedź,0.02343294583261013
+key_first_f0_b,5,19,:,:,0.036734264343976974
+key_first_f0_b,6,0,K,K,0.0
+key_first_f0_b,6,1,lu,lu,0.0
+key_first_f0_b,6,2,czyk,czyk,0.0
+key_first_f0_b,6,3, jest, jest,0.0
+key_first_f0_b,6,4, niebies, niebies,0.0
+key_first_f0_b,6,5,ki,ki,0.0
+key_first_f0_b,6,6,.,.,0.0
+key_first_f0_b,6,7, Kub, Kub,0.0
+key_first_f0_b,6,8,ek,ek,0.0
+key_first_f0_b,6,9, jest, jest,0.0
+key_first_f0_b,6,10, czerw, czerw,0.0
+key_first_f0_b,6,11,ony,ony,0.0
+key_first_f0_b,6,12,.,.,0.0
+key_first_f0_b,6,13, Jaki, Jaki,0.0
+key_first_f0_b,6,14, jest, jest,0.0
+key_first_f0_b,6,15, klu, kub,0.3674214482307434
+key_first_f0_b,6,16,czyk,ek,0.3646824359893799
+key_first_f0_b,6,17,?,?,0.08286146819591522
+key_first_f0_b,6,18, Odpowiedź, Odpowiedź,0.02997703291475773
+key_first_f0_b,6,19,:,:,0.03192412108182907
+key_first_f0_b,7,0,K,K,0.0
+key_first_f0_b,7,1,lu,lu,0.0
+key_first_f0_b,7,2,czyk,czyk,0.0
+key_first_f0_b,7,3, jest, jest,0.0
+key_first_f0_b,7,4, niebies, niebies,0.0
+key_first_f0_b,7,5,ki,ki,0.0
+key_first_f0_b,7,6,.,.,0.0
+key_first_f0_b,7,7, Kub, Kub,0.0
+key_first_f0_b,7,8,ek,ek,0.0
+key_first_f0_b,7,9, jest, jest,0.0
+key_first_f0_b,7,10, czerw, czerw,0.0
+key_first_f0_b,7,11,ony,ony,0.0
+key_first_f0_b,7,12,.,.,0.0
+key_first_f0_b,7,13, Jaki, Jaki,0.0
+key_first_f0_b,7,14, jest, jest,0.0
+key_first_f0_b,7,15, klu, kub,0.40541648864746094
+key_first_f0_b,7,16,czyk,ek,0.3686642050743103
+key_first_f0_b,7,17,?,?,0.09468625485897064
+key_first_f0_b,7,18, Odpowiedź, Odpowiedź,0.03360835835337639
+key_first_f0_b,7,19,:,:,0.033588528633117676
+key_first_f0_b,8,0,K,K,0.0
+key_first_f0_b,8,1,lu,lu,0.0
+key_first_f0_b,8,2,czyk,czyk,0.0
+key_first_f0_b,8,3, jest, jest,0.0
+key_first_f0_b,8,4, niebies, niebies,0.0
+key_first_f0_b,8,5,ki,ki,0.0
+key_first_f0_b,8,6,.,.,0.0
+key_first_f0_b,8,7, Kub, Kub,0.0
+key_first_f0_b,8,8,ek,ek,0.0
+key_first_f0_b,8,9, jest, jest,0.0
+key_first_f0_b,8,10, czerw, czerw,0.0
+key_first_f0_b,8,11,ony,ony,0.0
+key_first_f0_b,8,12,.,.,0.0
+key_first_f0_b,8,13, Jaki, Jaki,0.0
+key_first_f0_b,8,14, jest, jest,0.0
+key_first_f0_b,8,15, klu, kub,0.42256638407707214
+key_first_f0_b,8,16,czyk,ek,0.37021589279174805
+key_first_f0_b,8,17,?,?,0.1252712458372116
+key_first_f0_b,8,18, Odpowiedź, Odpowiedź,0.039611637592315674
+key_first_f0_b,8,19,:,:,0.04015257582068443
+key_first_f0_b,9,0,K,K,0.0
+key_first_f0_b,9,1,lu,lu,0.0
+key_first_f0_b,9,2,czyk,czyk,0.0
+key_first_f0_b,9,3, jest, jest,0.0
+key_first_f0_b,9,4, niebies, niebies,0.0
+key_first_f0_b,9,5,ki,ki,0.0
+key_first_f0_b,9,6,.,.,0.0
+key_first_f0_b,9,7, Kub, Kub,0.0
+key_first_f0_b,9,8,ek,ek,0.0
+key_first_f0_b,9,9, jest, jest,0.0
+key_first_f0_b,9,10, czerw, czerw,0.0
+key_first_f0_b,9,11,ony,ony,0.0
+key_first_f0_b,9,12,.,.,0.0
+key_first_f0_b,9,13, Jaki, Jaki,0.0
+key_first_f0_b,9,14, jest, jest,0.0
+key_first_f0_b,9,15, klu, kub,0.5306470394134521
+key_first_f0_b,9,16,czyk,ek,0.43763384222984314
+key_first_f0_b,9,17,?,?,0.16567857563495636
+key_first_f0_b,9,18, Odpowiedź, Odpowiedź,0.05395234003663063
+key_first_f0_b,9,19,:,:,0.07003413885831833
+key_first_f0_b,10,0,K,K,0.0
+key_first_f0_b,10,1,lu,lu,0.0
+key_first_f0_b,10,2,czyk,czyk,0.0
+key_first_f0_b,10,3, jest, jest,0.0
+key_first_f0_b,10,4, niebies, niebies,0.0
+key_first_f0_b,10,5,ki,ki,0.0
+key_first_f0_b,10,6,.,.,0.0
+key_first_f0_b,10,7, Kub, Kub,0.0
+key_first_f0_b,10,8,ek,ek,0.0
+key_first_f0_b,10,9, jest, jest,0.0
+key_first_f0_b,10,10, czerw, czerw,0.0
+key_first_f0_b,10,11,ony,ony,0.0
+key_first_f0_b,10,12,.,.,0.0
+key_first_f0_b,10,13, Jaki, Jaki,0.0
+key_first_f0_b,10,14, jest, jest,0.0
+key_first_f0_b,10,15, klu, kub,0.7623900771141052
+key_first_f0_b,10,16,czyk,ek,0.5749676823616028
+key_first_f0_b,10,17,?,?,0.17886248230934143
+key_first_f0_b,10,18, Odpowiedź, Odpowiedź,0.06465013325214386
+key_first_f0_b,10,19,:,:,0.08760598301887512
+key_first_f0_b,11,0,K,K,0.0
+key_first_f0_b,11,1,lu,lu,0.0
+key_first_f0_b,11,2,czyk,czyk,0.0
+key_first_f0_b,11,3, jest, jest,0.0
+key_first_f0_b,11,4, niebies, niebies,0.0
+key_first_f0_b,11,5,ki,ki,0.0
+key_first_f0_b,11,6,.,.,0.0
+key_first_f0_b,11,7, Kub, Kub,0.0
+key_first_f0_b,11,8,ek,ek,0.0
+key_first_f0_b,11,9, jest, jest,0.0
+key_first_f0_b,11,10, czerw, czerw,0.0
+key_first_f0_b,11,11,ony,ony,0.0
+key_first_f0_b,11,12,.,.,0.0
+key_first_f0_b,11,13, Jaki, Jaki,0.0
+key_first_f0_b,11,14, jest, jest,0.0
+key_first_f0_b,11,15, klu, kub,0.9137189984321594
+key_first_f0_b,11,16,czyk,ek,0.608256995677948
+key_first_f0_b,11,17,?,?,0.21065272390842438
+key_first_f0_b,11,18, Odpowiedź, Odpowiedź,0.08631452172994614
+key_first_f0_b,11,19,:,:,0.18943579494953156
+key_first_f0_b,12,0,K,K,0.0
+key_first_f0_b,12,1,lu,lu,0.0
+key_first_f0_b,12,2,czyk,czyk,0.0
+key_first_f0_b,12,3, jest, jest,0.0
+key_first_f0_b,12,4, niebies, niebies,0.0
+key_first_f0_b,12,5,ki,ki,0.0
+key_first_f0_b,12,6,.,.,0.0
+key_first_f0_b,12,7, Kub, Kub,0.0
+key_first_f0_b,12,8,ek,ek,0.0
+key_first_f0_b,12,9, jest, jest,0.0
+key_first_f0_b,12,10, czerw, czerw,0.0
+key_first_f0_b,12,11,ony,ony,0.0
+key_first_f0_b,12,12,.,.,0.0
+key_first_f0_b,12,13, Jaki, Jaki,0.0
+key_first_f0_b,12,14, jest, jest,0.0
+key_first_f0_b,12,15, klu, kub,0.9859403967857361
+key_first_f0_b,12,16,czyk,ek,0.6098729372024536
+key_first_f0_b,12,17,?,?,0.20777101814746857
+key_first_f0_b,12,18, Odpowiedź, Odpowiedź,0.1035788357257843
+key_first_f0_b,12,19,:,:,0.18657220900058746
+key_first_f0_b,13,0,K,K,0.0
+key_first_f0_b,13,1,lu,lu,0.0
+key_first_f0_b,13,2,czyk,czyk,0.0
+key_first_f0_b,13,3, jest, jest,0.0
+key_first_f0_b,13,4, niebies, niebies,0.0
+key_first_f0_b,13,5,ki,ki,0.0
+key_first_f0_b,13,6,.,.,0.0
+key_first_f0_b,13,7, Kub, Kub,0.0
+key_first_f0_b,13,8,ek,ek,0.0
+key_first_f0_b,13,9, jest, jest,0.0
+key_first_f0_b,13,10, czerw, czerw,0.0
+key_first_f0_b,13,11,ony,ony,0.0
+key_first_f0_b,13,12,.,.,0.0
+key_first_f0_b,13,13, Jaki, Jaki,0.0
+key_first_f0_b,13,14, jest, jest,0.0
+key_first_f0_b,13,15, klu, kub,0.9813454747200012
+key_first_f0_b,13,16,czyk,ek,0.5779160857200623
+key_first_f0_b,13,17,?,?,0.21110562980175018
+key_first_f0_b,13,18, Odpowiedź, Odpowiedź,0.10949038714170456
+key_first_f0_b,13,19,:,:,0.2560931444168091
+key_first_f0_b,14,0,K,K,0.0
+key_first_f0_b,14,1,lu,lu,0.0
+key_first_f0_b,14,2,czyk,czyk,0.0
+key_first_f0_b,14,3, jest, jest,0.0
+key_first_f0_b,14,4, niebies, niebies,0.0
+key_first_f0_b,14,5,ki,ki,0.0
+key_first_f0_b,14,6,.,.,0.0
+key_first_f0_b,14,7, Kub, Kub,0.0
+key_first_f0_b,14,8,ek,ek,0.0
+key_first_f0_b,14,9, jest, jest,0.0
+key_first_f0_b,14,10, czerw, czerw,0.0
+key_first_f0_b,14,11,ony,ony,0.0
+key_first_f0_b,14,12,.,.,0.0
+key_first_f0_b,14,13, Jaki, Jaki,0.0
+key_first_f0_b,14,14, jest, jest,0.0
+key_first_f0_b,14,15, klu, kub,0.9886385798454285
+key_first_f0_b,14,16,czyk,ek,0.5566296577453613
+key_first_f0_b,14,17,?,?,0.20491808652877808
+key_first_f0_b,14,18, Odpowiedź, Odpowiedź,0.11085040122270584
+key_first_f0_b,14,19,:,:,0.2763056457042694
+key_first_f0_b,15,0,K,K,0.0
+key_first_f0_b,15,1,lu,lu,0.0
+key_first_f0_b,15,2,czyk,czyk,0.0
+key_first_f0_b,15,3, jest, jest,0.0
+key_first_f0_b,15,4, niebies, niebies,0.0
+key_first_f0_b,15,5,ki,ki,0.0
+key_first_f0_b,15,6,.,.,0.0
+key_first_f0_b,15,7, Kub, Kub,0.0
+key_first_f0_b,15,8,ek,ek,0.0
+key_first_f0_b,15,9, jest, jest,0.0
+key_first_f0_b,15,10, czerw, czerw,0.0
+key_first_f0_b,15,11,ony,ony,0.0
+key_first_f0_b,15,12,.,.,0.0
+key_first_f0_b,15,13, Jaki, Jaki,0.0
+key_first_f0_b,15,14, jest, jest,0.0
+key_first_f0_b,15,15, klu, kub,1.0334051847457886
+key_first_f0_b,15,16,czyk,ek,0.5453214645385742
+key_first_f0_b,15,17,?,?,0.20025762915611267
+key_first_f0_b,15,18, Odpowiedź, Odpowiedź,0.11162129044532776
+key_first_f0_b,15,19,:,:,0.3755074441432953
+key_first_f0_b,16,0,K,K,0.0
+key_first_f0_b,16,1,lu,lu,0.0
+key_first_f0_b,16,2,czyk,czyk,0.0
+key_first_f0_b,16,3, jest, jest,0.0
+key_first_f0_b,16,4, niebies, niebies,0.0
+key_first_f0_b,16,5,ki,ki,0.0
+key_first_f0_b,16,6,.,.,0.0
+key_first_f0_b,16,7, Kub, Kub,0.0
+key_first_f0_b,16,8,ek,ek,0.0
+key_first_f0_b,16,9, jest, jest,0.0
+key_first_f0_b,16,10, czerw, czerw,0.0
+key_first_f0_b,16,11,ony,ony,0.0
+key_first_f0_b,16,12,.,.,0.0
+key_first_f0_b,16,13, Jaki, Jaki,0.0
+key_first_f0_b,16,14, jest, jest,0.0
+key_first_f0_b,16,15, klu, kub,1.0022295713424683
+key_first_f0_b,16,16,czyk,ek,0.5233299136161804
+key_first_f0_b,16,17,?,?,0.19428980350494385
+key_first_f0_b,16,18, Odpowiedź, Odpowiedź,0.10994390398263931
+key_first_f0_b,16,19,:,:,0.41053083539009094
+key_first_f0_b,17,0,K,K,0.0
+key_first_f0_b,17,1,lu,lu,0.0
+key_first_f0_b,17,2,czyk,czyk,0.0
+key_first_f0_b,17,3, jest, jest,0.0
+key_first_f0_b,17,4, niebies, niebies,0.0
+key_first_f0_b,17,5,ki,ki,0.0
+key_first_f0_b,17,6,.,.,0.0
+key_first_f0_b,17,7, Kub, Kub,0.0
+key_first_f0_b,17,8,ek,ek,0.0
+key_first_f0_b,17,9, jest, jest,0.0
+key_first_f0_b,17,10, czerw, czerw,0.0
+key_first_f0_b,17,11,ony,ony,0.0
+key_first_f0_b,17,12,.,.,0.0
+key_first_f0_b,17,13, Jaki, Jaki,0.0
+key_first_f0_b,17,14, jest, jest,0.0
+key_first_f0_b,17,15, klu, kub,0.9603717923164368
+key_first_f0_b,17,16,czyk,ek,0.46862104535102844
+key_first_f0_b,17,17,?,?,0.18844841420650482
+key_first_f0_b,17,18, Odpowiedź, Odpowiedź,0.10638168454170227
+key_first_f0_b,17,19,:,:,0.4525887668132782
+key_first_f0_b,18,0,K,K,0.0
+key_first_f0_b,18,1,lu,lu,0.0
+key_first_f0_b,18,2,czyk,czyk,0.0
+key_first_f0_b,18,3, jest, jest,0.0
+key_first_f0_b,18,4, niebies, niebies,0.0
+key_first_f0_b,18,5,ki,ki,0.0
+key_first_f0_b,18,6,.,.,0.0
+key_first_f0_b,18,7, Kub, Kub,0.0
+key_first_f0_b,18,8,ek,ek,0.0
+key_first_f0_b,18,9, jest, jest,0.0
+key_first_f0_b,18,10, czerw, czerw,0.0
+key_first_f0_b,18,11,ony,ony,0.0
+key_first_f0_b,18,12,.,.,0.0
+key_first_f0_b,18,13, Jaki, Jaki,0.0
+key_first_f0_b,18,14, jest, jest,0.0
+key_first_f0_b,18,15, klu, kub,0.9111706614494324
+key_first_f0_b,18,16,czyk,ek,0.4150969684123993
+key_first_f0_b,18,17,?,?,0.1746416538953781
+key_first_f0_b,18,18, Odpowiedź, Odpowiedź,0.10053972154855728
+key_first_f0_b,18,19,:,:,0.4464825987815857
+key_first_f0_b,19,0,K,K,0.0
+key_first_f0_b,19,1,lu,lu,0.0
+key_first_f0_b,19,2,czyk,czyk,0.0
+key_first_f0_b,19,3, jest, jest,0.0
+key_first_f0_b,19,4, niebies, niebies,0.0
+key_first_f0_b,19,5,ki,ki,0.0
+key_first_f0_b,19,6,.,.,0.0
+key_first_f0_b,19,7, Kub, Kub,0.0
+key_first_f0_b,19,8,ek,ek,0.0
+key_first_f0_b,19,9, jest, jest,0.0
+key_first_f0_b,19,10, czerw, czerw,0.0
+key_first_f0_b,19,11,ony,ony,0.0
+key_first_f0_b,19,12,.,.,0.0
+key_first_f0_b,19,13, Jaki, Jaki,0.0
+key_first_f0_b,19,14, jest, jest,0.0
+key_first_f0_b,19,15, klu, kub,0.8888471126556396
+key_first_f0_b,19,16,czyk,ek,0.4153277277946472
+key_first_f0_b,19,17,?,?,0.198338583111763
+key_first_f0_b,19,18, Odpowiedź, Odpowiedź,0.10221031308174133
+key_first_f0_b,19,19,:,:,0.4492471516132355
+key_first_f0_b,20,0,K,K,0.0
+key_first_f0_b,20,1,lu,lu,0.0
+key_first_f0_b,20,2,czyk,czyk,0.0
+key_first_f0_b,20,3, jest, jest,0.0
+key_first_f0_b,20,4, niebies, niebies,0.0
+key_first_f0_b,20,5,ki,ki,0.0
+key_first_f0_b,20,6,.,.,0.0
+key_first_f0_b,20,7, Kub, Kub,0.0
+key_first_f0_b,20,8,ek,ek,0.0
+key_first_f0_b,20,9, jest, jest,0.0
+key_first_f0_b,20,10, czerw, czerw,0.0
+key_first_f0_b,20,11,ony,ony,0.0
+key_first_f0_b,20,12,.,.,0.0
+key_first_f0_b,20,13, Jaki, Jaki,0.0
+key_first_f0_b,20,14, jest, jest,0.0
+key_first_f0_b,20,15, klu, kub,1.0272060632705688
+key_first_f0_b,20,16,czyk,ek,0.6645821928977966
+key_first_f0_b,20,17,?,?,0.2972368597984314
+key_first_f0_b,20,18, Odpowiedź, Odpowiedź,0.15116433799266815
+key_first_f0_b,20,19,:,:,0.6309956908226013
+cup_first_f0_r,0,0,K,K,0.0
+cup_first_f0_r,0,1,ub,ub,0.0
+cup_first_f0_r,0,2,ek,ek,0.0
+cup_first_f0_r,0,3, jest, jest,0.0
+cup_first_f0_r,0,4, niebies, niebies,0.0
+cup_first_f0_r,0,5,ki,ki,0.0
+cup_first_f0_r,0,6,.,.,0.0
+cup_first_f0_r,0,7, K, K,0.0
+cup_first_f0_r,0,8,lu,lu,0.0
+cup_first_f0_r,0,9,czyk,czyk,0.0
+cup_first_f0_r,0,10, jest, jest,0.0
+cup_first_f0_r,0,11, czerw, czerw,0.0
+cup_first_f0_r,0,12,ony,ony,0.0
+cup_first_f0_r,0,13,.,.,0.0
+cup_first_f0_r,0,14, Jaki, Jaki,0.0
+cup_first_f0_r,0,15, jest, jest,0.0
+cup_first_f0_r,0,16, klu, kub,0.8215619921684265
+cup_first_f0_r,0,17,czyk,ek,1.061078667640686
+cup_first_f0_r,0,18,?,?,0.0
+cup_first_f0_r,0,19, Odpowiedź, Odpowiedź,0.0
+cup_first_f0_r,0,20,:,:,0.0
+cup_first_f0_r,1,0,K,K,0.0
+cup_first_f0_r,1,1,ub,ub,0.0
+cup_first_f0_r,1,2,ek,ek,0.0
+cup_first_f0_r,1,3, jest, jest,0.0
+cup_first_f0_r,1,4, niebies, niebies,0.0
+cup_first_f0_r,1,5,ki,ki,0.0
+cup_first_f0_r,1,6,.,.,0.0
+cup_first_f0_r,1,7, K, K,0.0
+cup_first_f0_r,1,8,lu,lu,0.0
+cup_first_f0_r,1,9,czyk,czyk,0.0
+cup_first_f0_r,1,10, jest, jest,0.0
+cup_first_f0_r,1,11, czerw, czerw,0.0
+cup_first_f0_r,1,12,ony,ony,0.0
+cup_first_f0_r,1,13,.,.,0.0
+cup_first_f0_r,1,14, Jaki, Jaki,0.0
+cup_first_f0_r,1,15, jest, jest,0.0
+cup_first_f0_r,1,16, klu, kub,0.36033982038497925
+cup_first_f0_r,1,17,czyk,ek,0.20620273053646088
+cup_first_f0_r,1,18,?,?,0.01626988872885704
+cup_first_f0_r,1,19, Odpowiedź, Odpowiedź,0.02174697257578373
+cup_first_f0_r,1,20,:,:,0.01189298927783966
+cup_first_f0_r,2,0,K,K,0.0
+cup_first_f0_r,2,1,ub,ub,0.0
+cup_first_f0_r,2,2,ek,ek,0.0
+cup_first_f0_r,2,3, jest, jest,0.0
+cup_first_f0_r,2,4, niebies, niebies,0.0
+cup_first_f0_r,2,5,ki,ki,0.0
+cup_first_f0_r,2,6,.,.,0.0
+cup_first_f0_r,2,7, K, K,0.0
+cup_first_f0_r,2,8,lu,lu,0.0
+cup_first_f0_r,2,9,czyk,czyk,0.0
+cup_first_f0_r,2,10, jest, jest,0.0
+cup_first_f0_r,2,11, czerw, czerw,0.0
+cup_first_f0_r,2,12,ony,ony,0.0
+cup_first_f0_r,2,13,.,.,0.0
+cup_first_f0_r,2,14, Jaki, Jaki,0.0
+cup_first_f0_r,2,15, jest, jest,0.0
+cup_first_f0_r,2,16, klu, kub,0.348353773355484
+cup_first_f0_r,2,17,czyk,ek,0.22125031054019928
+cup_first_f0_r,2,18,?,?,0.019341453909873962
+cup_first_f0_r,2,19, Odpowiedź, Odpowiedź,0.019619856029748917
+cup_first_f0_r,2,20,:,:,0.012336972169578075
+cup_first_f0_r,3,0,K,K,0.0
+cup_first_f0_r,3,1,ub,ub,0.0
+cup_first_f0_r,3,2,ek,ek,0.0
+cup_first_f0_r,3,3, jest, jest,0.0
+cup_first_f0_r,3,4, niebies, niebies,0.0
+cup_first_f0_r,3,5,ki,ki,0.0
+cup_first_f0_r,3,6,.,.,0.0
+cup_first_f0_r,3,7, K, K,0.0
+cup_first_f0_r,3,8,lu,lu,0.0
+cup_first_f0_r,3,9,czyk,czyk,0.0
+cup_first_f0_r,3,10, jest, jest,0.0
+cup_first_f0_r,3,11, czerw, czerw,0.0
+cup_first_f0_r,3,12,ony,ony,0.0
+cup_first_f0_r,3,13,.,.,0.0
+cup_first_f0_r,3,14, Jaki, Jaki,0.0
+cup_first_f0_r,3,15, jest, jest,0.0
+cup_first_f0_r,3,16, klu, kub,0.3401823341846466
+cup_first_f0_r,3,17,czyk,ek,0.3381876051425934
+cup_first_f0_r,3,18,?,?,0.025233088061213493
+cup_first_f0_r,3,19, Odpowiedź, Odpowiedź,0.017790982499718666
+cup_first_f0_r,3,20,:,:,0.020147234201431274
+cup_first_f0_r,4,0,K,K,0.0
+cup_first_f0_r,4,1,ub,ub,0.0
+cup_first_f0_r,4,2,ek,ek,0.0
+cup_first_f0_r,4,3, jest, jest,0.0
+cup_first_f0_r,4,4, niebies, niebies,0.0
+cup_first_f0_r,4,5,ki,ki,0.0
+cup_first_f0_r,4,6,.,.,0.0
+cup_first_f0_r,4,7, K, K,0.0
+cup_first_f0_r,4,8,lu,lu,0.0
+cup_first_f0_r,4,9,czyk,czyk,0.0
+cup_first_f0_r,4,10, jest, jest,0.0
+cup_first_f0_r,4,11, czerw, czerw,0.0
+cup_first_f0_r,4,12,ony,ony,0.0
+cup_first_f0_r,4,13,.,.,0.0
+cup_first_f0_r,4,14, Jaki, Jaki,0.0
+cup_first_f0_r,4,15, jest, jest,0.0
+cup_first_f0_r,4,16, klu, kub,0.33640730381011963
+cup_first_f0_r,4,17,czyk,ek,0.39784255623817444
+cup_first_f0_r,4,18,?,?,0.028465719893574715
+cup_first_f0_r,4,19, Odpowiedź, Odpowiedź,0.020857026800513268
+cup_first_f0_r,4,20,:,:,0.026454655453562737
+cup_first_f0_r,5,0,K,K,0.0
+cup_first_f0_r,5,1,ub,ub,0.0
+cup_first_f0_r,5,2,ek,ek,0.0
+cup_first_f0_r,5,3, jest, jest,0.0
+cup_first_f0_r,5,4, niebies, niebies,0.0
+cup_first_f0_r,5,5,ki,ki,0.0
+cup_first_f0_r,5,6,.,.,0.0
+cup_first_f0_r,5,7, K, K,0.0
+cup_first_f0_r,5,8,lu,lu,0.0
+cup_first_f0_r,5,9,czyk,czyk,0.0
+cup_first_f0_r,5,10, jest, jest,0.0
+cup_first_f0_r,5,11, czerw, czerw,0.0
+cup_first_f0_r,5,12,ony,ony,0.0
+cup_first_f0_r,5,13,.,.,0.0
+cup_first_f0_r,5,14, Jaki, Jaki,0.0
+cup_first_f0_r,5,15, jest, jest,0.0
+cup_first_f0_r,5,16, klu, kub,0.3340798616409302
+cup_first_f0_r,5,17,czyk,ek,0.40588414669036865
+cup_first_f0_r,5,18,?,?,0.07705629616975784
+cup_first_f0_r,5,19, Odpowiedź, Odpowiedź,0.022948164492845535
+cup_first_f0_r,5,20,:,:,0.03858539089560509
+cup_first_f0_r,6,0,K,K,0.0
+cup_first_f0_r,6,1,ub,ub,0.0
+cup_first_f0_r,6,2,ek,ek,0.0
+cup_first_f0_r,6,3, jest, jest,0.0
+cup_first_f0_r,6,4, niebies, niebies,0.0
+cup_first_f0_r,6,5,ki,ki,0.0
+cup_first_f0_r,6,6,.,.,0.0
+cup_first_f0_r,6,7, K, K,0.0
+cup_first_f0_r,6,8,lu,lu,0.0
+cup_first_f0_r,6,9,czyk,czyk,0.0
+cup_first_f0_r,6,10, jest, jest,0.0
+cup_first_f0_r,6,11, czerw, czerw,0.0
+cup_first_f0_r,6,12,ony,ony,0.0
+cup_first_f0_r,6,13,.,.,0.0
+cup_first_f0_r,6,14, Jaki, Jaki,0.0
+cup_first_f0_r,6,15, jest, jest,0.0
+cup_first_f0_r,6,16, klu, kub,0.35529592633247375
+cup_first_f0_r,6,17,czyk,ek,0.3692860007286072
+cup_first_f0_r,6,18,?,?,0.08284251391887665
+cup_first_f0_r,6,19, Odpowiedź, Odpowiedź,0.02955273538827896
+cup_first_f0_r,6,20,:,:,0.034407515078783035
+cup_first_f0_r,7,0,K,K,0.0
+cup_first_f0_r,7,1,ub,ub,0.0
+cup_first_f0_r,7,2,ek,ek,0.0
+cup_first_f0_r,7,3, jest, jest,0.0
+cup_first_f0_r,7,4, niebies, niebies,0.0
+cup_first_f0_r,7,5,ki,ki,0.0
+cup_first_f0_r,7,6,.,.,0.0
+cup_first_f0_r,7,7, K, K,0.0
+cup_first_f0_r,7,8,lu,lu,0.0
+cup_first_f0_r,7,9,czyk,czyk,0.0
+cup_first_f0_r,7,10, jest, jest,0.0
+cup_first_f0_r,7,11, czerw, czerw,0.0
+cup_first_f0_r,7,12,ony,ony,0.0
+cup_first_f0_r,7,13,.,.,0.0
+cup_first_f0_r,7,14, Jaki, Jaki,0.0
+cup_first_f0_r,7,15, jest, jest,0.0
+cup_first_f0_r,7,16, klu, kub,0.3878573477268219
+cup_first_f0_r,7,17,czyk,ek,0.3613644540309906
+cup_first_f0_r,7,18,?,?,0.09463241696357727
+cup_first_f0_r,7,19, Odpowiedź, Odpowiedź,0.03266676515340805
+cup_first_f0_r,7,20,:,:,0.03496093302965164
+cup_first_f0_r,8,0,K,K,0.0
+cup_first_f0_r,8,1,ub,ub,0.0
+cup_first_f0_r,8,2,ek,ek,0.0
+cup_first_f0_r,8,3, jest, jest,0.0
+cup_first_f0_r,8,4, niebies, niebies,0.0
+cup_first_f0_r,8,5,ki,ki,0.0
+cup_first_f0_r,8,6,.,.,0.0
+cup_first_f0_r,8,7, K, K,0.0
+cup_first_f0_r,8,8,lu,lu,0.0
+cup_first_f0_r,8,9,czyk,czyk,0.0
+cup_first_f0_r,8,10, jest, jest,0.0
+cup_first_f0_r,8,11, czerw, czerw,0.0
+cup_first_f0_r,8,12,ony,ony,0.0
+cup_first_f0_r,8,13,.,.,0.0
+cup_first_f0_r,8,14, Jaki, Jaki,0.0
+cup_first_f0_r,8,15, jest, jest,0.0
+cup_first_f0_r,8,16, klu, kub,0.42110827565193176
+cup_first_f0_r,8,17,czyk,ek,0.3723033368587494
+cup_first_f0_r,8,18,?,?,0.11636289209127426
+cup_first_f0_r,8,19, Odpowiedź, Odpowiedź,0.03983628377318382
+cup_first_f0_r,8,20,:,:,0.04222390800714493
+cup_first_f0_r,9,0,K,K,0.0
+cup_first_f0_r,9,1,ub,ub,0.0
+cup_first_f0_r,9,2,ek,ek,0.0
+cup_first_f0_r,9,3, jest, jest,0.0
+cup_first_f0_r,9,4, niebies, niebies,0.0
+cup_first_f0_r,9,5,ki,ki,0.0
+cup_first_f0_r,9,6,.,.,0.0
+cup_first_f0_r,9,7, K, K,0.0
+cup_first_f0_r,9,8,lu,lu,0.0
+cup_first_f0_r,9,9,czyk,czyk,0.0
+cup_first_f0_r,9,10, jest, jest,0.0
+cup_first_f0_r,9,11, czerw, czerw,0.0
+cup_first_f0_r,9,12,ony,ony,0.0
+cup_first_f0_r,9,13,.,.,0.0
+cup_first_f0_r,9,14, Jaki, Jaki,0.0
+cup_first_f0_r,9,15, jest, jest,0.0
+cup_first_f0_r,9,16, klu, kub,0.5322429537773132
+cup_first_f0_r,9,17,czyk,ek,0.44142353534698486
+cup_first_f0_r,9,18,?,?,0.14280231297016144
+cup_first_f0_r,9,19, Odpowiedź, Odpowiedź,0.05275030434131622
+cup_first_f0_r,9,20,:,:,0.06816032528877258
+cup_first_f0_r,10,0,K,K,0.0
+cup_first_f0_r,10,1,ub,ub,0.0
+cup_first_f0_r,10,2,ek,ek,0.0
+cup_first_f0_r,10,3, jest, jest,0.0
+cup_first_f0_r,10,4, niebies, niebies,0.0
+cup_first_f0_r,10,5,ki,ki,0.0
+cup_first_f0_r,10,6,.,.,0.0
+cup_first_f0_r,10,7, K, K,0.0
+cup_first_f0_r,10,8,lu,lu,0.0
+cup_first_f0_r,10,9,czyk,czyk,0.0
+cup_first_f0_r,10,10, jest, jest,0.0
+cup_first_f0_r,10,11, czerw, czerw,0.0
+cup_first_f0_r,10,12,ony,ony,0.0
+cup_first_f0_r,10,13,.,.,0.0
+cup_first_f0_r,10,14, Jaki, Jaki,0.0
+cup_first_f0_r,10,15, jest, jest,0.0
+cup_first_f0_r,10,16, klu, kub,0.7669413089752197
+cup_first_f0_r,10,17,czyk,ek,0.5558748841285706
+cup_first_f0_r,10,18,?,?,0.14746271073818207
+cup_first_f0_r,10,19, Odpowiedź, Odpowiedź,0.05888926237821579
+cup_first_f0_r,10,20,:,:,0.08210685104131699
+cup_first_f0_r,11,0,K,K,0.0
+cup_first_f0_r,11,1,ub,ub,0.0
+cup_first_f0_r,11,2,ek,ek,0.0
+cup_first_f0_r,11,3, jest, jest,0.0
+cup_first_f0_r,11,4, niebies, niebies,0.0
+cup_first_f0_r,11,5,ki,ki,0.0
+cup_first_f0_r,11,6,.,.,0.0
+cup_first_f0_r,11,7, K, K,0.0
+cup_first_f0_r,11,8,lu,lu,0.0
+cup_first_f0_r,11,9,czyk,czyk,0.0
+cup_first_f0_r,11,10, jest, jest,0.0
+cup_first_f0_r,11,11, czerw, czerw,0.0
+cup_first_f0_r,11,12,ony,ony,0.0
+cup_first_f0_r,11,13,.,.,0.0
+cup_first_f0_r,11,14, Jaki, Jaki,0.0
+cup_first_f0_r,11,15, jest, jest,0.0
+cup_first_f0_r,11,16, klu, kub,0.9091821908950806
+cup_first_f0_r,11,17,czyk,ek,0.5910561084747314
+cup_first_f0_r,11,18,?,?,0.1926506906747818
+cup_first_f0_r,11,19, Odpowiedź, Odpowiedź,0.07927609235048294
+cup_first_f0_r,11,20,:,:,0.2031877040863037
+cup_first_f0_r,12,0,K,K,0.0
+cup_first_f0_r,12,1,ub,ub,0.0
+cup_first_f0_r,12,2,ek,ek,0.0
+cup_first_f0_r,12,3, jest, jest,0.0
+cup_first_f0_r,12,4, niebies, niebies,0.0
+cup_first_f0_r,12,5,ki,ki,0.0
+cup_first_f0_r,12,6,.,.,0.0
+cup_first_f0_r,12,7, K, K,0.0
+cup_first_f0_r,12,8,lu,lu,0.0
+cup_first_f0_r,12,9,czyk,czyk,0.0
+cup_first_f0_r,12,10, jest, jest,0.0
+cup_first_f0_r,12,11, czerw, czerw,0.0
+cup_first_f0_r,12,12,ony,ony,0.0
+cup_first_f0_r,12,13,.,.,0.0
+cup_first_f0_r,12,14, Jaki, Jaki,0.0
+cup_first_f0_r,12,15, jest, jest,0.0
+cup_first_f0_r,12,16, klu, kub,0.979607343673706
+cup_first_f0_r,12,17,czyk,ek,0.5972515344619751
+cup_first_f0_r,12,18,?,?,0.210259810090065
+cup_first_f0_r,12,19, Odpowiedź, Odpowiedź,0.1017550379037857
+cup_first_f0_r,12,20,:,:,0.19489598274230957
+cup_first_f0_r,13,0,K,K,0.0
+cup_first_f0_r,13,1,ub,ub,0.0
+cup_first_f0_r,13,2,ek,ek,0.0
+cup_first_f0_r,13,3, jest, jest,0.0
+cup_first_f0_r,13,4, niebies, niebies,0.0
+cup_first_f0_r,13,5,ki,ki,0.0
+cup_first_f0_r,13,6,.,.,0.0
+cup_first_f0_r,13,7, K, K,0.0
+cup_first_f0_r,13,8,lu,lu,0.0
+cup_first_f0_r,13,9,czyk,czyk,0.0
+cup_first_f0_r,13,10, jest, jest,0.0
+cup_first_f0_r,13,11, czerw, czerw,0.0
+cup_first_f0_r,13,12,ony,ony,0.0
+cup_first_f0_r,13,13,.,.,0.0
+cup_first_f0_r,13,14, Jaki, Jaki,0.0
+cup_first_f0_r,13,15, jest, jest,0.0
+cup_first_f0_r,13,16, klu, kub,0.9773167967796326
+cup_first_f0_r,13,17,czyk,ek,0.5734861493110657
+cup_first_f0_r,13,18,?,?,0.224581778049469
+cup_first_f0_r,13,19, Odpowiedź, Odpowiedź,0.11465014517307281
+cup_first_f0_r,13,20,:,:,0.2568719685077667
+cup_first_f0_r,14,0,K,K,0.0
+cup_first_f0_r,14,1,ub,ub,0.0
+cup_first_f0_r,14,2,ek,ek,0.0
+cup_first_f0_r,14,3, jest, jest,0.0
+cup_first_f0_r,14,4, niebies, niebies,0.0
+cup_first_f0_r,14,5,ki,ki,0.0
+cup_first_f0_r,14,6,.,.,0.0
+cup_first_f0_r,14,7, K, K,0.0
+cup_first_f0_r,14,8,lu,lu,0.0
+cup_first_f0_r,14,9,czyk,czyk,0.0
+cup_first_f0_r,14,10, jest, jest,0.0
+cup_first_f0_r,14,11, czerw, czerw,0.0
+cup_first_f0_r,14,12,ony,ony,0.0
+cup_first_f0_r,14,13,.,.,0.0
+cup_first_f0_r,14,14, Jaki, Jaki,0.0
+cup_first_f0_r,14,15, jest, jest,0.0
+cup_first_f0_r,14,16, klu, kub,0.9837207198143005
+cup_first_f0_r,14,17,czyk,ek,0.5560564994812012
+cup_first_f0_r,14,18,?,?,0.21632187068462372
+cup_first_f0_r,14,19, Odpowiedź, Odpowiedź,0.1160774976015091
+cup_first_f0_r,14,20,:,:,0.26684460043907166
+cup_first_f0_r,15,0,K,K,0.0
+cup_first_f0_r,15,1,ub,ub,0.0
+cup_first_f0_r,15,2,ek,ek,0.0
+cup_first_f0_r,15,3, jest, jest,0.0
+cup_first_f0_r,15,4, niebies, niebies,0.0
+cup_first_f0_r,15,5,ki,ki,0.0
+cup_first_f0_r,15,6,.,.,0.0
+cup_first_f0_r,15,7, K, K,0.0
+cup_first_f0_r,15,8,lu,lu,0.0
+cup_first_f0_r,15,9,czyk,czyk,0.0
+cup_first_f0_r,15,10, jest, jest,0.0
+cup_first_f0_r,15,11, czerw, czerw,0.0
+cup_first_f0_r,15,12,ony,ony,0.0
+cup_first_f0_r,15,13,.,.,0.0
+cup_first_f0_r,15,14, Jaki, Jaki,0.0
+cup_first_f0_r,15,15, jest, jest,0.0
+cup_first_f0_r,15,16, klu, kub,1.0251078605651855
+cup_first_f0_r,15,17,czyk,ek,0.5479320287704468
+cup_first_f0_r,15,18,?,?,0.22365771234035492
+cup_first_f0_r,15,19, Odpowiedź, Odpowiedź,0.11932706832885742
+cup_first_f0_r,15,20,:,:,0.3767777681350708
+cup_first_f0_r,16,0,K,K,0.0
+cup_first_f0_r,16,1,ub,ub,0.0
+cup_first_f0_r,16,2,ek,ek,0.0
+cup_first_f0_r,16,3, jest, jest,0.0
+cup_first_f0_r,16,4, niebies, niebies,0.0
+cup_first_f0_r,16,5,ki,ki,0.0
+cup_first_f0_r,16,6,.,.,0.0
+cup_first_f0_r,16,7, K, K,0.0
+cup_first_f0_r,16,8,lu,lu,0.0
+cup_first_f0_r,16,9,czyk,czyk,0.0
+cup_first_f0_r,16,10, jest, jest,0.0
+cup_first_f0_r,16,11, czerw, czerw,0.0
+cup_first_f0_r,16,12,ony,ony,0.0
+cup_first_f0_r,16,13,.,.,0.0
+cup_first_f0_r,16,14, Jaki, Jaki,0.0
+cup_first_f0_r,16,15, jest, jest,0.0
+cup_first_f0_r,16,16, klu, kub,0.9994556307792664
+cup_first_f0_r,16,17,czyk,ek,0.5140733122825623
+cup_first_f0_r,16,18,?,?,0.2159416824579239
+cup_first_f0_r,16,19, Odpowiedź, Odpowiedź,0.11302382498979568
+cup_first_f0_r,16,20,:,:,0.3994569778442383
+cup_first_f0_r,17,0,K,K,0.0
+cup_first_f0_r,17,1,ub,ub,0.0
+cup_first_f0_r,17,2,ek,ek,0.0
+cup_first_f0_r,17,3, jest, jest,0.0
+cup_first_f0_r,17,4, niebies, niebies,0.0
+cup_first_f0_r,17,5,ki,ki,0.0
+cup_first_f0_r,17,6,.,.,0.0
+cup_first_f0_r,17,7, K, K,0.0
+cup_first_f0_r,17,8,lu,lu,0.0
+cup_first_f0_r,17,9,czyk,czyk,0.0
+cup_first_f0_r,17,10, jest, jest,0.0
+cup_first_f0_r,17,11, czerw, czerw,0.0
+cup_first_f0_r,17,12,ony,ony,0.0
+cup_first_f0_r,17,13,.,.,0.0
+cup_first_f0_r,17,14, Jaki, Jaki,0.0
+cup_first_f0_r,17,15, jest, jest,0.0
+cup_first_f0_r,17,16, klu, kub,0.9665377140045166
+cup_first_f0_r,17,17,czyk,ek,0.4563746750354767
+cup_first_f0_r,17,18,?,?,0.20293258130550385
+cup_first_f0_r,17,19, Odpowiedź, Odpowiedź,0.10754958540201187
+cup_first_f0_r,17,20,:,:,0.4272010922431946
+cup_first_f0_r,18,0,K,K,0.0
+cup_first_f0_r,18,1,ub,ub,0.0
+cup_first_f0_r,18,2,ek,ek,0.0
+cup_first_f0_r,18,3, jest, jest,0.0
+cup_first_f0_r,18,4, niebies, niebies,0.0
+cup_first_f0_r,18,5,ki,ki,0.0
+cup_first_f0_r,18,6,.,.,0.0
+cup_first_f0_r,18,7, K, K,0.0
+cup_first_f0_r,18,8,lu,lu,0.0
+cup_first_f0_r,18,9,czyk,czyk,0.0
+cup_first_f0_r,18,10, jest, jest,0.0
+cup_first_f0_r,18,11, czerw, czerw,0.0
+cup_first_f0_r,18,12,ony,ony,0.0
+cup_first_f0_r,18,13,.,.,0.0
+cup_first_f0_r,18,14, Jaki, Jaki,0.0
+cup_first_f0_r,18,15, jest, jest,0.0
+cup_first_f0_r,18,16, klu, kub,0.91257244348526
+cup_first_f0_r,18,17,czyk,ek,0.40194278955459595
+cup_first_f0_r,18,18,?,?,0.18342460691928864
+cup_first_f0_r,18,19, Odpowiedź, Odpowiedź,0.09972120821475983
+cup_first_f0_r,18,20,:,:,0.41295161843299866
+cup_first_f0_r,19,0,K,K,0.0
+cup_first_f0_r,19,1,ub,ub,0.0
+cup_first_f0_r,19,2,ek,ek,0.0
+cup_first_f0_r,19,3, jest, jest,0.0
+cup_first_f0_r,19,4, niebies, niebies,0.0
+cup_first_f0_r,19,5,ki,ki,0.0
+cup_first_f0_r,19,6,.,.,0.0
+cup_first_f0_r,19,7, K, K,0.0
+cup_first_f0_r,19,8,lu,lu,0.0
+cup_first_f0_r,19,9,czyk,czyk,0.0
+cup_first_f0_r,19,10, jest, jest,0.0
+cup_first_f0_r,19,11, czerw, czerw,0.0
+cup_first_f0_r,19,12,ony,ony,0.0
+cup_first_f0_r,19,13,.,.,0.0
+cup_first_f0_r,19,14, Jaki, Jaki,0.0
+cup_first_f0_r,19,15, jest, jest,0.0
+cup_first_f0_r,19,16, klu, kub,0.8824899196624756
+cup_first_f0_r,19,17,czyk,ek,0.3969174921512604
+cup_first_f0_r,19,18,?,?,0.21141982078552246
+cup_first_f0_r,19,19, Odpowiedź, Odpowiedź,0.10100111365318298
+cup_first_f0_r,19,20,:,:,0.4131999909877777
+cup_first_f0_r,20,0,K,K,0.0
+cup_first_f0_r,20,1,ub,ub,0.0
+cup_first_f0_r,20,2,ek,ek,0.0
+cup_first_f0_r,20,3, jest, jest,0.0
+cup_first_f0_r,20,4, niebies, niebies,0.0
+cup_first_f0_r,20,5,ki,ki,0.0
+cup_first_f0_r,20,6,.,.,0.0
+cup_first_f0_r,20,7, K, K,0.0
+cup_first_f0_r,20,8,lu,lu,0.0
+cup_first_f0_r,20,9,czyk,czyk,0.0
+cup_first_f0_r,20,10, jest, jest,0.0
+cup_first_f0_r,20,11, czerw, czerw,0.0
+cup_first_f0_r,20,12,ony,ony,0.0
+cup_first_f0_r,20,13,.,.,0.0
+cup_first_f0_r,20,14, Jaki, Jaki,0.0
+cup_first_f0_r,20,15, jest, jest,0.0
+cup_first_f0_r,20,16, klu, kub,1.0064035654067993
+cup_first_f0_r,20,17,czyk,ek,0.6223772168159485
+cup_first_f0_r,20,18,?,?,0.3111589848995209
+cup_first_f0_r,20,19, Odpowiedź, Odpowiedź,0.14956383407115936
+cup_first_f0_r,20,20,:,:,0.5717918872833252
+cup_first_f0_b,0,0,K,K,0.0
+cup_first_f0_b,0,1,ub,ub,0.0
+cup_first_f0_b,0,2,ek,ek,0.0
+cup_first_f0_b,0,3, jest, jest,0.0
+cup_first_f0_b,0,4, czerw, czerw,0.0
+cup_first_f0_b,0,5,ony,ony,0.0
+cup_first_f0_b,0,6,.,.,0.0
+cup_first_f0_b,0,7, K, K,0.0
+cup_first_f0_b,0,8,lu,lu,0.0
+cup_first_f0_b,0,9,czyk,czyk,0.0
+cup_first_f0_b,0,10, jest, jest,0.0
+cup_first_f0_b,0,11, niebies, niebies,0.0
+cup_first_f0_b,0,12,ki,ki,0.0
+cup_first_f0_b,0,13,.,.,0.0
+cup_first_f0_b,0,14, Jaki, Jaki,0.0
+cup_first_f0_b,0,15, jest, jest,0.0
+cup_first_f0_b,0,16, klu, kub,0.8215619921684265
+cup_first_f0_b,0,17,czyk,ek,1.061078667640686
+cup_first_f0_b,0,18,?,?,0.0
+cup_first_f0_b,0,19, Odpowiedź, Odpowiedź,0.0
+cup_first_f0_b,0,20,:,:,0.0
+cup_first_f0_b,1,0,K,K,0.0
+cup_first_f0_b,1,1,ub,ub,0.0
+cup_first_f0_b,1,2,ek,ek,0.0
+cup_first_f0_b,1,3, jest, jest,0.0
+cup_first_f0_b,1,4, czerw, czerw,0.0
+cup_first_f0_b,1,5,ony,ony,0.0
+cup_first_f0_b,1,6,.,.,0.0
+cup_first_f0_b,1,7, K, K,0.0
+cup_first_f0_b,1,8,lu,lu,0.0
+cup_first_f0_b,1,9,czyk,czyk,0.0
+cup_first_f0_b,1,10, jest, jest,0.0
+cup_first_f0_b,1,11, niebies, niebies,0.0
+cup_first_f0_b,1,12,ki,ki,0.0
+cup_first_f0_b,1,13,.,.,0.0
+cup_first_f0_b,1,14, Jaki, Jaki,0.0
+cup_first_f0_b,1,15, jest, jest,0.0
+cup_first_f0_b,1,16, klu, kub,0.35667553544044495
+cup_first_f0_b,1,17,czyk,ek,0.20621220767498016
+cup_first_f0_b,1,18,?,?,0.016162527725100517
+cup_first_f0_b,1,19, Odpowiedź, Odpowiedź,0.02167629450559616
+cup_first_f0_b,1,20,:,:,0.011860181577503681
+cup_first_f0_b,2,0,K,K,0.0
+cup_first_f0_b,2,1,ub,ub,0.0
+cup_first_f0_b,2,2,ek,ek,0.0
+cup_first_f0_b,2,3, jest, jest,0.0
+cup_first_f0_b,2,4, czerw, czerw,0.0
+cup_first_f0_b,2,5,ony,ony,0.0
+cup_first_f0_b,2,6,.,.,0.0
+cup_first_f0_b,2,7, K, K,0.0
+cup_first_f0_b,2,8,lu,lu,0.0
+cup_first_f0_b,2,9,czyk,czyk,0.0
+cup_first_f0_b,2,10, jest, jest,0.0
+cup_first_f0_b,2,11, niebies, niebies,0.0
+cup_first_f0_b,2,12,ki,ki,0.0
+cup_first_f0_b,2,13,.,.,0.0
+cup_first_f0_b,2,14, Jaki, Jaki,0.0
+cup_first_f0_b,2,15, jest, jest,0.0
+cup_first_f0_b,2,16, klu, kub,0.3455730378627777
+cup_first_f0_b,2,17,czyk,ek,0.22140023112297058
+cup_first_f0_b,2,18,?,?,0.019311221316456795
+cup_first_f0_b,2,19, Odpowiedź, Odpowiedź,0.019415007904171944
+cup_first_f0_b,2,20,:,:,0.012165466323494911
+cup_first_f0_b,3,0,K,K,0.0
+cup_first_f0_b,3,1,ub,ub,0.0
+cup_first_f0_b,3,2,ek,ek,0.0
+cup_first_f0_b,3,3, jest, jest,0.0
+cup_first_f0_b,3,4, czerw, czerw,0.0
+cup_first_f0_b,3,5,ony,ony,0.0
+cup_first_f0_b,3,6,.,.,0.0
+cup_first_f0_b,3,7, K, K,0.0
+cup_first_f0_b,3,8,lu,lu,0.0
+cup_first_f0_b,3,9,czyk,czyk,0.0
+cup_first_f0_b,3,10, jest, jest,0.0
+cup_first_f0_b,3,11, niebies, niebies,0.0
+cup_first_f0_b,3,12,ki,ki,0.0
+cup_first_f0_b,3,13,.,.,0.0
+cup_first_f0_b,3,14, Jaki, Jaki,0.0
+cup_first_f0_b,3,15, jest, jest,0.0
+cup_first_f0_b,3,16, klu, kub,0.33840280771255493
+cup_first_f0_b,3,17,czyk,ek,0.3370659053325653
+cup_first_f0_b,3,18,?,?,0.025104237720370293
+cup_first_f0_b,3,19, Odpowiedź, Odpowiedź,0.0176785159856081
+cup_first_f0_b,3,20,:,:,0.01967090554535389
+cup_first_f0_b,4,0,K,K,0.0
+cup_first_f0_b,4,1,ub,ub,0.0
+cup_first_f0_b,4,2,ek,ek,0.0
+cup_first_f0_b,4,3, jest, jest,0.0
+cup_first_f0_b,4,4, czerw, czerw,0.0
+cup_first_f0_b,4,5,ony,ony,0.0
+cup_first_f0_b,4,6,.,.,0.0
+cup_first_f0_b,4,7, K, K,0.0
+cup_first_f0_b,4,8,lu,lu,0.0
+cup_first_f0_b,4,9,czyk,czyk,0.0
+cup_first_f0_b,4,10, jest, jest,0.0
+cup_first_f0_b,4,11, niebies, niebies,0.0
+cup_first_f0_b,4,12,ki,ki,0.0
+cup_first_f0_b,4,13,.,.,0.0
+cup_first_f0_b,4,14, Jaki, Jaki,0.0
+cup_first_f0_b,4,15, jest, jest,0.0
+cup_first_f0_b,4,16, klu, kub,0.3360375761985779
+cup_first_f0_b,4,17,czyk,ek,0.3956492245197296
+cup_first_f0_b,4,18,?,?,0.02832869626581669
+cup_first_f0_b,4,19, Odpowiedź, Odpowiedź,0.020701482892036438
+cup_first_f0_b,4,20,:,:,0.02578970417380333
+cup_first_f0_b,5,0,K,K,0.0
+cup_first_f0_b,5,1,ub,ub,0.0
+cup_first_f0_b,5,2,ek,ek,0.0
+cup_first_f0_b,5,3, jest, jest,0.0
+cup_first_f0_b,5,4, czerw, czerw,0.0
+cup_first_f0_b,5,5,ony,ony,0.0
+cup_first_f0_b,5,6,.,.,0.0
+cup_first_f0_b,5,7, K, K,0.0
+cup_first_f0_b,5,8,lu,lu,0.0
+cup_first_f0_b,5,9,czyk,czyk,0.0
+cup_first_f0_b,5,10, jest, jest,0.0
+cup_first_f0_b,5,11, niebies, niebies,0.0
+cup_first_f0_b,5,12,ki,ki,0.0
+cup_first_f0_b,5,13,.,.,0.0
+cup_first_f0_b,5,14, Jaki, Jaki,0.0
+cup_first_f0_b,5,15, jest, jest,0.0
+cup_first_f0_b,5,16, klu, kub,0.3341057598590851
+cup_first_f0_b,5,17,czyk,ek,0.40644851326942444
+cup_first_f0_b,5,18,?,?,0.07677337527275085
+cup_first_f0_b,5,19, Odpowiedź, Odpowiedź,0.022877713665366173
+cup_first_f0_b,5,20,:,:,0.037859514355659485
+cup_first_f0_b,6,0,K,K,0.0
+cup_first_f0_b,6,1,ub,ub,0.0
+cup_first_f0_b,6,2,ek,ek,0.0
+cup_first_f0_b,6,3, jest, jest,0.0
+cup_first_f0_b,6,4, czerw, czerw,0.0
+cup_first_f0_b,6,5,ony,ony,0.0
+cup_first_f0_b,6,6,.,.,0.0
+cup_first_f0_b,6,7, K, K,0.0
+cup_first_f0_b,6,8,lu,lu,0.0
+cup_first_f0_b,6,9,czyk,czyk,0.0
+cup_first_f0_b,6,10, jest, jest,0.0
+cup_first_f0_b,6,11, niebies, niebies,0.0
+cup_first_f0_b,6,12,ki,ki,0.0
+cup_first_f0_b,6,13,.,.,0.0
+cup_first_f0_b,6,14, Jaki, Jaki,0.0
+cup_first_f0_b,6,15, jest, jest,0.0
+cup_first_f0_b,6,16, klu, kub,0.35571861267089844
+cup_first_f0_b,6,17,czyk,ek,0.36872372031211853
+cup_first_f0_b,6,18,?,?,0.08212529122829437
+cup_first_f0_b,6,19, Odpowiedź, Odpowiedź,0.02957000397145748
+cup_first_f0_b,6,20,:,:,0.03512074798345566
+cup_first_f0_b,7,0,K,K,0.0
+cup_first_f0_b,7,1,ub,ub,0.0
+cup_first_f0_b,7,2,ek,ek,0.0
+cup_first_f0_b,7,3, jest, jest,0.0
+cup_first_f0_b,7,4, czerw, czerw,0.0
+cup_first_f0_b,7,5,ony,ony,0.0
+cup_first_f0_b,7,6,.,.,0.0
+cup_first_f0_b,7,7, K, K,0.0
+cup_first_f0_b,7,8,lu,lu,0.0
+cup_first_f0_b,7,9,czyk,czyk,0.0
+cup_first_f0_b,7,10, jest, jest,0.0
+cup_first_f0_b,7,11, niebies, niebies,0.0
+cup_first_f0_b,7,12,ki,ki,0.0
+cup_first_f0_b,7,13,.,.,0.0
+cup_first_f0_b,7,14, Jaki, Jaki,0.0
+cup_first_f0_b,7,15, jest, jest,0.0
+cup_first_f0_b,7,16, klu, kub,0.3871910274028778
+cup_first_f0_b,7,17,czyk,ek,0.35998931527137756
+cup_first_f0_b,7,18,?,?,0.09437388926744461
+cup_first_f0_b,7,19, Odpowiedź, Odpowiedź,0.0326068177819252
+cup_first_f0_b,7,20,:,:,0.0348825603723526
+cup_first_f0_b,8,0,K,K,0.0
+cup_first_f0_b,8,1,ub,ub,0.0
+cup_first_f0_b,8,2,ek,ek,0.0
+cup_first_f0_b,8,3, jest, jest,0.0
+cup_first_f0_b,8,4, czerw, czerw,0.0
+cup_first_f0_b,8,5,ony,ony,0.0
+cup_first_f0_b,8,6,.,.,0.0
+cup_first_f0_b,8,7, K, K,0.0
+cup_first_f0_b,8,8,lu,lu,0.0
+cup_first_f0_b,8,9,czyk,czyk,0.0
+cup_first_f0_b,8,10, jest, jest,0.0
+cup_first_f0_b,8,11, niebies, niebies,0.0
+cup_first_f0_b,8,12,ki,ki,0.0
+cup_first_f0_b,8,13,.,.,0.0
+cup_first_f0_b,8,14, Jaki, Jaki,0.0
+cup_first_f0_b,8,15, jest, jest,0.0
+cup_first_f0_b,8,16, klu, kub,0.4212612509727478
+cup_first_f0_b,8,17,czyk,ek,0.3710901737213135
+cup_first_f0_b,8,18,?,?,0.11605847626924515
+cup_first_f0_b,8,19, Odpowiedź, Odpowiedź,0.039879683405160904
+cup_first_f0_b,8,20,:,:,0.04237329587340355
+cup_first_f0_b,9,0,K,K,0.0
+cup_first_f0_b,9,1,ub,ub,0.0
+cup_first_f0_b,9,2,ek,ek,0.0
+cup_first_f0_b,9,3, jest, jest,0.0
+cup_first_f0_b,9,4, czerw, czerw,0.0
+cup_first_f0_b,9,5,ony,ony,0.0
+cup_first_f0_b,9,6,.,.,0.0
+cup_first_f0_b,9,7, K, K,0.0
+cup_first_f0_b,9,8,lu,lu,0.0
+cup_first_f0_b,9,9,czyk,czyk,0.0
+cup_first_f0_b,9,10, jest, jest,0.0
+cup_first_f0_b,9,11, niebies, niebies,0.0
+cup_first_f0_b,9,12,ki,ki,0.0
+cup_first_f0_b,9,13,.,.,0.0
+cup_first_f0_b,9,14, Jaki, Jaki,0.0
+cup_first_f0_b,9,15, jest, jest,0.0
+cup_first_f0_b,9,16, klu, kub,0.5320541262626648
+cup_first_f0_b,9,17,czyk,ek,0.4416385591030121
+cup_first_f0_b,9,18,?,?,0.14324422180652618
+cup_first_f0_b,9,19, Odpowiedź, Odpowiedź,0.05246607959270477
+cup_first_f0_b,9,20,:,:,0.06804320216178894
+cup_first_f0_b,10,0,K,K,0.0
+cup_first_f0_b,10,1,ub,ub,0.0
+cup_first_f0_b,10,2,ek,ek,0.0
+cup_first_f0_b,10,3, jest, jest,0.0
+cup_first_f0_b,10,4, czerw, czerw,0.0
+cup_first_f0_b,10,5,ony,ony,0.0
+cup_first_f0_b,10,6,.,.,0.0
+cup_first_f0_b,10,7, K, K,0.0
+cup_first_f0_b,10,8,lu,lu,0.0
+cup_first_f0_b,10,9,czyk,czyk,0.0
+cup_first_f0_b,10,10, jest, jest,0.0
+cup_first_f0_b,10,11, niebies, niebies,0.0
+cup_first_f0_b,10,12,ki,ki,0.0
+cup_first_f0_b,10,13,.,.,0.0
+cup_first_f0_b,10,14, Jaki, Jaki,0.0
+cup_first_f0_b,10,15, jest, jest,0.0
+cup_first_f0_b,10,16, klu, kub,0.7687341570854187
+cup_first_f0_b,10,17,czyk,ek,0.559199333190918
+cup_first_f0_b,10,18,?,?,0.14957469701766968
+cup_first_f0_b,10,19, Odpowiedź, Odpowiedź,0.059064481407403946
+cup_first_f0_b,10,20,:,:,0.08213959634304047
+cup_first_f0_b,11,0,K,K,0.0
+cup_first_f0_b,11,1,ub,ub,0.0
+cup_first_f0_b,11,2,ek,ek,0.0
+cup_first_f0_b,11,3, jest, jest,0.0
+cup_first_f0_b,11,4, czerw, czerw,0.0
+cup_first_f0_b,11,5,ony,ony,0.0
+cup_first_f0_b,11,6,.,.,0.0
+cup_first_f0_b,11,7, K, K,0.0
+cup_first_f0_b,11,8,lu,lu,0.0
+cup_first_f0_b,11,9,czyk,czyk,0.0
+cup_first_f0_b,11,10, jest, jest,0.0
+cup_first_f0_b,11,11, niebies, niebies,0.0
+cup_first_f0_b,11,12,ki,ki,0.0
+cup_first_f0_b,11,13,.,.,0.0
+cup_first_f0_b,11,14, Jaki, Jaki,0.0
+cup_first_f0_b,11,15, jest, jest,0.0
+cup_first_f0_b,11,16, klu, kub,0.9095988273620605
+cup_first_f0_b,11,17,czyk,ek,0.5941201448440552
+cup_first_f0_b,11,18,?,?,0.19374118745326996
+cup_first_f0_b,11,19, Odpowiedź, Odpowiedź,0.07899662852287292
+cup_first_f0_b,11,20,:,:,0.20476679503917694
+cup_first_f0_b,12,0,K,K,0.0
+cup_first_f0_b,12,1,ub,ub,0.0
+cup_first_f0_b,12,2,ek,ek,0.0
+cup_first_f0_b,12,3, jest, jest,0.0
+cup_first_f0_b,12,4, czerw, czerw,0.0
+cup_first_f0_b,12,5,ony,ony,0.0
+cup_first_f0_b,12,6,.,.,0.0
+cup_first_f0_b,12,7, K, K,0.0
+cup_first_f0_b,12,8,lu,lu,0.0
+cup_first_f0_b,12,9,czyk,czyk,0.0
+cup_first_f0_b,12,10, jest, jest,0.0
+cup_first_f0_b,12,11, niebies, niebies,0.0
+cup_first_f0_b,12,12,ki,ki,0.0
+cup_first_f0_b,12,13,.,.,0.0
+cup_first_f0_b,12,14, Jaki, Jaki,0.0
+cup_first_f0_b,12,15, jest, jest,0.0
+cup_first_f0_b,12,16, klu, kub,0.9799971580505371
+cup_first_f0_b,12,17,czyk,ek,0.6031337976455688
+cup_first_f0_b,12,18,?,?,0.2091638147830963
+cup_first_f0_b,12,19, Odpowiedź, Odpowiedź,0.100128173828125
+cup_first_f0_b,12,20,:,:,0.19538269937038422
+cup_first_f0_b,13,0,K,K,0.0
+cup_first_f0_b,13,1,ub,ub,0.0
+cup_first_f0_b,13,2,ek,ek,0.0
+cup_first_f0_b,13,3, jest, jest,0.0
+cup_first_f0_b,13,4, czerw, czerw,0.0
+cup_first_f0_b,13,5,ony,ony,0.0
+cup_first_f0_b,13,6,.,.,0.0
+cup_first_f0_b,13,7, K, K,0.0
+cup_first_f0_b,13,8,lu,lu,0.0
+cup_first_f0_b,13,9,czyk,czyk,0.0
+cup_first_f0_b,13,10, jest, jest,0.0
+cup_first_f0_b,13,11, niebies, niebies,0.0
+cup_first_f0_b,13,12,ki,ki,0.0
+cup_first_f0_b,13,13,.,.,0.0
+cup_first_f0_b,13,14, Jaki, Jaki,0.0
+cup_first_f0_b,13,15, jest, jest,0.0
+cup_first_f0_b,13,16, klu, kub,0.9781315326690674
+cup_first_f0_b,13,17,czyk,ek,0.584551215171814
+cup_first_f0_b,13,18,?,?,0.22279217839241028
+cup_first_f0_b,13,19, Odpowiedź, Odpowiedź,0.11401711404323578
+cup_first_f0_b,13,20,:,:,0.2558155357837677
+cup_first_f0_b,14,0,K,K,0.0
+cup_first_f0_b,14,1,ub,ub,0.0
+cup_first_f0_b,14,2,ek,ek,0.0
+cup_first_f0_b,14,3, jest, jest,0.0
+cup_first_f0_b,14,4, czerw, czerw,0.0
+cup_first_f0_b,14,5,ony,ony,0.0
+cup_first_f0_b,14,6,.,.,0.0
+cup_first_f0_b,14,7, K, K,0.0
+cup_first_f0_b,14,8,lu,lu,0.0
+cup_first_f0_b,14,9,czyk,czyk,0.0
+cup_first_f0_b,14,10, jest, jest,0.0
+cup_first_f0_b,14,11, niebies, niebies,0.0
+cup_first_f0_b,14,12,ki,ki,0.0
+cup_first_f0_b,14,13,.,.,0.0
+cup_first_f0_b,14,14, Jaki, Jaki,0.0
+cup_first_f0_b,14,15, jest, jest,0.0
+cup_first_f0_b,14,16, klu, kub,0.9847986102104187
+cup_first_f0_b,14,17,czyk,ek,0.5671352744102478
+cup_first_f0_b,14,18,?,?,0.21680620312690735
+cup_first_f0_b,14,19, Odpowiedź, Odpowiedź,0.11641902476549149
+cup_first_f0_b,14,20,:,:,0.2673628330230713
+cup_first_f0_b,15,0,K,K,0.0
+cup_first_f0_b,15,1,ub,ub,0.0
+cup_first_f0_b,15,2,ek,ek,0.0
+cup_first_f0_b,15,3, jest, jest,0.0
+cup_first_f0_b,15,4, czerw, czerw,0.0
+cup_first_f0_b,15,5,ony,ony,0.0
+cup_first_f0_b,15,6,.,.,0.0
+cup_first_f0_b,15,7, K, K,0.0
+cup_first_f0_b,15,8,lu,lu,0.0
+cup_first_f0_b,15,9,czyk,czyk,0.0
+cup_first_f0_b,15,10, jest, jest,0.0
+cup_first_f0_b,15,11, niebies, niebies,0.0
+cup_first_f0_b,15,12,ki,ki,0.0
+cup_first_f0_b,15,13,.,.,0.0
+cup_first_f0_b,15,14, Jaki, Jaki,0.0
+cup_first_f0_b,15,15, jest, jest,0.0
+cup_first_f0_b,15,16, klu, kub,1.0295624732971191
+cup_first_f0_b,15,17,czyk,ek,0.5618900656700134
+cup_first_f0_b,15,18,?,?,0.22138799726963043
+cup_first_f0_b,15,19, Odpowiedź, Odpowiedź,0.12065467238426208
+cup_first_f0_b,15,20,:,:,0.37582123279571533
+cup_first_f0_b,16,0,K,K,0.0
+cup_first_f0_b,16,1,ub,ub,0.0
+cup_first_f0_b,16,2,ek,ek,0.0
+cup_first_f0_b,16,3, jest, jest,0.0
+cup_first_f0_b,16,4, czerw, czerw,0.0
+cup_first_f0_b,16,5,ony,ony,0.0
+cup_first_f0_b,16,6,.,.,0.0
+cup_first_f0_b,16,7, K, K,0.0
+cup_first_f0_b,16,8,lu,lu,0.0
+cup_first_f0_b,16,9,czyk,czyk,0.0
+cup_first_f0_b,16,10, jest, jest,0.0
+cup_first_f0_b,16,11, niebies, niebies,0.0
+cup_first_f0_b,16,12,ki,ki,0.0
+cup_first_f0_b,16,13,.,.,0.0
+cup_first_f0_b,16,14, Jaki, Jaki,0.0
+cup_first_f0_b,16,15, jest, jest,0.0
+cup_first_f0_b,16,16, klu, kub,1.0043584108352661
+cup_first_f0_b,16,17,czyk,ek,0.5270491242408752
+cup_first_f0_b,16,18,?,?,0.21522046625614166
+cup_first_f0_b,16,19, Odpowiedź, Odpowiedź,0.11520331352949142
+cup_first_f0_b,16,20,:,:,0.4022200107574463
+cup_first_f0_b,17,0,K,K,0.0
+cup_first_f0_b,17,1,ub,ub,0.0
+cup_first_f0_b,17,2,ek,ek,0.0
+cup_first_f0_b,17,3, jest, jest,0.0
+cup_first_f0_b,17,4, czerw, czerw,0.0
+cup_first_f0_b,17,5,ony,ony,0.0
+cup_first_f0_b,17,6,.,.,0.0
+cup_first_f0_b,17,7, K, K,0.0
+cup_first_f0_b,17,8,lu,lu,0.0
+cup_first_f0_b,17,9,czyk,czyk,0.0
+cup_first_f0_b,17,10, jest, jest,0.0
+cup_first_f0_b,17,11, niebies, niebies,0.0
+cup_first_f0_b,17,12,ki,ki,0.0
+cup_first_f0_b,17,13,.,.,0.0
+cup_first_f0_b,17,14, Jaki, Jaki,0.0
+cup_first_f0_b,17,15, jest, jest,0.0
+cup_first_f0_b,17,16, klu, kub,0.9719270467758179
+cup_first_f0_b,17,17,czyk,ek,0.471949964761734
+cup_first_f0_b,17,18,?,?,0.2042301446199417
+cup_first_f0_b,17,19, Odpowiedź, Odpowiedź,0.10922963917255402
+cup_first_f0_b,17,20,:,:,0.43196722865104675
+cup_first_f0_b,18,0,K,K,0.0
+cup_first_f0_b,18,1,ub,ub,0.0
+cup_first_f0_b,18,2,ek,ek,0.0
+cup_first_f0_b,18,3, jest, jest,0.0
+cup_first_f0_b,18,4, czerw, czerw,0.0
+cup_first_f0_b,18,5,ony,ony,0.0
+cup_first_f0_b,18,6,.,.,0.0
+cup_first_f0_b,18,7, K, K,0.0
+cup_first_f0_b,18,8,lu,lu,0.0
+cup_first_f0_b,18,9,czyk,czyk,0.0
+cup_first_f0_b,18,10, jest, jest,0.0
+cup_first_f0_b,18,11, niebies, niebies,0.0
+cup_first_f0_b,18,12,ki,ki,0.0
+cup_first_f0_b,18,13,.,.,0.0
+cup_first_f0_b,18,14, Jaki, Jaki,0.0
+cup_first_f0_b,18,15, jest, jest,0.0
+cup_first_f0_b,18,16, klu, kub,0.9180377125740051
+cup_first_f0_b,18,17,czyk,ek,0.4173067510128021
+cup_first_f0_b,18,18,?,?,0.1867193728685379
+cup_first_f0_b,18,19, Odpowiedź, Odpowiedź,0.10088232159614563
+cup_first_f0_b,18,20,:,:,0.4183867871761322
+cup_first_f0_b,19,0,K,K,0.0
+cup_first_f0_b,19,1,ub,ub,0.0
+cup_first_f0_b,19,2,ek,ek,0.0
+cup_first_f0_b,19,3, jest, jest,0.0
+cup_first_f0_b,19,4, czerw, czerw,0.0
+cup_first_f0_b,19,5,ony,ony,0.0
+cup_first_f0_b,19,6,.,.,0.0
+cup_first_f0_b,19,7, K, K,0.0
+cup_first_f0_b,19,8,lu,lu,0.0
+cup_first_f0_b,19,9,czyk,czyk,0.0
+cup_first_f0_b,19,10, jest, jest,0.0
+cup_first_f0_b,19,11, niebies, niebies,0.0
+cup_first_f0_b,19,12,ki,ki,0.0
+cup_first_f0_b,19,13,.,.,0.0
+cup_first_f0_b,19,14, Jaki, Jaki,0.0
+cup_first_f0_b,19,15, jest, jest,0.0
+cup_first_f0_b,19,16, klu, kub,0.8892122507095337
+cup_first_f0_b,19,17,czyk,ek,0.41275501251220703
+cup_first_f0_b,19,18,?,?,0.2130747139453888
+cup_first_f0_b,19,19, Odpowiedź, Odpowiedź,0.10139236599206924
+cup_first_f0_b,19,20,:,:,0.4186009168624878
+cup_first_f0_b,20,0,K,K,0.0
+cup_first_f0_b,20,1,ub,ub,0.0
+cup_first_f0_b,20,2,ek,ek,0.0
+cup_first_f0_b,20,3, jest, jest,0.0
+cup_first_f0_b,20,4, czerw, czerw,0.0
+cup_first_f0_b,20,5,ony,ony,0.0
+cup_first_f0_b,20,6,.,.,0.0
+cup_first_f0_b,20,7, K, K,0.0
+cup_first_f0_b,20,8,lu,lu,0.0
+cup_first_f0_b,20,9,czyk,czyk,0.0
+cup_first_f0_b,20,10, jest, jest,0.0
+cup_first_f0_b,20,11, niebies, niebies,0.0
+cup_first_f0_b,20,12,ki,ki,0.0
+cup_first_f0_b,20,13,.,.,0.0
+cup_first_f0_b,20,14, Jaki, Jaki,0.0
+cup_first_f0_b,20,15, jest, jest,0.0
+cup_first_f0_b,20,16, klu, kub,1.0100867748260498
+cup_first_f0_b,20,17,czyk,ek,0.6356120109558105
+cup_first_f0_b,20,18,?,?,0.3147091567516327
+cup_first_f0_b,20,19, Odpowiedź, Odpowiedź,0.14842598140239716
+cup_first_f0_b,20,20,:,:,0.578135073184967

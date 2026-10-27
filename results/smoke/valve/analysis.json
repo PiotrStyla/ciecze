@@ -1,0 +1,240 @@
+{
+  "cases": 4,
+  "interventions": 128,
+  "trace_rows": 1722,
+  "correct_question_preferences": 5,
+  "total_questions": 8,
+  "correct_pairs": 1,
+  "red_preferences": 5,
+  "question_effect_in_expected_direction": 2,
+  "max_self_patch_error": 0.0,
+  "max_null_norm_relative_error": 1.741641710850672e-07,
+  "max_earlier_relative_difference": 0.0,
+  "max_facts_control_margin_shift": 0.0,
+  "cases_detail": [
+    {
+      "case": "key_first_f0_r",
+      "margins": [
+        0.37843799591064453,
+        -0.6181862354278564
+      ],
+      "correct": [
+        true,
+        true
+      ],
+      "signed_gap": 0.996624231338501,
+      "question_subject_interventions": [
+        {
+          "layer": 0,
+          "mean_toward_donor": 1.1741071343421936,
+          "mean_null_toward_donor": 0.3431810736656189,
+          "directions": [
+            {
+              "direction": "key_to_cup",
+              "recipient_margin": -0.6181862354278564,
+              "patched_margin": 0.8121386766433716,
+              "donor_margin": 0.37843799591064453,
+              "prefers_donor_expected_answer": true
+            },
+            {
+              "direction": "cup_to_key",
+              "recipient_margin": 0.37843799591064453,
+              "patched_margin": -0.5394513607025146,
+              "donor_margin": -0.6181862354278564,
+              "prefers_donor_expected_answer": true
+            }
+          ]
+        },
+        {
+          "layer": 19,
+          "mean_toward_donor": 0.0,
+          "mean_null_toward_donor": 0.0,
+          "directions": [
+            {
+              "direction": "key_to_cup",
+              "recipient_margin": -0.6181862354278564,
+              "patched_margin": -0.6181862354278564,
+              "donor_margin": 0.37843799591064453,
+              "prefers_donor_expected_answer": false
+            },
+            {
+              "direction": "cup_to_key",
+              "recipient_margin": 0.37843799591064453,
+              "patched_margin": 0.37843799591064453,
+              "donor_margin": -0.6181862354278564,
+              "prefers_donor_expected_answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "key_first_f0_b",
+      "margins": [
+        -0.02217721939086914,
+        -0.14472389221191406
+      ],
+      "correct": [
+        true,
+        false
+      ],
+      "signed_gap": -0.12254667282104492,
+      "question_subject_interventions": [
+        {
+          "layer": 0,
+          "mean_toward_donor": 0.47796523571014404,
+          "mean_null_toward_donor": 0.21522998809814453,
+          "directions": [
+            {
+              "direction": "key_to_cup",
+              "recipient_margin": -0.14472389221191406,
+              "patched_margin": 0.538236141204834,
+              "donor_margin": -0.02217721939086914,
+              "prefers_donor_expected_answer": false
+            },
+            {
+              "direction": "cup_to_key",
+              "recipient_margin": -0.02217721939086914,
+              "patched_margin": -0.2951476573944092,
+              "donor_margin": -0.14472389221191406,
+              "prefers_donor_expected_answer": false
+            }
+          ]
+        },
+        {
+          "layer": 19,
+          "mean_toward_donor": 0.0,
+          "mean_null_toward_donor": 0.0,
+          "directions": [
+            {
+              "direction": "key_to_cup",
+              "recipient_margin": -0.14472389221191406,
+              "patched_margin": -0.14472389221191406,
+              "donor_margin": -0.02217721939086914,
+              "prefers_donor_expected_answer": true
+            },
+            {
+              "direction": "cup_to_key",
+              "recipient_margin": -0.02217721939086914,
+              "patched_margin": -0.02217721939086914,
+              "donor_margin": -0.14472389221191406,
+              "prefers_donor_expected_answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "cup_first_f0_r",
+      "margins": [
+        0.4330940246582031,
+        0.0010995864868164062
+      ],
+      "correct": [
+        true,
+        false
+      ],
+      "signed_gap": 0.4319944381713867,
+      "question_subject_interventions": [
+        {
+          "layer": 0,
+          "mean_toward_donor": 0.6893032789230347,
+          "mean_null_toward_donor": 0.14982211589813232,
+          "directions": [
+            {
+              "direction": "key_to_cup",
+              "recipient_margin": 0.0010995864868164062,
+              "patched_margin": 0.9244627952575684,
+              "donor_margin": 0.4330940246582031,
+              "prefers_donor_expected_answer": true
+            },
+            {
+              "direction": "cup_to_key",
+              "recipient_margin": 0.4330940246582031,
+              "patched_margin": -0.022149324417114258,
+              "donor_margin": 0.0010995864868164062,
+              "prefers_donor_expected_answer": true
+            }
+          ]
+        },
+        {
+          "layer": 19,
+          "mean_toward_donor": 0.0,
+          "mean_null_toward_donor": 0.0,
+          "directions": [
+            {
+              "direction": "key_to_cup",
+              "recipient_margin": 0.0010995864868164062,
+              "patched_margin": 0.0010995864868164062,
+              "donor_margin": 0.4330940246582031,
+              "prefers_donor_expected_answer": true
+            },
+            {
+              "direction": "cup_to_key",
+              "recipient_margin": 0.4330940246582031,
+              "patched_margin": 0.4330940246582031,
+              "donor_margin": 0.0010995864868164062,
+              "prefers_donor_expected_answer": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "case": "cup_first_f0_b",
+      "margins": [
+        0.2651050090789795,
+        0.20194363594055176
+      ],
+      "correct": [
+        false,
+        true
+      ],
+      "signed_gap": -0.06316137313842773,
+      "question_subject_interventions": [
+        {
+          "layer": 0,
+          "mean_toward_donor": 0.32918667793273926,
+          "mean_null_toward_donor": -0.1434110403060913,
+          "directions": [
+            {
+              "direction": "key_to_cup",
+              "recipient_margin": 0.20194363594055176,
+              "patched_margin": 0.8123636245727539,
+              "donor_margin": 0.2651050090789795,
+              "prefers_donor_expected_answer": false
+            },
+            {
+              "direction": "cup_to_key",
+              "recipient_margin": 0.2651050090789795,
+              "patched_margin": 0.21715164184570312,
+              "donor_margin": 0.20194363594055176,
+              "prefers_donor_expected_answer": true
+            }
+          ]
+        },
+        {
+          "layer": 19,
+          "mean_toward_donor": 0.0,
+          "mean_null_toward_donor": 0.0,
+          "directions": [
+            {
+              "direction": "key_to_cup",
+              "recipient_margin": 0.20194363594055176,
+              "patched_margin": 0.20194363594055176,
+              "donor_margin": 0.2651050090789795,
+              "prefers_donor_expected_answer": false
+            },
+            {
+              "direction": "cup_to_key",
+              "recipient_margin": 0.2651050090789795,
+              "patched_margin": 0.2651050090789795,
+              "donor_margin": 0.20194363594055176,
+              "prefers_donor_expected_answer": true
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

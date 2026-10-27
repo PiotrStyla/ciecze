@@ -1,0 +1,217 @@
+{
+  "model": "PiotrSty/gollem-v6-250m-sft-answers",
+  "snapshot": "C:\\Users\\Hipek\\.cache\\huggingface\\hub\\models--PiotrSty--gollem-v6-250m-sft-answers\\snapshots\\3a60edc280d93fb73ead0f5a5ba220986525aa76",
+  "torch": "2.14.0+cpu",
+  "device": "cpu",
+  "seed": 20261027,
+  "sampled_blocks": [
+    0,
+    19
+  ],
+  "sources": [
+    "https://arxiv.org/abs/1906.02762",
+    "https://rome.baulab.info/",
+    "https://aclanthology.org/2020.acl-main.385/"
+  ],
+  "limitations": [
+    "Exploratory; template selected in a pilot on this checkpoint.",
+    "One norm-matched null per intervention; no significance claims.",
+    "Difference norm is sensitivity, not conserved mass or information.",
+    "Patches change residual stream only; recipient value_residual v0 is unchanged.",
+    "Positive patches do not establish unique or necessary causal paths.",
+    "Contrast is preference between two forced answers, not free-generation accuracy."
+  ],
+  "baselines": [
+    {
+      "case": "source_first_f0",
+      "prompts": [
+        "Klucz jest czerwony. Kubek jest zielony. Jaki jest klucz? Klucz jest",
+        "Klucz jest niebieski. Kubek jest zielony. Jaki jest klucz? Klucz jest",
+        "Klucz jest czerwony. Kubek jest niebieski. Jaki jest klucz? Klucz jest"
+      ],
+      "prompt_ids": [
+        [
+          29114,
+          432,
+          3921,
+          1153,
+          16,
+          15131,
+          510,
+          432,
+          6432,
+          1153,
+          16,
+          28387,
+          432,
+          2934,
+          33,
+          18179,
+          432
+        ],
+        [
+          29114,
+          432,
+          13335,
+          381,
+          16,
+          15131,
+          510,
+          432,
+          6432,
+          1153,
+          16,
+          28387,
+          432,
+          2934,
+          33,
+          18179,
+          432
+        ],
+        [
+          29114,
+          432,
+          3921,
+          1153,
+          16,
+          15131,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          2934,
+          33,
+          18179,
+          432
+        ]
+      ],
+      "margins_red_minus_blue": [
+        3.4252190589904785,
+        -2.2241296768188477,
+        1.6319139003753662
+      ],
+      "red_preferred": true,
+      "blue_preferred": true,
+      "signal_gap": 5.649348735809326,
+      "distractor_shift": -1.7933051586151123,
+      "regions": {
+        "source": [
+          2,
+          3
+        ],
+        "distractor": [
+          8,
+          9
+        ],
+        "midpoint_reference": [
+          7
+        ],
+        "readout": [
+          16
+        ]
+      },
+      "max_self_patch_error": 4.76837158203125e-07,
+      "max_norm_control_error": 0.0078125
+    },
+    {
+      "case": "source_last_f0",
+      "prompts": [
+        "Kubek jest zielony. Klucz jest czerwony. Jaki jest klucz? Klucz jest",
+        "Kubek jest zielony. Klucz jest niebieski. Jaki jest klucz? Klucz jest",
+        "Kubek jest niebieski. Klucz jest czerwony. Jaki jest klucz? Klucz jest"
+      ],
+      "prompt_ids": [
+        [
+          45,
+          453,
+          510,
+          432,
+          6432,
+          1153,
+          16,
+          18179,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          2934,
+          33,
+          18179,
+          432
+        ],
+        [
+          45,
+          453,
+          510,
+          432,
+          6432,
+          1153,
+          16,
+          18179,
+          432,
+          13335,
+          381,
+          16,
+          28387,
+          432,
+          2934,
+          33,
+          18179,
+          432
+        ],
+        [
+          45,
+          453,
+          510,
+          432,
+          13335,
+          381,
+          16,
+          18179,
+          432,
+          3921,
+          1153,
+          16,
+          28387,
+          432,
+          2934,
+          33,
+          18179,
+          432
+        ]
+      ],
+      "margins_red_minus_blue": [
+        2.640139102935791,
+        -0.9786152839660645,
+        0.9517390727996826
+      ],
+      "red_preferred": true,
+      "blue_preferred": true,
+      "signal_gap": 3.6187543869018555,
+      "distractor_shift": -1.6884000301361084,
+      "regions": {
+        "source": [
+          9,
+          10
+        ],
+        "distractor": [
+          4,
+          5
+        ],
+        "midpoint_reference": [
+          8
+        ],
+        "readout": [
+          17
+        ]
+      },
+      "max_self_patch_error": 0.0,
+      "max_norm_control_error": 0.00048828125
+    }
+  ]
+}

@@ -1,0 +1,174 @@
+{
+  "model": "PiotrSty/gollem-v6-250m-sft-answers",
+  "snapshot": "C:\\Users\\Hipek\\.cache\\huggingface\\hub\\models--PiotrSty--gollem-v6-250m-sft-answers\\snapshots\\3a60edc280d93fb73ead0f5a5ba220986525aa76",
+  "records": [
+    {
+      "suffix": "Jaki jest {object}? Odpowiedź:",
+      "swapped": false,
+      "prompts": [
+        "Klucz jest czerwony. Kubek jest niebieski. Jaki jest klucz? Odpowiedź:",
+        "Klucz jest czerwony. Kubek jest niebieski. Jaki jest kubek? Odpowiedź:"
+      ],
+      "token_counts": [
+        17,
+        18
+      ],
+      "margins_red_minus_blue": [
+        0.7527081966400146,
+        -0.5475397109985352
+      ],
+      "aligned": false,
+      "correct": [
+        true,
+        true
+      ]
+    },
+    {
+      "suffix": "Jaki jest {object}? Odpowiedź:",
+      "swapped": true,
+      "prompts": [
+        "Klucz jest niebieski. Kubek jest czerwony. Jaki jest klucz? Odpowiedź:",
+        "Klucz jest niebieski. Kubek jest czerwony. Jaki jest kubek? Odpowiedź:"
+      ],
+      "token_counts": [
+        17,
+        18
+      ],
+      "margins_red_minus_blue": [
+        -0.14055585861206055,
+        0.579512357711792
+      ],
+      "aligned": false,
+      "correct": [
+        true,
+        true
+      ]
+    },
+    {
+      "suffix": "Jaki jest {object}? Jest",
+      "swapped": false,
+      "prompts": [
+        "Klucz jest czerwony. Kubek jest niebieski. Jaki jest klucz? Jest",
+        "Klucz jest czerwony. Kubek jest niebieski. Jaki jest kubek? Jest"
+      ],
+      "token_counts": [
+        16,
+        17
+      ],
+      "margins_red_minus_blue": [
+        0.7972831726074219,
+        -0.5431632995605469
+      ],
+      "aligned": false,
+      "correct": [
+        true,
+        true
+      ]
+    },
+    {
+      "suffix": "Jaki jest {object}? Jest",
+      "swapped": true,
+      "prompts": [
+        "Klucz jest niebieski. Kubek jest czerwony. Jaki jest klucz? Jest",
+        "Klucz jest niebieski. Kubek jest czerwony. Jaki jest kubek? Jest"
+      ],
+      "token_counts": [
+        16,
+        17
+      ],
+      "margins_red_minus_blue": [
+        0.6571688652038574,
+        0.33623063564300537
+      ],
+      "aligned": false,
+      "correct": [
+        false,
+        true
+      ]
+    },
+    {
+      "suffix": "Pytanie: jaki jest {object}?\nOdpowiedź:",
+      "swapped": false,
+      "prompts": [
+        "Klucz jest czerwony. Kubek jest niebieski. Pytanie: jaki jest klucz?\nOdpowiedź:",
+        "Klucz jest czerwony. Kubek jest niebieski. Pytanie: jaki jest kubek?\nOdpowiedź:"
+      ],
+      "token_counts": [
+        22,
+        23
+      ],
+      "margins_red_minus_blue": [
+        1.7623918056488037,
+        0.5615274906158447
+      ],
+      "aligned": false,
+      "correct": [
+        true,
+        false
+      ]
+    },
+    {
+      "suffix": "Pytanie: jaki jest {object}?\nOdpowiedź:",
+      "swapped": true,
+      "prompts": [
+        "Klucz jest niebieski. Kubek jest czerwony. Pytanie: jaki jest klucz?\nOdpowiedź:",
+        "Klucz jest niebieski. Kubek jest czerwony. Pytanie: jaki jest kubek?\nOdpowiedź:"
+      ],
+      "token_counts": [
+        22,
+        23
+      ],
+      "margins_red_minus_blue": [
+        0.9096920490264893,
+        1.1150572299957275
+      ],
+      "aligned": false,
+      "correct": [
+        false,
+        true
+      ]
+    },
+    {
+      "suffix": "Jaki kolor ma {object}? Odpowiedź:",
+      "swapped": false,
+      "prompts": [
+        "Klucz jest czerwony. Kubek jest niebieski. Jaki kolor ma klucz? Odpowiedź:",
+        "Klucz jest czerwony. Kubek jest niebieski. Jaki kolor ma kubek? Odpowiedź:"
+      ],
+      "token_counts": [
+        18,
+        19
+      ],
+      "margins_red_minus_blue": [
+        -0.03310966491699219,
+        -1.0401557683944702
+      ],
+      "aligned": false,
+      "correct": [
+        false,
+        true
+      ]
+    },
+    {
+      "suffix": "Jaki kolor ma {object}? Odpowiedź:",
+      "swapped": true,
+      "prompts": [
+        "Klucz jest niebieski. Kubek jest czerwony. Jaki kolor ma klucz? Odpowiedź:",
+        "Klucz jest niebieski. Kubek jest czerwony. Jaki kolor ma kubek? Odpowiedź:"
+      ],
+      "token_counts": [
+        18,
+        19
+      ],
+      "margins_red_minus_blue": [
+        0.7728081941604614,
+        0.7488471269607544
+      ],
+      "aligned": false,
+      "correct": [
+        false,
+        true
+      ]
+    }
+  ]
+}

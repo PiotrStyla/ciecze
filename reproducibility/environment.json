@@ -1,0 +1,30 @@
+{
+  "recorded_date": "2026-10-27",
+  "python": "3.11.9",
+  "platform": "Windows-10-10.0.26300-SP0",
+  "torch_runtime_build_from_experiment_metadata": "2.14.0+cpu",
+  "packages_from_importlib_metadata": {
+    "torch": "2.14.0",
+    "transformers": "4.57.6",
+    "numpy": "2.3.5",
+    "matplotlib": "3.11.1",
+    "datasets": "5.0.0",
+    "huggingface_hub": "0.36.2",
+    "safetensors": "0.8.0",
+    "tokenizers": "0.22.2",
+    "pyarrow": "23.0.1"
+  },
+  "model": "PiotrSty/gollem-v6-250m-sft-answers",
+  "model_revision": "3a60edc280d93fb73ead0f5a5ba220986525aa76",
+  "device": "cpu",
+  "dye_and_valve_threads": 4,
+  "dye_and_valve_seed": 20261027,
+  "dataset": "PiotrSty/wolne-lektury-polish-literature-corpus",
+  "dataset_revision": null,
+  "clean_environment_install_verified": false,
+  "notes": [
+    "These are observed direct package versions, not a complete transitive lockfile.",
+    "The original corpus revision and exact selected windows were not recorded.",
+    "Recorded scripts and artifacts were copied byte-for-byte; later verification tooling is separate."
+  ]
+}
