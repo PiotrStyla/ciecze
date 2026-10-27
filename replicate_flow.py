@@ -170,7 +170,7 @@ def run_nulls(exp, args):
     template = TEMPLATES[args.nulls_template]
     rows = []
     generator = torch.Generator(device=exp.device).manual_seed(args.seed)
-    for fillers in args.fillers:
+    for fillers in args.null_fillers:
         for key_first in [True, False]:
             ctx = contexts(template, pair, fillers, key_first)
             reg, reason = regions(exp.tok, ctx)
@@ -253,7 +253,8 @@ def main():
     global TEMPLATES, PAIRS
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument('--model', default='PiotrSty/gollem-v6-250m-sft-answers')
-    p.add_argument('--revision', default=REVISION)
+    p.add_argument('--revision', default=None,
+                   help='rewizja Hub; domyslnie przypieta dla modelu z badania, a dla innych najnowsza')
     p.add_argument('--out', type=Path, default=Path('runs/replicate'))
     p.add_argument('--part', choices=['replicate', 'nulls', 'both', 'plot'], default='replicate')
     p.add_argument('--templates', nargs='+', choices=list(TEMPLATES), default=list(TEMPLATES))
@@ -290,8 +291,9 @@ def main():
         p.error('Need at least two null draws for a distribution.')
     torch.set_num_threads(args.threads)
     torch.manual_seed(args.seed)
+    revision = args.revision or (REVISION if args.model == 'PiotrSty/gollem-v6-250m-sft-answers' else None)
     path = str(Path(args.model).resolve()) if Path(args.model).is_dir() else snapshot_download(
-        args.model, revision=args.revision,
+        args.model, revision=revision,
         allow_patterns=['config.json', 'tokenizer.json', 'model.safetensors', 'modeling_gollem_v6.py'])
     model, tok = _import_gollem(path).load_gollem_v6(path, args.device)
     exp = Experiment(model, tok, args.device)
@@ -303,7 +305,7 @@ def main():
         cases, rejected, traces = run_replicate(exp, args)
     if args.part in ('nulls', 'both'):
         nulls = run_nulls(exp, args)
-    summary = dict(model=args.model, requested_revision=args.revision, resolved_snapshot=path,
+    summary = dict(model=args.model, requested_revision=revision, resolved_snapshot=path,
                    torch=torch.__version__, device=args.device, threads=args.threads, seed=args.seed,
                    templates=list(TEMPLATES), pairs=list(PAIRS), fillers=args.fillers,
                    null_layers=args.layers, null_draws=args.null_draws,

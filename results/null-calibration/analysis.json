@@ -1,40 +1,23 @@
 {
-  "draws": 10,
-  "rows": 32,
-  "layers": [
-    0,
-    5,
-    10,
-    15
-  ],
-  "mean_donor_selective": 0.054,
-  "mean_null_sd": 0.3017,
-  "donor_beyond_all_draws": {
-    "count": 2,
-    "total": 32,
-    "by_layer": {
-      "0": [
-        0,
-        8
-      ],
-      "5": [
-        1,
-        8
-      ],
-      "10": [
-        1,
-        8
-      ],
-      "15": [
-        0,
-        8
-      ]
-    }
+  "name": "sft20",
+  "cells": 24,
+  "draws": 20,
+  "mean_donor": 0.0745,
+  "mean_null_sd": 0.2525,
+  "beyond_all": 0,
+  "same_sign": 252,
+  "total_draws": 480,
+  "min_p": 0.0476,
+  "by_layer": {
+    "5": [
+      0,
+      12
+    ],
+    "10": [
+      0,
+      12
+    ]
   },
-  "same_sign_null_draws": {
-    "count": 170,
-    "total": 320
-  },
-  "min_possible_p": 0.0909,
-  "conclusion": "Donor selective shift lies inside the spread of norm-matched random perturbations in 30/32 cells; the causal transfer claim from the binding stage does not survive repeated nulls."
+  "fraction_beyond": 0.0,
+  "note": "Pre-registered calibration: 20 null draws per cell, primary configuration (T1, kluczyk/kubek, fillers 0/2/6), blocks 5 and 10, SFT model."
 }

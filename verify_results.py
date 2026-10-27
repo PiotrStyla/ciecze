@@ -264,7 +264,10 @@ def main():
     verify_binding(ROOT / 'results/binding')
     verify_binding(ROOT / 'results/smoke/binding')
     verify_replicate(ROOT / 'results/replication')
+    verify_replicate(ROOT / 'results/base-replication')
     verify_replicate(ROOT / 'results/null-calibration')
+    verify_replicate(ROOT / 'results/null-calibration-base')
+    verify_replicate(ROOT / 'results/null-calibration-10draws-f0f4')
     print('Recorded evidence checks passed. No new inference or statistical significance test was performed.')
 
 

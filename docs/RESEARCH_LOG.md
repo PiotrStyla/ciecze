@@ -151,7 +151,7 @@ T1 z parą `kluczyk/kubek` odtwarza etap czwarty co do czwartego miejsca (`I` = 
 
 ### Kalibracja: jeden null to za mało
 
-Dla pierwotnej konfiguracji powtórzono pomiar z 10 niezależnymi, dopasowanymi normą zaburzeniami na każdą parę (kierunek, blok, pytanie): 8 komórek na każdy z bloków 0, 5, 10 i 15, łącznie 32 komórki.
+Dla konfiguracji T1 z parą `kluczyk/kubek` powtórzono pomiar z 10 niezależnymi, dopasowanymi normą zaburzeniami na każdą parę (kierunek, blok, pytanie). Kalibracja objęła wstawki 0 i 4 zdania oraz bloki 0, 5, 10 i 15 — 8 komórek na blok, łącznie 32 komórki. Nie była to pierwotna siatka 0/2/6; powtórzenie na niej i na modelu bazowym opisano w sekcji 10.
 
 | Miara | Wynik |
 |---|---:|
@@ -170,4 +170,48 @@ Korekta: w etapie czwartym wolno twierdzić jedynie, że **zachowanie bazowe** z
 2. Pełny wzorzec poprawnych kierunków nie replikuje się.
 3. Selektywny transfer przyczynowy nie przeżył kalibracji null.
 4. Wniosek metodologiczny jest tu ważniejszy od pozytywnego wyniku: pojedyncza kontrola losowa nie wystarcza do twierdzeń o patchingu.
+
+## 10. Drugi model i kalibracja z 20 losowaniami
+
+Reguły zapisano w `CROSS_MODEL_PROTOCOL.md` przed uruchomieniem. Dwa błędy wykryte w trakcie tego etapu:
+
+- opcja `--null-fillers` istniała, ale nie była używana, więc pierwsza kalibracja objęła wstawki 0 i 4, a nie pierwotne 0/2/6. Poprawiono kod, opis poprawiono, a stary przebieg zachowano jako `results/null-calibration-10draws-f0f4` z jawną adnotacją;
+- `--revision` miało domyślnie przypiętą rewizję modelu z badania, więc dla modelu bazowego trzeba było najpierw zezwolić na jego własną rewizję.
+
+### Replikacja na modelu bazowym
+
+`SlayerLab/GoLLeM-v6-250M`, rozwiązana rewizja `77d75a2b48eaab7aec59816f9849cee75a7bdfc1`, ten sam kod i tokenizer.
+
+| Miara | SFT | Bazowy |
+|---|---:|---:|
+| Ważne konfiguracje | 48 | 48 |
+| Dodatnia interakcja `I` | 46/48 | 46/48 |
+| Oba kierunki przeciwne | 19/48 | 9/48 |
+| Średnie \|`I`\| | 0,5127 | 0,4089 |
+| Średnie \|`C`\| | 0,6435 | 0,9271 |
+
+Te same 48 konfiguracji w obu modelach: zgodny znak w 46/48, korelacja `I` **r = 0,979**. Identyczny zbiór 16 odrzuceń mechanicznych.
+
+**Wniosek:** wzorzec interakcji jest niemal identyczny przed i po SFT. To właściwość architektury, tokenizera i pretreningu, a nie efekt dostrajania. Reguła 1 (≥75% dodatnich w obu modelach) jest spełniona.
+
+### Kalibracja z 20 losowaniami na obu modelach
+
+Konfiguracja pierwotna (T1, `kluczyk/kubek`, wstawki 0/2/6), bloki 5 i 10, 24 komórki, 20 losowań null na komórkę.
+
+| Miara | SFT | Bazowy |
+|---|---:|---:|
+| Średni efekt selektywny dawcy | 0,0745 | 0,0538 |
+| Średnie odchylenie standardowe null | 0,2525 | 0,2834 |
+| Dawca większy niż wszystkie 20 losowań | **0/24** | **0/24** |
+| Losowania o znaku dawcy | 252/480 | 249/480 |
+| Najmniejsze osiągalne `p` | 0,0476 | 0,0476 |
+
+**Reguła 3 nie jest spełniona w żadnym modelu.** Efekt selektywny dawcy leży całkowicie wewnątrz rozrzutu losowych perturbacji o tej samej normie. Zgodnie z regułą zapisaną przed pomiarem wynik zapisujemy jako **niepotwierdzony**, a nie jako „bliski istotności”.
+
+### Stan po tym etapie
+
+1. Wzorzec zależności od przypisania przedmiot–kolor replikuje się między dwoma checkpointami z `r = 0,979` — to najsolidniejszy wynik ilościowy w repozytorium.
+2. Pełny wzorzec poprawnych kierunków nadal słaby: 19/48 po SFT, 9/48 w modelu bazowym.
+3. Przyczynowy transfer przez podmianę stanów kolorów **nie został potwierdzony** w żadnym z dwóch modeli.
+4. Jedyna obrona tej hipotezy wymagałaby innej miary interwencji: mniejszej perturbacji, kontroli z parafrazą tej samej treści albo pomiaru względem normy różnicy. Obecna metoda jest zbyt szumiąca, by rozstrzygnąć efekt tej wielkości.
 

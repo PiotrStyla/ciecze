@@ -1,0 +1,28 @@
+{
+  "model": "SlayerLab/GoLLeM-v6-250M",
+  "resolved_snapshot": "C:\\Users\\Hipek\\.cache\\huggingface\\hub\\models--SlayerLab--GoLLeM-v6-250M\\snapshots\\77d75a2b48eaab7aec59816f9849cee75a7bdfc1",
+  "cases": 48,
+  "rejected": 16,
+  "registered_configs": 64,
+  "positive_interaction": {
+    "count": 46,
+    "total": 48
+  },
+  "strict_opposite_directions": {
+    "count": 9,
+    "total": 48
+  },
+  "mean_binding_interaction": 0.404,
+  "mean_abs_binding_interaction": 0.4089,
+  "mean_abs_common_effect": 0.9271,
+  "comparison_with_sft": {
+    "configs": 48,
+    "same_sign": 46,
+    "pearson_interaction": 0.979,
+    "identical_rejections": true,
+    "sft_positive": 46,
+    "sft_strict": 19,
+    "sft_mean_I": 0.5067,
+    "sft_mean_absC": 0.6435
+  }
+}

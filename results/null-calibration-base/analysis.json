@@ -1,0 +1,23 @@
+{
+  "name": "base20",
+  "cells": 24,
+  "draws": 20,
+  "mean_donor": 0.0538,
+  "mean_null_sd": 0.2834,
+  "beyond_all": 0,
+  "same_sign": 249,
+  "total_draws": 480,
+  "min_p": 0.0476,
+  "by_layer": {
+    "5": [
+      0,
+      12
+    ],
+    "10": [
+      0,
+      12
+    ]
+  },
+  "fraction_beyond": 0.0,
+  "note": "Pre-registered calibration on the pretrained base checkpoint, otherwise identical to results/null-calibration."
+}

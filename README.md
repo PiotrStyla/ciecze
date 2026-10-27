@@ -15,6 +15,7 @@ Badania wykonano 27 października 2026 na `PiotrSty/gollem-v6-250m-sft-answers`,
 | Zawór pytania | Identyczny opis, pytanie o kluczyk albo kubek, zamiana kolorów i kolejności faktów | 14/24 poprawnych preferencji; oba pytania poprawne tylko w 2/12 układów. W 20/24 pytaniach preferowany czerwony. |
 | Odczyt czy skojarzenie | Stały zestaw kolorów, zamiana przypisania do przedmiotów, kontrola bez koloru | Dodatnia interakcja kontekstu i pytania w 6/6 układów; przeciwne kierunki odpowiedzi na zamianę w 4/6. To nie jest trafność ani dowód rozumienia. |
 | Replikacja | 3 szablony × 4 pary rzeczowników × 2 kolejności × 2 wstawki, plus 10 losowań kontrolnych na komórkę | Znak interakcji replikuje się w 46/48 układów (T4 odrzucony mechanicznie). Pełny wzorzec poprawnych kierunków tylko 19/48. **Selektywny transfer przyczynowy nie przeżył kalibracji: 2/32 komórki poza wszystkimi losowaniami.** |
+| Drugi model | Ta sama siatka i 20 losowań null na obu checkpointach, reguły zapisane przed pomiarem | Wzorzec interakcji niemal identyczny: 46/48 w obu, korelacja `I` **r = 0,979**. Kalibracja: **0/24** komórek poza losowaniami w obu modelach — transfer przyczynowy **niepotwierdzony**. |
 
 „Poprawna preferencja” oznacza większe prawdopodobieństwo właściwej spośród **dwóch wymuszonych pełnych odpowiedzi**. Nie jest to trafność swobodnego generowania. Próbki nie są niezależnym benchmarkiem.
 
@@ -39,7 +40,10 @@ bernoulli_layers.py       # pierwotny pomiar wskaźników, backendy GoLLeM i HF
  results/binding/         # czwarty etap: 36 promptów, 720 interwencji
  results/binding-baseline/ # wcześniejsza kontrola bez interwencji
  results/replication/     # 48 układów replikacji, 16 odrzuceń mechanicznych
- results/null-calibration/# 10 losowań null na komórkę interwencji
+ results/base-replication/ # ta sama siatka na modelu bazowym (r = 0,979)
+ results/null-calibration/# 20 losowań null na komórkę, model po SFT
+ results/null-calibration-base/   # ta sama kalibracja, model bazowy
+ results/null-calibration-10draws-f0f4/ # wcześniejsza kalibracja, wstawki 0/4
  results/smoke/           # zachowane krótkie przebiegi kontrolne
 ```
 
@@ -58,7 +62,9 @@ Wagi modelu (~1,1 GB), cache Hugging Face, środowiska Python i surowy korpus ks
 - [Odczyt czy skojarzenie: wynik interwencji](results/binding/transfer.png)
 - [Analiza ilościowa wiązania przedmiot–kolor](results/binding/analysis.json)
 - [Protokół replikacji i kalibracji kontroli](docs/REPLICATION_PROTOCOL.md)
+- [Reguły porównania między modelami i ich wynik](docs/CROSS_MODEL_PROTOCOL.md)
 - [Replikacja: znak interakcji według szablonów i par](results/replication/replication.png)
+- [Model bazowy: ta sama siatka](results/base-replication/summary.json)
 - [Kalibracja: dawca kontra powtarzane losowania](results/null-calibration/nulls.png)
 - [Podsumowanie kalibracji](results/null-calibration/analysis.json)
 

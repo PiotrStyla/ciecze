@@ -32,7 +32,7 @@ T1 z parą `kluczyk/kubek` odtwarza dokładnie wyniki etapu czwartego (`I` = 0,4
 
 ## Kalibracja null: rozkład zamiast jednego losowania
 
-Dla pierwotnej konfiguracji (T1, `kluczyk/kubek`, wstawki 0/2/6, oba porządki) przenosimy aktywacje tokenów kolorów faktów między A i B przy niezmienionym pytaniu, w blokach 0/5/10/15. Dla każdej pary (kierunek, blok, pytanie) losujemy `R` niezależnych, dopasowanych normą zaburzeń i budujemy rozkład selektywnego przesunięcia `(d_key − d_cup)/2`.
+Dla konfiguracji T1 z parą `kluczyk/kubek` przenosimy aktywacje tokenów kolorów faktów między A i B przy niezmienionym pytaniu. Pierwsza kalibracja użyła dziesięciu losowań, wstawek 0 i 4 oraz bloków 0/5/10/15 (32 komórki). Powtórzenie z sekcji „Wynik” używa 20 losowań, wstawek 0/2/6 i bloków 5/10 na obu modelach. Dla każdej pary (kierunek, blok, pytanie) losujemy `R` niezależnych, dopasowanych normą zaburzeń i budujemy rozkład selektywnego przesunięcia `(d_key − d_cup)/2`.
 
 Dla efektu dawcy liczymy dwustronne `p_emp = (1 + #{|null| ≥ |donor|}) / (R + 1)`.
 

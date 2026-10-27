@@ -1,6 +1,6 @@
 {
   "date": "2026-10-27",
-  "description": "SHA-256 of published files; this manifest excludes itself and Git metadata. Original experiment files were checked byte-for-byte against retained session files.",
+  "description": "SHA-256 of published files; this manifest excludes itself and Git metadata. Original experiment scripts and artifacts were checked byte-for-byte against retained session files; later stages add new folders without touching earlier bytes.",
   "files": [
     {
       "path": ".gitattributes",
@@ -29,14 +29,19 @@
       "sha256": "08615fc33d21dbc82ef736191f2721068165d4a3ea335048555993856c448678"
     },
     {
+      "path": "docs/CROSS_MODEL_PROTOCOL.md",
+      "bytes": 3562,
+      "sha256": "7f03f41425ba8eeb2574f667faed560aa73cb355d3a1b3062ecc1d9aea2d1151"
+    },
+    {
       "path": "docs/METHODOLOGY.md",
       "bytes": 5957,
       "sha256": "b4866493eaf375bd5bb1685b6f6b3c408123079a56f93636792b5a78ccaff521"
     },
     {
       "path": "docs/REPLICATION_PROTOCOL.md",
-      "bytes": 5249,
-      "sha256": "a502a5f8dc730ce99d9537e4b4c5f286846f2a23a8386124c16d6de9dff6f55b"
+      "bytes": 5394,
+      "sha256": "a72c840bb853aab7c3f199312d6276318c85da27f7e7a515f0e60b22ceda0ec0"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -45,8 +50,8 @@
     },
     {
       "path": "docs/RESEARCH_LOG.md",
-      "bytes": 13790,
-      "sha256": "1167ec6d3bc1bb6bc917df89bea85994c740fe060166c986f17551a1d17dcf7c"
+      "bytes": 16680,
+      "sha256": "4c4fd94c2a266d591a142c7caa3ffead8d378ec1be8526f910d8a0aec9da845c"
     },
     {
       "path": "docs/SOURCES.md",
@@ -67,13 +72,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 6547,
-      "sha256": "fa8a28f29a05f40b49f36f77edb5c5dd5a7320a81fb69688ae7307561993bc9b"
+      "bytes": 7223,
+      "sha256": "dc2c5a1b608a58f16dc88d2941e52b01d610a8ebf2b2d4141e11cf70711607cd"
     },
     {
       "path": "replicate_flow.py",
-      "bytes": 18323,
-      "sha256": "f289a3f1895853c7d86e9f205573e4c048db4536d4a7158d0dbab2c570638acc"
+      "bytes": 18527,
+      "sha256": "99ca35906be5b6b01082330d36b9d51a8f87ccd9b026a4ddc798a930e26bcfbf"
     },
     {
       "path": "reproducibility/binding-validation.json",
@@ -153,6 +158,31 @@
       "path": "requirements.txt",
       "bytes": 294,
       "sha256": "674988abe95b6f1718cdb82433b225a9f3bfae83e95718feeacc781a7d618480"
+    },
+    {
+      "path": "results/base-replication/analysis.json",
+      "bytes": 780,
+      "sha256": "c7e78618e63b2c5bc83246a0061228026dc15a0ad9a951ba6aa2d859c29b57f0"
+    },
+    {
+      "path": "results/base-replication/cases.csv",
+      "bytes": 6566,
+      "sha256": "dcf5f448a85cd6a10e265381d77b686e97f7c7bfa8957e4df010173a85827abf"
+    },
+    {
+      "path": "results/base-replication/replication.png",
+      "bytes": 30596,
+      "sha256": "2b1c62885e9bfbe97d12063c545a35d118de7c2c2be2ec4fb032205b3942eb8a"
+    },
+    {
+      "path": "results/base-replication/summary.json",
+      "bytes": 273193,
+      "sha256": "77035ab30d67095644b9455f92c37ca284095886f683784a5cadb8ea41cab13f"
+    },
+    {
+      "path": "results/base-replication/traces.csv",
+      "bytes": 7252157,
+      "sha256": "0d27cc722890d09f70b81829a6245ef9daf2d99480c5040ab54424cacce48df6"
     },
     {
       "path": "results/bernoulli/layers.csv",
@@ -293,23 +323,63 @@
     },
     {
       "path": "results/null-calibration/analysis.json",
-      "bytes": 739,
-      "sha256": "b93e546da164bce5f02a100189b5ba989b26d6247f3a7beb480b9b3ac465ae1e"
+      "bytes": 475,
+      "sha256": "0e4792865cff7450138db3d0b7fcfc0dcb411b1ef2609d714880611d56b3c7ff"
     },
     {
       "path": "results/null-calibration/nulls.csv",
+      "bytes": 3988,
+      "sha256": "16e13c0a5d749db69fa4edac326b987327b5a7b01705088dca7a83e3378361a3"
+    },
+    {
+      "path": "results/null-calibration/nulls.png",
+      "bytes": 33790,
+      "sha256": "5f1ede8925b6130e1bdc54f3c8dab24af765725a1c051fe9a87b88731afd4672"
+    },
+    {
+      "path": "results/null-calibration/summary.json",
+      "bytes": 11305,
+      "sha256": "23003135b99c8d51d72f21f75bddcfa0fd99a243bcab1cc9da267258742f1b9e"
+    },
+    {
+      "path": "results/null-calibration-10draws-f0f4/analysis.json",
+      "bytes": 934,
+      "sha256": "5a0802f97c548a5508063991051f60ac95ebd2fbcb67f33b8b0e822c39b1622d"
+    },
+    {
+      "path": "results/null-calibration-10draws-f0f4/nulls.csv",
       "bytes": 5159,
       "sha256": "505e0576168a4a061f6045dd06ee1ed0eea7badc8fadf8f52ec059064e87e999"
     },
     {
-      "path": "results/null-calibration/nulls.png",
+      "path": "results/null-calibration-10draws-f0f4/nulls.png",
       "bytes": 46497,
       "sha256": "5c54d7f2e391457dd8467b754ab30f4fe84cf6849c7d05eaf45ae08ddada9e2b"
     },
     {
-      "path": "results/null-calibration/summary.json",
+      "path": "results/null-calibration-10draws-f0f4/summary.json",
       "bytes": 14589,
       "sha256": "d4b165b5b66486c33f3306d0c15ce4c63fe3da7a3c2a664a8a736bd50221e131"
+    },
+    {
+      "path": "results/null-calibration-base/analysis.json",
+      "bytes": 449,
+      "sha256": "404d47150470e2befb5be34c97964bc4bd36600a90b09ef788bd343e6fc07fee"
+    },
+    {
+      "path": "results/null-calibration-base/nulls.csv",
+      "bytes": 3985,
+      "sha256": "99d1f267c2c071ae0626c6c99a77411c4aa86565e258cd0081f663bc7302f7ca"
+    },
+    {
+      "path": "results/null-calibration-base/nulls.png",
+      "bytes": 34960,
+      "sha256": "b2d3eda613c0a1377a2d681b5517e3ab97e1e0f0cebaa06af1130904ccf79f3f"
+    },
+    {
+      "path": "results/null-calibration-base/summary.json",
+      "bytes": 11242,
+      "sha256": "a1303f8b94c0c17755f1f9a50dacc0ae44284daab9927c068b8890e38ee8de8a"
     },
     {
       "path": "results/replication/analysis.json",
@@ -593,8 +663,8 @@
     },
     {
       "path": "verify_results.py",
-      "bytes": 15209,
-      "sha256": "a4860f5c6e15663304935ef6990c720b310db25df8a63041bd042f3543a51368"
+      "bytes": 15395,
+      "sha256": "73b26ecbbfd7d4693098496eb801a19408c22a3c0fa0a8a2ecd0ad1783a56f64"
     }
   ]
 }
