@@ -3,9 +3,19 @@
   "description": "SHA-256 of published files; this manifest excludes itself and Git metadata. Original experiment files were checked byte-for-byte against retained session files.",
   "files": [
     {
+      "path": ".gitattributes",
+      "bytes": 169,
+      "sha256": "1c798fa8d525337b32cbae9bea7040f022cc20a13ca5e6075d2cf7877c15213c"
+    },
+    {
       "path": ".gitignore",
       "bytes": 320,
       "sha256": "29e674d55872d9cc39e48b30dc22d0b7eb3e76dad4b550f8685ee784f9086dd9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4691,
+      "sha256": "83b77eaf2951d712a899b75694f182b0d163a48a204b35321ee317a5c395ef35"
     },
     {
       "path": "bernoulli_layers.py",
@@ -44,11 +54,6 @@
       "bytes": 3411,
       "sha256": "fe50d53d1441db9b2ce3111a5f47ca47b9488b6456cccbda98eefbaf02b8b31e",
       "copied_from": "session/local/llm-fluid-research.md"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4691,
-      "sha256": "83b77eaf2951d712a899b75694f182b0d163a48a204b35321ee317a5c395ef35"
     },
     {
       "path": "reproducibility/environment.json",

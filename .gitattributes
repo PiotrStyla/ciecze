@@ -1,0 +1,3 @@
+# Scientific archive: preserve original bytes across Windows/Linux checkouts.
+# In particular, CSV files use their original line endings; SHA-256 is byte-based.
+* -text
