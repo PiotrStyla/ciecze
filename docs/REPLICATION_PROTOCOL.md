@@ -63,3 +63,11 @@ python replicate_flow.py --part nulls --null-draws 10 --out runs/nulls
 ```
 
 Domyślnie model jest pobierany w przypiętej rewizji `3a60edc280d93fb73ead0f5a5ba220986525aa76`. Artefakty: `summary.json`, `cases.csv`, `traces.csv`, `nulls.csv`, `replication.png`, `nulls.png`.
+
+Wykresy można odtworzyć z zapisanych CSV bez ładowania modelu:
+
+```powershell
+python replicate_flow.py --part plot --out results/null-calibration
+```
+
+Wykres kalibracji pokazuje pasmo zakresu dziesięciu losowań null oraz słupek odchylenia standardowego przy efekcie dawcy. Sam efekt dawcy leży wewnątrz tego pasma — to jest właściwy wynik tego etapu, a nie relacja średnia-do-średniej.

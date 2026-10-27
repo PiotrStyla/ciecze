@@ -30,6 +30,7 @@ nie trafnoscia swobodnego generowania. Jedno pytanie i jeden model.
 """
 import argparse
 from collections import defaultdict
+import csv
 import json
 from pathlib import Path
 
@@ -233,15 +234,19 @@ def plots(out, cases, nulls):
         fig.tight_layout(); fig.savefig(out / 'replication.png', dpi=130); plt.close(fig)
     if nulls:
         fig, ax = plt.subplots(figsize=(9, 5))
-        for kind, marker in [('donor', 'o')]:
-            xs = sorted({r['layer'] for r in nulls})
-            ys = [np.mean([r['donor_selective'] for r in nulls if r['layer'] == x]) for x in xs]
-            ns = [np.mean([r['null_mean'] for r in nulls if r['layer'] == x]) for x in xs]
-            ax.plot(xs, ys, marker + '-', label='donor selective shift')
-            ax.plot(xs, ns, marker + '-', label='mean of norm-matched nulls')
+        layers = sorted({r['layer'] for r in nulls})
+        donor = [np.mean([r['donor_selective'] for r in nulls if r['layer'] == x]) for x in layers]
+        low = [np.mean([r['null_min'] for r in nulls if r['layer'] == x]) for x in layers]
+        high = [np.mean([r['null_max'] for r in nulls if r['layer'] == x]) for x in layers]
+        spread = [np.mean([r['null_sd'] for r in nulls if r['layer'] == x]) for x in layers]
+        ax.fill_between(layers, low, high, color='tab:orange', alpha=.18,
+                        label='range of 10 null draws (mean per block)')
+        ax.errorbar(layers, donor, yerr=spread, fmt='o-', color='tab:blue',
+                    label='donor selective shift (error bar = mean null sd)')
         ax.axhline(0, color='gray', linewidth=.8)
-        ax.set(xlabel='sampled block', ylabel='selective shift', title='Donor effect against repeated nulls')
-        ax.legend(); fig.tight_layout(); fig.savefig(out / 'nulls.png', dpi=130); plt.close(fig)
+        ax.set(xlabel='sampled block', ylabel='selective shift',
+               title='Donor effect lies inside the null spread')
+        ax.legend(fontsize=8); fig.tight_layout(); fig.savefig(out / 'nulls.png', dpi=130); plt.close(fig)
 
 
 def main():
@@ -250,7 +255,7 @@ def main():
     p.add_argument('--model', default='PiotrSty/gollem-v6-250m-sft-answers')
     p.add_argument('--revision', default=REVISION)
     p.add_argument('--out', type=Path, default=Path('runs/replicate'))
-    p.add_argument('--part', choices=['replicate', 'nulls', 'both'], default='replicate')
+    p.add_argument('--part', choices=['replicate', 'nulls', 'both', 'plot'], default='replicate')
     p.add_argument('--templates', nargs='+', choices=list(TEMPLATES), default=list(TEMPLATES))
     p.add_argument('--pairs', nargs='+', choices=list(PAIRS), default=list(PAIRS))
     p.add_argument('--fillers', type=int, nargs='+', default=[0, 4],
@@ -265,6 +270,20 @@ def main():
     p.add_argument('--threads', type=int, default=4)
     p.add_argument('--seed', type=int, default=20261027)
     args = p.parse_args()
+    if args.part == 'plot':
+        summary = json.loads((args.out / 'summary.json').read_text(encoding='utf-8'))
+        recorded = []
+        if (args.out / 'nulls.csv').exists():
+            with (args.out / 'nulls.csv').open(encoding='utf-8', newline='') as f:
+                recorded = list(csv.DictReader(f))
+                for row in recorded:
+                    for key in ('layer', 'draws', 'exceed'):
+                        row[key] = int(row[key])
+                    for key in ('donor_selective', 'null_mean', 'null_sd', 'null_min', 'null_max', 'p_empirical'):
+                        row[key] = float(row[key])
+        plots(args.out, summary['cases'], recorded)
+        print(f'Redrew figures from recorded data in {args.out.resolve()}', flush=True)
+        return
     if args.threads < 1 or len(set(args.fillers)) != len(args.fillers) or any(n < 0 for n in args.fillers):
         p.error('Threads must be positive; fillers distinct and nonnegative.')
     if args.null_draws < 2:

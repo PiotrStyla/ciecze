@@ -35,8 +35,8 @@
     },
     {
       "path": "docs/REPLICATION_PROTOCOL.md",
-      "bytes": 4848,
-      "sha256": "42791b2597d193be5b4bf821f573c8aaa0920659cb54091aba55598d1a90058a"
+      "bytes": 5249,
+      "sha256": "a502a5f8dc730ce99d9537e4b4c5f286846f2a23a8386124c16d6de9dff6f55b"
     },
     {
       "path": "docs/REPRODUCING.md",
@@ -72,8 +72,8 @@
     },
     {
       "path": "replicate_flow.py",
-      "bytes": 17198,
-      "sha256": "ae0fd64cb2d1fc9fbc41fb37e2a94495b4a98422c4400e86c79e5acb4bbab3ac"
+      "bytes": 18323,
+      "sha256": "f289a3f1895853c7d86e9f205573e4c048db4536d4a7158d0dbab2c570638acc"
     },
     {
       "path": "reproducibility/binding-validation.json",
@@ -303,8 +303,8 @@
     },
     {
       "path": "results/null-calibration/nulls.png",
-      "bytes": 50532,
-      "sha256": "0df35f58c692ed3ab4d8f0e913add5d0b706a7fb9d77a12c02d93df456464ecb"
+      "bytes": 46497,
+      "sha256": "5c54d7f2e391457dd8467b754ab30f4fe84cf6849c7d05eaf45ae08ddada9e2b"
     },
     {
       "path": "results/null-calibration/summary.json",
