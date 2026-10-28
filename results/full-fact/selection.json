@@ -1,0 +1,63 @@
+{
+  "quality": {
+    "contexts": 16,
+    "forced_both": 16,
+    "free_both": 16,
+    "joint_both": 16
+  },
+  "selected": 2,
+  "mean_by_layer": {
+    "2": 10.521638117730618,
+    "5": 9.494832001626492,
+    "10": 9.657237485051155,
+    "15": 10.114792622625828,
+    "20": 9.029333759099245
+  },
+  "controls": [
+    {
+      "kind": "readout",
+      "max_logit_error": 0.0,
+      "max_donor_recipient_difference": 5.671602249145508
+    },
+    {
+      "kind": "self",
+      "pair": 0,
+      "swapped": 0,
+      "target": 0,
+      "layer": 2,
+      "error": 0.0
+    },
+    {
+      "kind": "self",
+      "pair": 0,
+      "swapped": 0,
+      "target": 0,
+      "layer": 5,
+      "error": 0.0
+    },
+    {
+      "kind": "self",
+      "pair": 0,
+      "swapped": 0,
+      "target": 0,
+      "layer": 10,
+      "error": 0.0
+    },
+    {
+      "kind": "self",
+      "pair": 0,
+      "swapped": 0,
+      "target": 0,
+      "layer": 15,
+      "error": 0.0
+    },
+    {
+      "kind": "self",
+      "pair": 0,
+      "swapped": 0,
+      "target": 0,
+      "layer": 20,
+      "error": 0.0
+    }
+  ]
+}

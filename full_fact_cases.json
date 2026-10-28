@@ -1,0 +1,33 @@
+{
+  "seed": 20261029,
+  "model": "Qwen/Qwen2.5-1.5B-Instruct",
+  "revision": "989aa7980e4cf806f80c7fef2b1adb7bc71aa306",
+  "discovery": [
+    ["termos", "kominek"],
+    ["żyrandol", "włącznik"],
+    ["magnes", "silnik"],
+    ["kanister", "lejek"],
+    ["słoik", "kredens"],
+    ["puchar", "medal"],
+    ["wiatrak", "grzejnik"],
+    ["komputer", "projektor"]
+  ],
+  "confirmation": [
+    ["mikser", "toster"],
+    ["adapter", "router"],
+    ["pendrive", "serwer"],
+    ["kubraczek", "garnitur"],
+    ["kran", "zlew"],
+    ["odkurzacz", "filtr"],
+    ["tunel", "peron"],
+    ["helikopter", "sterowiec"],
+    ["piorun", "deszcz"],
+    ["głośnik", "wzmacniacz"],
+    ["termometr", "barometr"],
+    ["skarbiec", "sejf"],
+    ["pakunek", "karton"],
+    ["świecznik", "klosz"],
+    ["zamek", "łańcuch"],
+    ["śledź", "karp"]
+  ]
+}

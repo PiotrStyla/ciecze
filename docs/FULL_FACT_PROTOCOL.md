@@ -1,0 +1,31 @@
+# Cały opis faktów: lokalizacja na części roboczej, test na nowych parach
+
+Plan zapisany przed inferencją nowego etapu. `full_fact_cases.json` zawiera 8 par `discovery` i 16 rozłącznych par `confirmation`; wszystkie 48 rzeczowników różni się od par użytych wcześniej. Model wybrano w poprzednim etapie: `Qwen/Qwen2.5-1.5B-Instruct` @ `989aa7980e4cf806f80c7fef2b1adb7bc71aa306`. Nie szukamy ponownie modelu ani szablonu po wyniku.
+
+## Zadanie i wyrównanie
+
+Opis biorcy: `Opis: X jest czerwony. Y jest niebieski.` (oraz zamiana kolorów). Dwaj dawcy mają identyczny format `Dane: X jest czerwony. Y jest niebieski.`: S (te same kolory przypisane tym samym przedmiotom) i O (kolory zamienione). Dla każdego opisu są dwa pytania `Jaki kolor ma X/Y? Odpowiedz jednym słowem:`. Prefiksy `Opis:` i `Dane:` mają tę samą liczbę tokenów w tokenizerze wybranego modelu. Kontrola S nie jest self-patchem: inny prefiks nadaje stanowi dawcy inną historię, ale ten sam fakt. Porównanie S–O utrzymuje składnię i prefiks dawcy stałe.
+
+Podmieniamy **wszystkie tokeny dwóch zdań faktów razem**, od pierwszego tokenu pierwszego rzeczownika (w tokenizerze może zawierać wiodącą spację po etykiecie) do kropki po drugim kolorze, po wyjściu z wybranego bloku; pytanie i końcowy odczyt zostają biorcy. Nie jest to podmiana samych kolorów ani samego końca zdania. Wyrównanie po offsetach znaków: wymagana identyczna długość całego spanu i jego początkowy indeks tokenu dla biorcy, S i O. Tokeny obu kolorów są nierównej długości, ale ich wymiana **w parze** zachowuje długość całego spanu. Przed inferencją wszystkie 48 wariantów pary×przypisanie przeszło tę mechaniczną kontrolę; brak odrzuceń. Zmienne stany boczne/attention pozostają biorcy. Mierzymy normy `||S−biorca||` i `||O−biorca||`; nierówne normy ograniczają wniosek.
+
+Odpowiedź bazowa: ten sam pełny kontrast log-prawdopodobieństw `czerwony`/`niebieski` oraz osobna generacja zachłanna co w `heldout_flow.py`; obie odpowiedzi poprawne w danym opisie (dwa pytania). Mierzymy również zgodność obu trybów na **tych samych** opisach. Jednostka niepewności = para rzeczowników, nie pojedyncze pytanie.
+
+## Odkrywanie — tylko 8 par roboczych
+
+Kandydaci: bloki **2, 5, 10, 15, 20**. Dla pytania `m` to wymuszony log-margines koloru poprawnego dla biorcy. Efekt `m(S) − m(O)` po podmianie całego opisu; dla pary średnia po dwóch przypisaniach i obu pytaniach. Wybieramy **jeden** blok o największym średnim efekcie po 8 parach (przy remisie najmniejszy numer), nawet jeśli wszystkie średnie będą ujemne. Rozkład efektów w discovery jest wyłącznie pomocniczy; nie przypisujemy mu p-value. Jeśli mniej niż 12/16 opisów discovery jest poprawnych **w obu trybach jednocześnie**, nie wybieramy bloku: nie przechodzimy do interwencji na confirmation.
+
+Kontrole techniczne na roboczym przebiegu: self-patch stanem biorcy musi zachować margines z tolerancją 1e-4; po ostatnim bloku podmiana tylko ostatniego stanu odczytu stanem dawcy ma odtworzyć logity pierwszego tokenu odpowiedzi dawcy (maksymalny błąd 1e-4). Ta druga kontrola pokazuje, że hook potrafi zmienić odczyt; **nie jest dowodem transportu faktu**. Jeśli któraś nie przejdzie, poprawiamy implementację i powtarzamy bez doboru miejsc do wyniku.
+
+## Potwierdzenie — osobne 16 par
+
+Na confirmation obliczamy poprawność bazową przed interwencją, a następnie tylko **wybrany** blok, oba przypisania i oba pytania: 64 sparowane przypadki, każdy ze stanem biorcy, S i O. Weryfikujemy self-patch oraz zapisujemy surowe prompty, pozycje, normy i marginesy. `m(S) − m(O)` uśredniamy w obrębie pary → 16 niezależnych jednostek. Przedział bootstrap 95% ze średnich 16 par: 10000 losowań ze zwracaniem, seed `20261029`.
+
+**Reguła dodatniego wyniku:** (1) dolna granica przedziału > 0, (2) ≥12/16 par z efektem dodatnim, (3) ≥24/32 opisów confirmation poprawnych jednocześnie przy odpowiedziach wymuszonych i swobodnych oraz (4) obie kontrole techniczne przechodzą. Jeśli warunek nie przejdzie, nie potwierdzamy selektywnego transportu przez tę podmianę. Brak dodatkowego testowania innych bloków, szablonów i rzeczowników na części confirmation. Zobowiązujemy się opublikować wynik negatywny i wszystkie próby mechanicznie odrzucone. Brak korekty dla discovery (wybór, nie test); jedyny test potwierdzający dotyczy jednego wybranego bloku.
+
+**Ograniczenia:** dwa prefiksy nie są dokładnymi parafrazami tej samej treści, choć S i O różnią się tylko przypisaniem kolorów. Pełny patch wszystkich tokenów faktów zmienia więcej niż stan „koloru” (w tym pozycję rzeczowników w spanie i historię prefiksu). Efekt dodatni byłby dowodem wpływu takiej interwencji na kontrast odpowiedzi, nie dowodem równania przepływu ani zachowania informacji; wynik ujemny nie wyklucza innych miejsc lub mechanizmów.
+
+## Jawna poprawka po discovery, przed interwencją confirmation
+
+Na ośmiu parach roboczych wybrany blok to **2** (średni sparowany kontrast 10,522). W tym bloku średnia odległość stanu S od biorcy wyniosła 9,758, a O od biorcy 138,843 — średnia proporcji na przypadek **14,317**. Zatem porównanie S–O **nie izoluje semantyki od siły zaburzenia**. Liczby discovery są jawne, ale wyników interwencji na 16 parach confirmation jeszcze nie znamy. Pierwotnej reguły ani wybranego bloku nie zmieniamy.
+
+Dodajemy **osobną diagnostykę po pierwotnym teście**: dla każdego z 64 przypadków confirmation w bloku 2 generujemy 20 niezależnych izotropowych wektorów normalnych o tej samej normie `||O−biorca||` na spanie pełnego faktu, seed `20261029` z niezależnymi identyfikatorami pary, przypisania, pytania i losowania. Stan biorcy plus ten wektor zastępuje stan biorcy po bloku 2. Każdy losowy kontrast to `m(S)−m(null)`, z tym samym znakiem koloru co w głównej mierze. Dla każdego numeru losowania liczymy średnią przez 16 par (po czterech pomiarach na parę). Raportujemy dwustronnie opis rozkładu 20 średnich i jednostronne `p_emp = (1 + liczba średnich null ≥ średnia dawcy)/(20 + 1)`. Warunek dodatkowy **dla mocniejszego opisu** niż pierwotna reguła: `p_emp <= 0,05`. Gdy nie przejdzie, nie odróżniamy transportu od efektu zaburzenia o tej samej normie. Losowe kierunki nie leżą koniecznie na rozmaitości aktywacji modelu; nawet `p_emp <= 0,05` wyklucza tylko tę klasę zakłóceń, nie każdy niesemantyczny mechanizm.

@@ -18,8 +18,9 @@ Pierwsze etapy wykonano 27 października 2026 na `PiotrSty/gollem-v6-250m-sft-an
 | Drugi model | Ta sama siatka i 20 losowań null na obu checkpointach, reguły zapisane przed pomiarem | Wzorzec interakcji niemal identyczny: 46/48 w obu, korelacja `I` **r = 0,979**. Kalibracja: **0/24** komórek poza losowaniami w obu modelach — transfer przyczynowy **niepotwierdzony**. |
 | Odłożony test zadania | 12 nowych par do wyboru modelu; 20 innych par odłożonych do pomiaru | GoLLeM SFT: 6/24 poprawnych opisów według wymuszonej odpowiedzi, 0/24 swobodnie. Qwen 0,5B: 7/24 i 18/24. Qwen 1,5B: 24/24 i 24/24; na odłożonych parach 35/40 i 35/40. Dopiero dla tego modelu interpretujemy interwencję. |
 | Kontrola z parafrazą na odłożonych parach | Qwen 1,5B, dawca z tym samym lub zamienionym faktem; podmiana stanów dwóch końców zdań | Efekt parowany po bloku 5: **+0,0105**, przedział bootstrap 95% **[−0,0166; +0,0385]**, dodatnio w **10/20** par. Z góry ustalona reguła nie przeszła: **nie potwierdzono** selektywnego wpływu przenoszonej treści tą metodą. |
+| Cały opis faktów: nowe pary | Qwen 1,5B; 8 par do wyboru bloku, 16 innych do potwierdzenia; podmiana wszystkich tokenów obu zdań | **32/32** opisów confirmation poprawnych w obu trybach; blok 2: średni efekt S−O **+10,4083**, bootstrap 95% **[+9,7374; +11,0907]**, **16/16** par dodatnich. Kontrola 20 zakłóceń tej samej normy na każdy przypadek: średni efekt null +3,7364, 0/20 średnich ≥ efekt dawcy (empiryczne p = 0,0476). To przyczynowy wpływ *całego spanu faktów*, nie selektywny transport samego koloru ani teoria hydrodynamiczna; dawcy S/O różnią się też wielkością zaburzenia. |
 
-W historycznych etapach „poprawna preferencja” oznacza większe prawdopodobieństwo właściwej spośród **dwóch wymuszonych pełnych odpowiedzi**. Nie jest to trafność swobodnego generowania. Nowy etap raportuje wymuszone i swobodne odpowiedzi **osobno**, ale nadal nie stanowi ogólnego benchmarku języka.
+W historycznych etapach „poprawna preferencja” oznacza większe prawdopodobieństwo właściwej spośród **dwóch wymuszonych pełnych odpowiedzi**. Nie jest to trafność swobodnego generowania. Etapy na Qwen raportują odpowiedzi wymuszone i swobodne **osobno**, ale nadal nie stanowią ogólnego benchmarku języka. Szczegóły nowego testu i ograniczeń kontroli normy: [FULL_FACT_PROTOCOL.md](docs/FULL_FACT_PROTOCOL.md), [dziennik §12](docs/RESEARCH_LOG.md).
 
 W jednym poprawnie rozwiązywanym przypadku dwukierunkowa podmiana aktywacji nazwy przedmiotu w pytaniu po bloku 10 odwracała wybór koloru bez zmiany opisu. Efekt nie dawał niezawodnej poprawnej selekcji po zamianie kolorów między przedmiotami. Pytanie ma wpływ przyczynowy; nie dowiedziono uniwersalnego „zaworu”.
 
@@ -34,6 +35,10 @@ bernoulli_layers.py       # pierwotny pomiar wskaźników, backendy GoLLeM i HF
  heldout_flow.py         # niezależna bramka odpowiedzi i kontrolowane podmiany stanów
  heldout_cases.json       # niezależne pary gate/heldout, zdefiniowane przed pomiarem
  verify_heldout.py        # ponowne obliczenie bramki i wyniku z zapisanych odpowiedzi
+ full_fact_flow.py       # patch całego wyrównanego opisu, wybór bloku i potwierdzenie
+ full_fact_nulls.py      # losowe zaburzenia dopasowane normą
+ full_fact_cases.json     # nowe, rozłączne rzeczowniki discovery/confirmation
+ verify_full_fact.py      # kontrola surowej siatki, norm, decyzji i bootstrapu
  verify_results.py        # sprawdzenie zapisanych wyników i sum SHA-256
  requirements.txt         # wersje głównych pakietów z użytego środowiska
  docs/                    # metodologia, przebieg, źródła, odtwarzanie
@@ -50,6 +55,7 @@ bernoulli_layers.py       # pierwotny pomiar wskaźników, backendy GoLLeM i HF
  results/null-calibration-base/   # ta sama kalibracja, model bazowy
  results/null-calibration-10draws-f0f4/ # wcześniejsza kalibracja, wstawki 0/4
  results/heldout/          # 3 bramki modelowe i odłożona próba
+ results/full-fact/      # baseline, 224 interwencje S/O, 1280 losowań normy i analizy
  results/smoke/           # zachowane krótkie przebiegi kontrolne
 ```
 

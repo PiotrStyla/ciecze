@@ -92,6 +92,33 @@ python heldout_flow.py --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4
 
 Qwen ładuje się przez `AutoModelForCausalLM`, bez obcego kodu. Punkt odniesienia na odłożonej próbie był liczony osobno przed interwencją; `--baseline-result` zachowuje dokładnie te same 80 odczytów, bez ich powtórnego liczenia. Obie wersje modelu Qwen są większe od GoLLeMa: ich wagi trzeba pobrać z Hub, nie znajdują się w repozytorium. Druga komenda dla modelu 1,5B jest przypięta do SHA rozwiązanego w bramce. Pojedynczy model na CPU wymaga czasu; wyników nie należy utożsamiać z benchmarkiem.
 
+## Cały opis faktów: nowe pary i jeden wybrany blok
+
+Przed uruchomieniem przeczytaj [FULL_FACT_PROTOCOL.md](FULL_FACT_PROTOCOL.md) i `full_fact_cases.json`. Dwie części mają rozłączne pary rzeczowników; `discovery` wybiera jeden blok, `confirmation` go testuje. Pole `seed` steruje 10000 losowań bootstrap ze średnich par. Wszystkie komendy używają rewizji modelu przypiętej w JSON.
+
+```powershell
+python full_fact_flow.py --part baseline --split discovery --out runs/full-fact/discovery-baseline.json
+python full_fact_flow.py --part patch --split discovery --baseline-file runs/full-fact/discovery-baseline.json --start 0 --stop 4 --out runs/full-fact/discovery-a.json
+python full_fact_flow.py --part patch --split discovery --baseline-file runs/full-fact/discovery-baseline.json --start 4 --stop 8 --out runs/full-fact/discovery-b.json
+python full_fact_flow.py --part select --baseline-file runs/full-fact/discovery-baseline.json --inputs runs/full-fact/discovery-a.json runs/full-fact/discovery-b.json --out runs/full-fact/selection.json
+python full_fact_flow.py --part baseline --split confirmation --out runs/full-fact/confirmation-baseline.json
+python full_fact_flow.py --part patch --split confirmation --baseline-file runs/full-fact/confirmation-baseline.json --selection-file runs/full-fact/selection.json --start 0 --stop 8 --out runs/full-fact/confirmation-a.json
+python full_fact_flow.py --part patch --split confirmation --baseline-file runs/full-fact/confirmation-baseline.json --selection-file runs/full-fact/selection.json --start 8 --stop 16 --out runs/full-fact/confirmation-b.json
+python full_fact_flow.py --part confirm --baseline-file runs/full-fact/confirmation-baseline.json --selection-file runs/full-fact/selection.json --inputs runs/full-fact/confirmation-a.json runs/full-fact/confirmation-b.json --out runs/full-fact/result.json
+```
+
+Po obejrzeniu **wyłącznie** discovery dodano jawną kontrolę normy (sekcja „Jawna poprawka” protokołu). Jest kosztowna: 20 losowań na każde z 64 pytań confirmation. Wykonaj ją po zapisaniu `result.json`, bez wybierania nowego bloku:
+
+```powershell
+python full_fact_nulls.py --part sample --primary runs/full-fact/confirmation-a.json --start 0 --stop 4 --out runs/full-fact/null-0-4.json
+python full_fact_nulls.py --part sample --primary runs/full-fact/confirmation-a.json --start 4 --stop 8 --out runs/full-fact/null-4-8.json
+python full_fact_nulls.py --part sample --primary runs/full-fact/confirmation-b.json --start 8 --stop 12 --out runs/full-fact/null-8-12.json
+python full_fact_nulls.py --part sample --primary runs/full-fact/confirmation-b.json --start 12 --stop 16 --out runs/full-fact/null-12-16.json
+python full_fact_nulls.py --part analyze --result runs/full-fact/result.json --inputs runs/full-fact/null-0-4.json runs/full-fact/null-4-8.json runs/full-fact/null-8-12.json runs/full-fact/null-12-16.json --out runs/full-fact/null-analysis.json
+```
+
+Opublikowane pliki są w `results/full-fact/`. `python verify_results.py` sprawdza kompletność, surowe kontrasty, wybór bloku i przedział bez ładowania modelu. Wymagane są NumPy, PyTorch, Transformers i model Qwen pobrany z Hub.
+
 ## Pierwotny pomiar korpusowy
 
 ```powershell

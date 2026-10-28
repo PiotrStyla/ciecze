@@ -270,6 +270,8 @@ def main():
     verify_replicate(ROOT / 'results/null-calibration-10draws-f0f4')
     from verify_heldout import main as verify_heldout
     verify_heldout()
+    from verify_full_fact import main as verify_full_fact
+    verify_full_fact()
     print('Recorded evidence checks passed. No new model inference performed; recorded bootstrap recomputed.')
 
 

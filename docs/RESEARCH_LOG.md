@@ -1,4 +1,4 @@
-# Dziennik badań — 27 października 2026
+# Dziennik badań — 27–28 października 2026
 
 To uporządkowany zapis pytań, decyzji, wyników i korekt z sesji badawczej, a nie dosłowny eksport czatu. Zawiera również wyniki negatywne. Surowe zachowane artefakty są w `results/`.
 
@@ -241,3 +241,23 @@ Self-patch: maksymalny błąd marginesu 0. Średnie normy w bloku 5: dawca ten s
 
 Otrzymaliśmy model, który rozwiązuje badane zadanie, i negatywny wynik interwencji bez wymówki o błędnej odpowiedzi bazowej. Dalsze poszukiwania analogii transportu wymagałyby nowej, odłożonej próby i innej operacji przyczynowej, a nie dobierania warstw albo słów do tych 20 par.
 
+
+## 12. Podmiana całego faktu — discovery i nowa confirmation
+
+Przed inferencją zamrożono 8 nowych par rzeczowników do wyboru bloku i 16 kolejnych, rozłącznych par do jego sprawdzenia: [protokół](FULL_FACT_PROTOCOL.md), [`full_fact_cases.json`](../full_fact_cases.json). Użyto tego samego przypiętego `Qwen/Qwen2.5-1.5B-Instruct` (rewizja `989aa7980e4cf806f80c7fef2b1adb7bc71aa306`). Odbiorca: `Opis: X jest czerwony. Y jest niebieski.`; dwaj dawcy mają etykietę `Dane:` i albo takie samo przypisanie, albo kolory zamienione. Pytanie odbiorcy nie zmienia się. Podmieniono cały wyrównany tokenowo span obu zdań faktów, w tym nazwy przedmiotów i oba kolory, **nie** samą końcówkę faktu. Każdy przypadek porównuje tych dwóch dawców w tym samym bloku i u tego samego biorcy.
+
+Na discovery **16/16 opisów** dało dwa poprawne odczyty wymuszone i swobodne jednocześnie. Z pięciu bloków (2, 5, 10, 15, 20) reguła wybrała **2**; średni sparowany efekt na discovery wyniósł +10,522 w jednostkach różnicy log-prawdopodobieństw odpowiedzi. Self-patch zachował margines we wszystkich pięciu sprawdzonych blokach (błąd 0); kontrola końcowego odczytu odtworzyła logity pierwszego tokenu dawcy z maksymalnym błędem 0, wobec różnicy dawca–biorca 5,672. To kontrola działania hooka, nie transferu faktu.
+
+Na **nieoglądanych wcześniej** 16 parach confirmation poprawne były oba pytania jednocześnie w **32/32 opisach** zarówno w odpowiedzi wymuszonej, jak i swobodnej. Zapisano 64 interwencje parowane i 64 self-patche (maksymalny błąd 0). Główna reguła wyniku pozytywnego przeszła:
+
+| Miara confirmation, blok 2 | Wynik |
+|---|---:|
+| Średnia po 16 parach `m(S) − m(O)` dla poprawnego koloru | **+10,4083** |
+| Bootstrap 95% z 16 par (10 000 losowań) | **[+9,7374; +11,0907]** |
+| Pary z dodatnim efektem | **16/16** |
+| Średni margines poprawnego koloru po dawcy S / O | +5,2091 / −5,1992 |
+| Średnia norma różnicy S / O względem biorcy | 9,851 / 140,642 |
+
+**Ważna korekta chronologiczna:** po discovery, ale przed *interwencją* confirmation, stwierdzono, że przeciwny dawca jest od biorcy średnio ~14 razy dalej w normie niż dawca z tym samym faktem. Dopisano więc do protokołu **drugorzędną kontrolę normy**, nie zmieniając bloku ani głównego progu. Dla 64 przypadków powtórzono po 20 losowych zaburzeń spanu o normie dokładnie równej `||O−biorca||` (łącznie 1280 przebiegów null, po dwa odczyty odpowiedzi na przebieg). Średni kontrast `m(S)−m(null)` = **+3,7364**, a zakres 20 zagregowanych średnich = **[+3,0947; +4,1451]**. Żadna z tych średnich nie dosięgła kontrastu dawcy +10,4083: jednostronne empiryczne `p = (0+1)/(20+1) = 0,0476`. To **najmniejsza możliwa wartość przy 20 losowaniach**, a nie dowód wykluczenia wszystkich nieznaczeniowych zaburzeń: losowe kierunki w przestrzeni stanów nie są stanami modelu z naturalnych zdań.
+
+**Wniosek wąski:** zastąpienie *całej reprezentacji dwóch zdań faktów* inną reprezentacją o odwróconych przypisaniach, po bloku 2, silnie i powtarzalnie odwraca preferencję koloru odpowiadającego na pytanie. Efekt przewyższa tę klasę losowych zaburzeń tej samej normy i przechodzi wcześniej zapisany test na nowych parach. Nie rozstrzyga, czy da się przenieść selektywnie *sam kolor* albo pojedynczy „barwnik” przy dopasowanej normie i strukturze stanów; nie potwierdza przepływu masy, energii, równania Bernoulliego ani Venturiego. Wcześniejszy negatywny wynik dla samych końców zdań nadal obowiązuje. Surowe odpowiedzi, prompty, marginesy, indeksy, normy, losowania i ich analiza: [`results/full-fact/`](../results/full-fact/); odtwarzanie i kontrola integralności: [`REPRODUCING.md`](REPRODUCING.md) oraz `python verify_results.py`.
