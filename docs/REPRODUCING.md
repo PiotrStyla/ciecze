@@ -78,6 +78,20 @@ Część `replicate` trwa kilka minut na CPU (48 układów × 6 promptów). Czę
 
 Szablon T4 jest odrzucany mechanicznie w każdej konfiguracji: wielka litera w `Niebieski` daje trzy tokeny zamiast dwóch, więc opisy A/B/N nie są wyrównane. Odrzucenia trafiają do `summary.json`; nie zastępujemy ich innym szablonem po zobaczeniu wyników.
 
+## Niezależna bramka poprawności i interwencja z parafrazą
+
+Przeczytaj [HELDOUT_PROTOCOL.md](HELDOUT_PROTOCOL.md) oraz `heldout_cases.json` **przed** uruchomieniem. `gate` obejmuje 12 innych par rzeczowników niż `heldout` (20 par). Wybrano pierwszy model spełniający oba kryteria: GoLLeM SFT i Qwen 0,5B nie przeszły, Qwen 1,5B przeszedł. Odpowiedź swobodna jest oceniana osobno od kontrastu dwóch pełnych odpowiedzi.
+
+```powershell
+python heldout_flow.py --split gate --out runs/heldout-gate-gollem
+python heldout_flow.py --model Qwen/Qwen2.5-0.5B-Instruct --split gate --out runs/heldout-gate-qwen05
+python heldout_flow.py --model Qwen/Qwen2.5-1.5B-Instruct --split gate --out runs/heldout-gate-qwen15
+python heldout_flow.py --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --split heldout --out runs/heldout-baseline-qwen15
+python heldout_flow.py --model Qwen/Qwen2.5-1.5B-Instruct --revision 989aa7980e4cf806f80c7fef2b1adb7bc71aa306 --split heldout --patch --gate-result runs/heldout-gate-qwen15/summary.json --baseline-result runs/heldout-baseline-qwen15/summary.json --out runs/heldout-patched-qwen15
+```
+
+Qwen ładuje się przez `AutoModelForCausalLM`, bez obcego kodu. Punkt odniesienia na odłożonej próbie był liczony osobno przed interwencją; `--baseline-result` zachowuje dokładnie te same 80 odczytów, bez ich powtórnego liczenia. Obie wersje modelu Qwen są większe od GoLLeMa: ich wagi trzeba pobrać z Hub, nie znajdują się w repozytorium. Druga komenda dla modelu 1,5B jest przypięta do SHA rozwiązanego w bramce. Pojedynczy model na CPU wymaga czasu; wyników nie należy utożsamiać z benchmarkiem.
+
 ## Pierwotny pomiar korpusowy
 
 ```powershell
@@ -92,10 +106,10 @@ Zachowano CSV i PNG tego etapu. Nie zapisano rewizji korpusu ani pełnego wyboru
 python verify_results.py
 ```
 
-To narzędzie standardowej biblioteki Pythona: sprawdza inwentarz SHA-256, odtwarza liczniki z JSON/CSV, sprawdza normy faktycznie zapisanych interwencji oraz brak wpływu identycznych stanów faktów w eksperymencie zaworu. Nie powtarza inferencji, nie ocenia jakości statystycznej eksperymentu i nie odzyskuje usuniętych danych.
+Weryfikator sprawdza inwentarz SHA-256, odtwarza liczniki z JSON/CSV, sprawdza normy faktycznie zapisanych interwencji oraz brak wpływu identycznych stanów faktów w eksperymencie zaworu. Nowy `verify_heldout.py` wymaga NumPy: niezależnie przelicza bramki, tożsamość faktów, normy i przedział bootstrap z zapisanych 20 efektów par. Nie powtarza inferencji modelu, nie ocenia trafności założeń statystycznych i nie odzyskuje usuniętych danych.
 
 Oryginalne metadane zawierają lokalne ścieżki do cache modelu. Są zachowane jako zapis pochodzenia; nie trzeba odtwarzać ich na swoim komputerze. Rewizja modelu jest podana niezależnie.
 
 ## Zakres archiwum
 
-Zachowano pięć skryptów badawczych, wszystkie dostępne pełne wyniki, przebiegi smoke i baseline, pilotaże, źródła i pierwotną notatkę. Nie zachowały się surowe artefakty pierwotnego Bernoulli smoke, testu GPT-2 ani usunięte tymczasowe harnessy. Ich znane obserwacje zapisano w dzienniku, bez fabrykowania brakujących plików. Archiwum nie zawiera wag, środowiska wirtualnego, surowego korpusu ani pełnego eksportu rozmowy.
+Zachowano sześć skryptów badawczych, wszystkie dostępne pełne wyniki, przebiegi smoke i baseline, pilotaże, źródła i pierwotną notatkę. Nie zachowały się surowe artefakty pierwotnego Bernoulli smoke, testu GPT-2 ani usunięte tymczasowe harnessy. Ich znane obserwacje zapisano w dzienniku, bez fabrykowania brakujących plików. Archiwum nie zawiera wag, środowiska wirtualnego, surowego korpusu ani pełnego eksportu rozmowy.

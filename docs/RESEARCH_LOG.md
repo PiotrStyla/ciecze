@@ -215,3 +215,29 @@ Konfiguracja pierwotna (T1, `kluczyk/kubek`, wstawki 0/2/6), bloki 5 i 10, 24 ko
 3. Przyczynowy transfer przez podmianę stanów kolorów **nie został potwierdzony** w żadnym z dwóch modeli.
 4. Jedyna obrona tej hipotezy wymagałaby innej miary interwencji: mniejszej perturbacji, kontroli z parafrazą tej samej treści albo pomiaru względem normy różnicy. Obecna metoda jest zbyt szumiąca, by rozstrzygnąć efekt tej wielkości.
 
+## 11. Poprawna odpowiedź przed szukaniem transportu — 28 października 2026
+
+Zamrożono odrębne pary rzeczowników: 12 do wyboru modelu, 20 do niezależnego odczytu. Protokół, progi i definicja miary: [HELDOUT_PROTOCOL.md](HELDOUT_PROTOCOL.md). Wykonano jeden dymny przebieg pierwszej pary przed pełną bramką. Przed interwencją wykryto nierówną tokenizację kolorów w Qwen (4 wobec 3 tokenów po spacji), więc jawnie zmieniono punkt patchingu na pojedynczy token końca każdego zdania faktu; nie dostosowano progu do wyników.
+
+| Model | Bramka: oba pytania poprawne (wymuszone) | Bramka: oba poprawne (swobodne) |
+|---|---:|---:|
+| GoLLeM po SFT | 6/24 | 0/24 |
+| Qwen 0,5B Instruct | 7/24 | 18/24 |
+| Qwen 1,5B Instruct | **24/24** | **24/24** |
+
+Qwen 1,5B jako pierwszy przechodzi oba progi 18/24. Na **odłożonych** 20 parach oba pytania są poprawne w 35/40 opisach według kontrastu wymuszonego i 35/40 według odpowiedzi swobodnej (33/40 w obu miarach jednocześnie). Nie wnioskujemy z tego o pozostałych zadaniach językowych.
+
+Interwencja: ten sam biorca, dwaj dawcy z identyczną składnią „ma kolor” i różnym przypisaniem czerwony/niebieski, pytanie bez zmian. Podmieniono tylko dwa końce zdań faktów po blokach 5 i 10. Surowe 160 wierszy, w tym normy, pytania, pozycje i marginesy (nie całe tensory stanów), są w `results/heldout/selected.json`.
+
+| Miara | Wynik |
+|---|---:|
+| Parowany efekt poprawnego koloru, blok 5, średnia po 20 parach | **+0,0105** |
+| Bootstrap 95%, losowanie par (10 000) | **[−0,0166; +0,0385]** |
+| Dodatni efekt na poziomie pary | **10/20** |
+| Reguła pozytywnego wyniku | **niespełniona** |
+| Efekt bloku 10, pomocniczo | −0,0161 |
+
+Self-patch: maksymalny błąd marginesu 0. Średnie normy w bloku 5: dawca ten sam 10,813, dawca przeciwny 11,813 — kontrola parafrazy **nie jest dopasowana normą**. Średnie bezwzględne zmiany marginesu względem biorcy wyniosły 0,3812 i 0,3880. Brak wyraźnej różnicy S–O nie jest dowodem nieobecności faktu w modelu; wskazuje, że **ta** podmiana stanów końców faktów nie wykazała przenoszonej treści ponad kontrolę.
+
+Otrzymaliśmy model, który rozwiązuje badane zadanie, i negatywny wynik interwencji bez wymówki o błędnej odpowiedzi bazowej. Dalsze poszukiwania analogii transportu wymagałyby nowej, odłożonej próby i innej operacji przyczynowej, a nie dobierania warstw albo słów do tych 20 par.
+

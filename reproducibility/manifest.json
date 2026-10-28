@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-27",
+  "date": "2026-10-28",
   "description": "SHA-256 of published files; this manifest excludes itself and Git metadata. Original experiment scripts and artifacts were checked byte-for-byte against retained session files; later stages add new folders without touching earlier bytes.",
   "files": [
     {
@@ -34,6 +34,11 @@
       "sha256": "7f03f41425ba8eeb2574f667faed560aa73cb355d3a1b3062ecc1d9aea2d1151"
     },
     {
+      "path": "docs/HELDOUT_PROTOCOL.md",
+      "bytes": 7461,
+      "sha256": "93add1c8f340425ba0b0812eda4f6b6bfe2a2837ee9e9ac59ba6dc1b85193784"
+    },
+    {
       "path": "docs/METHODOLOGY.md",
       "bytes": 5957,
       "sha256": "b4866493eaf375bd5bb1685b6f6b3c408123079a56f93636792b5a78ccaff521"
@@ -45,13 +50,13 @@
     },
     {
       "path": "docs/REPRODUCING.md",
-      "bytes": 6298,
-      "sha256": "2cacdfa00af768f2981927b2c19533b6e2efb864b0083af11170ce7872274399"
+      "bytes": 8105,
+      "sha256": "e5260c852650d33f6ef06e227e746eb1737f41fc41f1e7866989258fb3ccf6b3"
     },
     {
       "path": "docs/RESEARCH_LOG.md",
-      "bytes": 16680,
-      "sha256": "4c4fd94c2a266d591a142c7caa3ffead8d378ec1be8526f910d8a0aec9da845c"
+      "bytes": 19123,
+      "sha256": "5e495357b32e902240ff5a415efe55af8b9a97a87c3c98ee5e57bc1572fbbb60"
     },
     {
       "path": "docs/SOURCES.md",
@@ -65,6 +70,16 @@
       "copied_from": "session/Downloads/dye_flow.py"
     },
     {
+      "path": "heldout_cases.json",
+      "bytes": 915,
+      "sha256": "ba29c37fddbb210f699f947fffe4403c476990498284f044f9ec1120ea470d82"
+    },
+    {
+      "path": "heldout_flow.py",
+      "bytes": 15766,
+      "sha256": "c87f95d1dee1d80f2c77ff0613eb1658558ba00e7bd88e238a2acf663cf0dd27"
+    },
+    {
       "path": "notes/fluid-theory.md",
       "bytes": 3411,
       "sha256": "fe50d53d1441db9b2ce3111a5f47ca47b9488b6456cccbda98eefbaf02b8b31e",
@@ -72,8 +87,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7223,
-      "sha256": "dc2c5a1b608a58f16dc88d2941e52b01d610a8ebf2b2d4141e11cf70711607cd"
+      "bytes": 8696,
+      "sha256": "3dc28006d5194cb325b16f6b50de82450fd6fd6b607469d4e8f6458801b78d30"
     },
     {
       "path": "replicate_flow.py",
@@ -320,6 +335,31 @@
       "bytes": 384529,
       "sha256": "91c2e12c060e09ecd59d1d11de859f9e023db3efb89c30c587c03a8082f759ba",
       "copied_from": "session/dye_out/traces.csv"
+    },
+    {
+      "path": "results/heldout/baseline-qwen15.json",
+      "bytes": 38674,
+      "sha256": "022717ab341fb78e369addcf8afd93d11c5049fb72f747c741756c9d402ae8bb"
+    },
+    {
+      "path": "results/heldout/gate-gollem.json",
+      "bytes": 23951,
+      "sha256": "7992fb901c1bdcdc625d0b823a9cad77d2ef0930062a1a9235529e874f7f8c9f"
+    },
+    {
+      "path": "results/heldout/gate-qwen05.json",
+      "bytes": 23389,
+      "sha256": "fa29822398fe74ca9e0253f54f3f0c01e429f0787d2136b5214e02c94527ea0c"
+    },
+    {
+      "path": "results/heldout/gate-qwen15.json",
+      "bytes": 23444,
+      "sha256": "d87a5fd6a42309e95ed7174cb52e45117c8c82a507065e516e95889fe945d45f"
+    },
+    {
+      "path": "results/heldout/selected.json",
+      "bytes": 229890,
+      "sha256": "03dc4b62b0ee699e8a505af0f33b1ee8d8f2a25824385f318330c1bbee1bd793"
     },
     {
       "path": "results/null-calibration/analysis.json",
@@ -662,9 +702,14 @@
       "copied_from": "session/Downloads/valve_flow.py"
     },
     {
+      "path": "verify_heldout.py",
+      "bytes": 8785,
+      "sha256": "e3d474170900d6273ae8a3d4a93d163877745aa4b70a88b4250bd458d057268a"
+    },
+    {
       "path": "verify_results.py",
-      "bytes": 15395,
-      "sha256": "73b26ecbbfd7d4693098496eb801a19408c22a3c0fa0a8a2ecd0ad1783a56f64"
+      "bytes": 15470,
+      "sha256": "77fc491f4f140830b8ec4e1c5592168d569df796440ba1f4eb5467eb92653ad2"
     }
   ]
 }

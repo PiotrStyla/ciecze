@@ -1,0 +1,882 @@
+{
+  "model": "Qwen/Qwen2.5-0.5B-Instruct",
+  "revision": "7ae557604adf67be50417f59c2c2f167def9a775",
+  "snapshot": "C:\\Users\\Hipek\\.cache\\huggingface\\hub\\models--Qwen--Qwen2.5-0.5B-Instruct\\snapshots\\7ae557604adf67be50417f59c2c2f167def9a775",
+  "torch": "2.14.0+cpu",
+  "seed": 20261028,
+  "split": "gate",
+  "pairs": [
+    [
+      "zegarek",
+      "plecak"
+    ],
+    [
+      "telefon",
+      "długopis"
+    ],
+    [
+      "widelec",
+      "talerz"
+    ],
+    [
+      "kalendarz",
+      "fotel"
+    ],
+    [
+      "młotek",
+      "garnek"
+    ],
+    [
+      "hamak",
+      "namiot"
+    ],
+    [
+      "śrubokręt",
+      "pilot"
+    ],
+    [
+      "portfel",
+      "kabel"
+    ],
+    [
+      "budzik",
+      "koc"
+    ],
+    [
+      "kapelusz",
+      "koszyk"
+    ],
+    [
+      "tramwaj",
+      "autobus"
+    ],
+    [
+      "kamień",
+      "kwiat"
+    ]
+  ],
+  "baseline": [
+    {
+      "pair": 0,
+      "objects": [
+        "zegarek",
+        "plecak"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Zegarek jest czerwony. Plecak jest niebieski. Jaki kolor ma zegarek? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 6.486780643463135,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 0,
+      "objects": [
+        "zegarek",
+        "plecak"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Zegarek jest czerwony. Plecak jest niebieski. Jaki kolor ma plecak? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 2.403034210205078,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": false,
+      "free_ok": false
+    },
+    {
+      "pair": 0,
+      "objects": [
+        "zegarek",
+        "plecak"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Zegarek jest niebieski. Plecak jest czerwony. Jaki kolor ma zegarek? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 0.8501620292663574,
+      "forced": "czerwony",
+      "free": "Zegarek ma czerw",
+      "free_parsed": null,
+      "forced_ok": false,
+      "free_ok": false
+    },
+    {
+      "pair": 0,
+      "objects": [
+        "zegarek",
+        "plecak"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Zegarek jest niebieski. Plecak jest czerwony. Jaki kolor ma plecak? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 6.3009443283081055,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 1,
+      "objects": [
+        "telefon",
+        "długopis"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Telefon jest czerwony. Długopis jest niebieski. Jaki kolor ma telefon? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 4.793832778930664,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 1,
+      "objects": [
+        "telefon",
+        "długopis"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Telefon jest czerwony. Długopis jest niebieski. Jaki kolor ma długopis? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": -0.6953396797180176,
+      "forced": "niebieski",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 1,
+      "objects": [
+        "telefon",
+        "długopis"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Telefon jest niebieski. Długopis jest czerwony. Jaki kolor ma telefon? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": -0.8871073722839355,
+      "forced": "niebieski",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 1,
+      "objects": [
+        "telefon",
+        "długopis"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Telefon jest niebieski. Długopis jest czerwony. Jaki kolor ma długopis? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 5.819252133369446,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 2,
+      "objects": [
+        "widelec",
+        "talerz"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Widelec jest czerwony. Talerz jest niebieski. Jaki kolor ma widelec? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 3.3424391746520996,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 2,
+      "objects": [
+        "widelec",
+        "talerz"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Widelec jest czerwony. Talerz jest niebieski. Jaki kolor ma talerz? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 0.8745369911193848,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 2,
+      "objects": [
+        "widelec",
+        "talerz"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Widelec jest niebieski. Talerz jest czerwony. Jaki kolor ma widelec? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": -1.3508753776550293,
+      "forced": "niebieski",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 2,
+      "objects": [
+        "widelec",
+        "talerz"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Widelec jest niebieski. Talerz jest czerwony. Jaki kolor ma talerz? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 4.672469615936279,
+      "forced": "czerwony",
+      "free": "Czerwony.",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 3,
+      "objects": [
+        "kalendarz",
+        "fotel"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Kalendarz jest czerwony. Fotel jest niebieski. Jaki kolor ma kalendarz? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 5.004209518432617,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 3,
+      "objects": [
+        "kalendarz",
+        "fotel"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Kalendarz jest czerwony. Fotel jest niebieski. Jaki kolor ma fotel? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 1.2016043663024902,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 3,
+      "objects": [
+        "kalendarz",
+        "fotel"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Kalendarz jest niebieski. Fotel jest czerwony. Jaki kolor ma kalendarz? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 1.8893160820007324,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 3,
+      "objects": [
+        "kalendarz",
+        "fotel"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Kalendarz jest niebieski. Fotel jest czerwony. Jaki kolor ma fotel? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 4.794739723205566,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 4,
+      "objects": [
+        "młotek",
+        "garnek"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Młotek jest czerwony. Garnek jest niebieski. Jaki kolor ma młotek? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 6.475691318511963,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 4,
+      "objects": [
+        "młotek",
+        "garnek"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Młotek jest czerwony. Garnek jest niebieski. Jaki kolor ma garnek? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 4.72379732131958,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": false,
+      "free_ok": false
+    },
+    {
+      "pair": 4,
+      "objects": [
+        "młotek",
+        "garnek"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Młotek jest niebieski. Garnek jest czerwony. Jaki kolor ma młotek? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 5.105982780456543,
+      "forced": "czerwony",
+      "free": "Czerwony.",
+      "free_parsed": "czerwony",
+      "forced_ok": false,
+      "free_ok": false
+    },
+    {
+      "pair": 4,
+      "objects": [
+        "młotek",
+        "garnek"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Młotek jest niebieski. Garnek jest czerwony. Jaki kolor ma garnek? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 8.08246898651123,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 5,
+      "objects": [
+        "hamak",
+        "namiot"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Hamak jest czerwony. Namiot jest niebieski. Jaki kolor ma hamak? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 5.1557230949401855,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 5,
+      "objects": [
+        "hamak",
+        "namiot"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Hamak jest czerwony. Namiot jest niebieski. Jaki kolor ma namiot? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 1.3577003479003906,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 5,
+      "objects": [
+        "hamak",
+        "namiot"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Hamak jest niebieski. Namiot jest czerwony. Jaki kolor ma hamak? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 3.670907497406006,
+      "forced": "czerwony",
+      "free": "Namiot",
+      "free_parsed": null,
+      "forced_ok": false,
+      "free_ok": false
+    },
+    {
+      "pair": 5,
+      "objects": [
+        "hamak",
+        "namiot"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Hamak jest niebieski. Namiot jest czerwony. Jaki kolor ma namiot? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 4.930456042289734,
+      "forced": "czerwony",
+      "free": "Czerwony.",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 6,
+      "objects": [
+        "śrubokręt",
+        "pilot"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Śrubokręt jest czerwony. Pilot jest niebieski. Jaki kolor ma śrubokręt? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 6.8464674949646,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 6,
+      "objects": [
+        "śrubokręt",
+        "pilot"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Śrubokręt jest czerwony. Pilot jest niebieski. Jaki kolor ma pilot? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 0.4173140525817871,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 6,
+      "objects": [
+        "śrubokręt",
+        "pilot"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Śrubokręt jest niebieski. Pilot jest czerwony. Jaki kolor ma śrubokręt? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 3.0039114952087402,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 6,
+      "objects": [
+        "śrubokręt",
+        "pilot"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Śrubokręt jest niebieski. Pilot jest czerwony. Jaki kolor ma pilot? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 7.934820890426636,
+      "forced": "czerwony",
+      "free": "Czerwony.",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 7,
+      "objects": [
+        "portfel",
+        "kabel"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Portfel jest czerwony. Kabel jest niebieski. Jaki kolor ma portfel? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 4.1979546546936035,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 7,
+      "objects": [
+        "portfel",
+        "kabel"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Portfel jest czerwony. Kabel jest niebieski. Jaki kolor ma kabel? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 0.5691556930541992,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 7,
+      "objects": [
+        "portfel",
+        "kabel"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Portfel jest niebieski. Kabel jest czerwony. Jaki kolor ma portfel? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 2.1680526733398438,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 7,
+      "objects": [
+        "portfel",
+        "kabel"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Portfel jest niebieski. Kabel jest czerwony. Jaki kolor ma kabel? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 5.459597826004028,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 8,
+      "objects": [
+        "budzik",
+        "koc"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Budzik jest czerwony. Koc jest niebieski. Jaki kolor ma budzik? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 5.473167419433594,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 8,
+      "objects": [
+        "budzik",
+        "koc"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Budzik jest czerwony. Koc jest niebieski. Jaki kolor ma koc? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 1.2179522514343262,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 8,
+      "objects": [
+        "budzik",
+        "koc"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Budzik jest niebieski. Koc jest czerwony. Jaki kolor ma budzik? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": -0.5210809707641602,
+      "forced": "niebieski",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 8,
+      "objects": [
+        "budzik",
+        "koc"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Budzik jest niebieski. Koc jest czerwony. Jaki kolor ma koc? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 6.505608797073364,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 9,
+      "objects": [
+        "kapelusz",
+        "koszyk"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Kapelusz jest czerwony. Koszyk jest niebieski. Jaki kolor ma kapelusz? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 6.147953033447266,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 9,
+      "objects": [
+        "kapelusz",
+        "koszyk"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Kapelusz jest czerwony. Koszyk jest niebieski. Jaki kolor ma koszyk? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 2.024718761444092,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": false,
+      "free_ok": false
+    },
+    {
+      "pair": 9,
+      "objects": [
+        "kapelusz",
+        "koszyk"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Kapelusz jest niebieski. Koszyk jest czerwony. Jaki kolor ma kapelusz? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 1.132232666015625,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 9,
+      "objects": [
+        "kapelusz",
+        "koszyk"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Kapelusz jest niebieski. Koszyk jest czerwony. Jaki kolor ma koszyk? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 4.407824993133545,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 10,
+      "objects": [
+        "tramwaj",
+        "autobus"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Tramwaj jest czerwony. Autobus jest niebieski. Jaki kolor ma tramwaj? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 5.582387924194336,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 10,
+      "objects": [
+        "tramwaj",
+        "autobus"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Tramwaj jest czerwony. Autobus jest niebieski. Jaki kolor ma autobus? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": -2.385812282562256,
+      "forced": "niebieski",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 10,
+      "objects": [
+        "tramwaj",
+        "autobus"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Tramwaj jest niebieski. Autobus jest czerwony. Jaki kolor ma tramwaj? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": -0.10837316513061523,
+      "forced": "niebieski",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 10,
+      "objects": [
+        "tramwaj",
+        "autobus"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Tramwaj jest niebieski. Autobus jest czerwony. Jaki kolor ma autobus? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 6.81106972694397,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 11,
+      "objects": [
+        "kamień",
+        "kwiat"
+      ],
+      "swapped": 0,
+      "target": 0,
+      "prompt": "Kamień jest czerwony. Kwiat jest niebieski. Jaki kolor ma kamień? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 7.277147054672241,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 11,
+      "objects": [
+        "kamień",
+        "kwiat"
+      ],
+      "swapped": 0,
+      "target": 1,
+      "prompt": "Kamień jest czerwony. Kwiat jest niebieski. Jaki kolor ma kwiat? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": 1.543546199798584,
+      "forced": "czerwony",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": false,
+      "free_ok": true
+    },
+    {
+      "pair": 11,
+      "objects": [
+        "kamień",
+        "kwiat"
+      ],
+      "swapped": 1,
+      "target": 0,
+      "prompt": "Kamień jest niebieski. Kwiat jest czerwony. Jaki kolor ma kamień? Odpowiedz jednym słowem:",
+      "expected": "niebieski",
+      "margin": -0.4364748001098633,
+      "forced": "niebieski",
+      "free": "Niebieski",
+      "free_parsed": "niebieski",
+      "forced_ok": true,
+      "free_ok": true
+    },
+    {
+      "pair": 11,
+      "objects": [
+        "kamień",
+        "kwiat"
+      ],
+      "swapped": 1,
+      "target": 1,
+      "prompt": "Kamień jest niebieski. Kwiat jest czerwony. Jaki kolor ma kwiat? Odpowiedz jednym słowem:",
+      "expected": "czerwony",
+      "margin": 6.773940563201904,
+      "forced": "czerwony",
+      "free": "Czerwony",
+      "free_parsed": "czerwony",
+      "forced_ok": true,
+      "free_ok": true
+    }
+  ],
+  "gate": {
+    "contexts": 24,
+    "forced_both": 7,
+    "free_both": 18,
+    "passes": false
+  }
+}

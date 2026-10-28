@@ -1,0 +1,39 @@
+{
+  "seed": 20261028,
+  "gate": [
+    ["zegarek", "plecak"],
+    ["telefon", "długopis"],
+    ["widelec", "talerz"],
+    ["kalendarz", "fotel"],
+    ["młotek", "garnek"],
+    ["hamak", "namiot"],
+    ["śrubokręt", "pilot"],
+    ["portfel", "kabel"],
+    ["budzik", "koc"],
+    ["kapelusz", "koszyk"],
+    ["tramwaj", "autobus"],
+    ["kamień", "kwiat"]
+  ],
+  "heldout": [
+    ["guzik", "obraz"],
+    ["czajnik", "zegar"],
+    ["mikrofon", "monitor"],
+    ["banan", "ogórek"],
+    ["bilet", "notes"],
+    ["dywan", "szalik"],
+    ["robot", "balon"],
+    ["kask", "kompas"],
+    ["pociąg", "most"],
+    ["samolot", "statek"],
+    ["ocean", "strumień"],
+    ["but", "płaszcz"],
+    ["nóż", "garbus"],
+    ["stół", "regał"],
+    ["zegarmistrz", "listonosz"],
+    ["miesiąc", "tydzień"],
+    ["laptop", "tablet"],
+    ["dzwon", "bęben"],
+    ["pędzel", "grzebień"],
+    ["skuter", "bagażnik"]
+  ]
+}

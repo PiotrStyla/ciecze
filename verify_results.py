@@ -268,7 +268,9 @@ def main():
     verify_replicate(ROOT / 'results/null-calibration')
     verify_replicate(ROOT / 'results/null-calibration-base')
     verify_replicate(ROOT / 'results/null-calibration-10draws-f0f4')
-    print('Recorded evidence checks passed. No new inference or statistical significance test was performed.')
+    from verify_heldout import main as verify_heldout
+    verify_heldout()
+    print('Recorded evidence checks passed. No new model inference performed; recorded bootstrap recomputed.')
 
 
 if __name__ == '__main__':
